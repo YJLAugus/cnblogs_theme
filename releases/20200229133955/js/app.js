@@ -1,52 +1,42 @@
 webpackJsonp([1], {
-    "0Ixs": function(t, e) {},
-    "2fYz": function(t, e) {},
-    "4+Uy": function(t, e) {},
+    "+JuU": function(t, e) {},
+    "+jXc": function(t, e) {},
+    "114q": function(t, e) {},
+    "2fxl": function(t, e) {},
+    "40ZC": function(t, e) {},
+    "4n8e": function(t, e) {},
+    "7T4U": function(t, e) {},
     "7xIN": function(t, e) {},
-    "90eC": function(t, e) {},
+    "8Wqy": function(t, e) {},
+    "96nc": function(t, e) {},
     "991W": function(t, e) {},
-    "9YwF": function(t, e) {},
     "9pPZ": function(t, e) {},
-    BRL4: function(t, e) {},
-    Bs7H: function(t, e) {},
-    HFWz: function(t, e) {},
-    ILeb: function(t, e) {},
-    M7OF: function(t, e) {},
-    NHnr: function(t, e, n) {
+    Auw8: function(t, e) {},
+    Cl0O: function(t, e) {},
+    Dlrj: function(t, e) {},
+    HWat: function(t, e) {},
+    IRy7: function(t, e) {},
+    JGYj: function(t, e) {},
+    K1Kb: function(t, e) {},
+    Kepi: function(t, e) {},
+    L9Fe: function(t, e) {},
+    NHnr: function(t, e, i) {
         "use strict";
         Object.defineProperty(e, "__esModule", {
             value: !0
         });
-        var i = n("7+uW"),
-            a = {
-                render: function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        attrs: {
-                            id: "app"
-                        }
-                    }, [e("router-view")], 1)
-                },
-                staticRenderFns: []
-            };
-        var o = n("VU/8")({
-                name: "App"
-            }, a, !1, function(t) {
-                n("eLY3")
-            }, null, null).exports,
-            s = n("/ocq"),
-            c = n("woOf"),
-            r = n.n(c),
-            l = "https://cjunn.gitee.io/c_cnblog_vue",
-            u = {
+        var n = i("7+uW"),
+            s = i("woOf"),
+            a = i.n(s),
+            o = "https://yjlaugus.gitee.io/blog",
+            r = {
                 openDev: !1,
                 blogAcc: "cjunn",
                 blogId: "571504",
                 blogPostId: "12237892",
-                blogName: "YJLAugus",
+                blogName: "C君",
                 blogUserGuid: "2476b4f3-9f13-4c75-389e-08d789d7fa8d",
-                blogIndexPath: "https://www.cnblogs.com/yjlaugus",
+                blogIndexPath: "https://www.cnblogs.com/cjunn",
                 myGithub: "https://github.com/cjunn",
                 manPage: "https://i.cnblogs.com/",
                 sendPage: "https://msg.cnblogs.com/send/cjunn",
@@ -55,157 +45,492 @@ webpackJsonp([1], {
                 pageBarImgs: 21,
                 commentLength: 10,
                 blogSign: "自惭多情污梵行，入山又恐误倾城。世间安得双全法，不负如来不负卿。",
-                extendStylePath: l,
-                ingTitle: "一念花开，一念花落。这山长水远的人世，终究是要自己走下去。",
+                extendStylePath: o,
+                ingTitle: "你的一字一句犹如刀疤划心上，我的一举一动随你改变多荒唐。",
                 blogFriendList: [],
-                musicIds: ["26568025", "26329928", "1340002509", "551337407", "28160369", "27548281", "34923851", "31421442", "29829683", "446247397", "32317208"],
+                musicIds: ["1382596189", "108281"],
                 musicApiUrl: "https://api.i-meto.com/meting/api?server=netease&type=:type&id=:id&r=:r",
                 qq: "592571519",
                 email: "592571519@qq.com",
                 github: "cjunn",
                 blogUsedLinks: [],
                 mainExtNav: [{
-                    title: "音乐收藏",
-                    url: "https://www.cjunn.xyz/musicplayer/index.html",
-                    icon: "ic_addmusic"
+                    title: "主页",
+                    url: "https://yjlaugus.gitee.io/index",
+                    icon: "iconhome"
                 }, {
-                    title: "在线壁纸",
-                    url: "https://www.cjunn.xyz/wallpaper/",
-                    icon: "paper"
+                    title: "首页",
+                    url: "/subject/category/default.html",
+                    icon: "iconheart"
+                },{
+                    title: "仓库",
+                    url: "https://github.com/YJLAugus/",
+                    icon: "icongithub"
                 }, {
-                    title: "博客动态",
-                    url: "https://www.cnblogs.com/cjunn/",
-                    icon: "comment1"
+                    title: "留言",
+                    url: "/c/subject/p/12286815.html",
+                    icon: "iconat"
                 }, {
-                    title: "音乐律动",
-                    url: "https://cjunn.gitee.io/mikutap/",
-                    icon: "gift"
+                    title: "说说",
+                    url: "/c/author",
+                    icon: "iconmessage-rounded-alt"
                 }, {
-                    title: "博主简历",
-                    url: "https://www.cnblogs.com/cjunn/",
-                    icon: "face2"
+                    title: "投喂",
+                    url: "/c/subject/p/7857317.html",
+                    icon: "iconziyuan"
                 }],
                 avatarSign: " ↗↗点击头像关注我。",
-                headBackImg: "https://cjunn.gitee.io/c_cnblog_vue/img/ing/autorbimg.jpg",
-                bigBackImg: "https://cjunn.gitee.io/c_cnblog_vue/img/body/background.jpg",
-                aboutmeHtml: " <img src='https://cjunn.gitee.io/c_cnblog_vue/img/ing/aboutme.jpg'/>",
-                blogUrlPre: "https://www.cnblogs.com/"
-            };
-        let m = "";
-        m += "AByz0r4wxs";
-        m += "KLMCDEtuTUVWX12NOPQk";
-        m += "lmnopqYZabcdef";
-        m += "35RSJFGHIvgh";
-        let d = function(t) {
-            var e, n, i, a = "",
-                o = 0;
-            for (e = n = 0; o < t.length;)(e = t.charCodeAt(o)) < 128 ? (a += String.fromCharCode(e), o++) : e > 191 && e < 224 ? (n = t.charCodeAt(o + 1), a += String.fromCharCode((31 & e) << 6 | 63 & n), o += 2) : (n = t.charCodeAt(o + 1), i = t.charCodeAt(o + 2), a += String.fromCharCode((15 & e) << 12 | (63 & n) << 6 | 63 & i), o += 3);
-            return a
+                headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
+                bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
+                aboutmeHtml: " <img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
+                blogUrlPre: "https://www.cnblogs.com/",
+					faceIcon: [{
+                    name: "头条",
+                    path: o + "/img/face/tieba/",
+                    maxNum: 114,
+                    file: ".png",
+                    placeholder: "#tieba_{alias}#",
+			    },{
+                    name: "QQ",
+                    path: o + "/img/face/qq/",
+                    maxNum: 149,
+                    excludeNums: [41, 45, 54],
+                    file: ".gif",
+                    placeholder: "#qq_{alias}#"
+                }, {
+                    name: "泡泡",
+                    path: o + "/img/face/emoji/",
+                    maxNum: 79,
+                    file: ".png",
+                    placeholder: "#emoji_{alias}#"
+                }],
+                autoInfoReset: !0,
+                openMathJax: !1,
+                urlMathJax: "https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+                defHeadImg: "/img/body/defAvatar.jpg",
+                themeStyle: "style0",
+                feelingBlogId: 13393903
+            },
+            c = "";
+        c += "AByz0r4wxs";
+        c += "KLMCDEtuTUVWX12NOPQk";
+        c += "lmnopqYZabcdef";
+        c += "35RSJFGHIvgh";
+        var l = function(t) {
+            var e, i, n, s = "",
+                a = 0;
+            for (e = i = 0; a < t.length;)(e = t.charCodeAt(a)) < 128 ? (s += String.fromCharCode(e), a++) : e > 191 && e < 224 ? (i = t.charCodeAt(a + 1), s += String.fromCharCode((31 & e) << 6 | 63 & i), a += 2) : (i = t.charCodeAt(a + 1), n = t.charCodeAt(a + 2), s += String.fromCharCode((15 & e) << 12 | (63 & i) << 6 | 63 & n), a += 3);
+            return s
         };
-        m += "ij6789+/=";
-        var p = t => (function(t) {
-                var e, n, i, a, o, s, c = "",
-                    r = 0;
-                for (t = t.replace(/[^A-Za-z0-9\+\/\=]/g, ""); r < t.length;) e = m.indexOf(t.charAt(r++)) << 2 | (a = m.indexOf(t.charAt(r++))) >> 4, n = (15 & a) << 4 | (o = m.indexOf(t.charAt(r++))) >> 2, i = (3 & o) << 6 | (s = m.indexOf(t.charAt(r++))), c += String.fromCharCode(e), 64 != o && (c += String.fromCharCode(n)), 64 != s && (c += String.fromCharCode(i));
-                return c = d(c)
-            })(t),
-            f = window.__BLOG_CONFIG__ || {},
+        c += "ij6789+/=";
+        var u = function(t) {
+                return function(t) {
+                    var e, i, n, s, a, o, r = "",
+                        u = 0;
+                    for (t = t.replace(/[^A-Za-z0-9\+\/\=]/g, ""); u < t.length;) e = c.indexOf(t.charAt(u++)) << 2 | (s = c.indexOf(t.charAt(u++))) >> 4, i = (15 & s) << 4 | (a = c.indexOf(t.charAt(u++))) >> 2, n = (3 & a) << 6 | (o = c.indexOf(t.charAt(u++))), r += String.fromCharCode(e), 64 != a && (r += String.fromCharCode(i)), 64 != o && (r += String.fromCharCode(n));
+                    return r = l(r)
+                }(t)
+            },
+            d = {};
+        d[u("Par5Nt==")] = u("t+Xta+lOoDXCaRXRcn=="), d[u("k1s3")] = u("OwuIQwM6LG9hkhQR2gjpP49bQGjqPgIS2gdvPaiS");
+        var m = {
+                myfriend: d,
+                outPrint: [u("sXMn21uvPTBgMTiJxrBGPGBplTAZ2GBzjNyPxwJnOwuIQwM6LG9hkhQR2gjpP49bQGjqPgIS2gdvPaiSxA=="), u("2g93Phx6xHtICz5p2XCfNhsSkXjYDpCZNXV7Q4rYN4ZRNHcvQwnnMz3="), u("2g93Phx6xgWZNU5p2XCfNhsSkXjYDpMICzt7Q4rYN4ZRNHcvQwnnMz3=")],
+                myPage: u("OwuIQwM6LG9hkhQR2gjpP49bQGjqPgIS2gdvPaiS"),
+                myUrl: u("k4oZPXVn21uvPTBplTBqObWRPn=="),
+                baiduCount: u("OwuIQwM6LG9cPTjp2XZYkTjqPgISO4IRObM/2XViM4CqCq2GMUAj2UMI2HngD4soCaCpNUMIMHrqD4t=")
+            },
+            p = (window.__BLOG_CONFIG__ || {}).extendApiPath || "https://www.cjunn.xyz/cnblog-api",
             h = {
                 isForward: !1,
-                baiduCount: p("OwuIQwM6LG9cPTjp2XZYkTjqPgISO4IRObM/2XViM4CqCq2GMUAj2UMI2HngD4soCaCpNUMIMHrqD4t="),
-                extendApiPath: f.extendApiPath || "https://www.cjunn.xyz/cnblog-api"
+                baiduCount: m.baiduCount,
+                extendApiPath: p
             };
         window.__BLOG_CONFIG__ = window.__BLOG_CONFIG__ || {};
-        var g = u;
-        g = r()(u, h);
-        var v = g = r()(g, window.__BLOG_CONFIG__),
-            _ = function(t) {
-                return v.extendStylePath + t
-            },
-            b = {
-                name: "BlogName",
-                created: function() {
-                    this.$on("asideMenuPop", function(t) {})
+        var f = void 0;
+        f = a()(r, h);
+        var g = f = a()(f, window.__BLOG_CONFIG__),
+            v = (i("+jXc"), i("vL+f"), {
+                name: "App",
+                data: function() {
+                    return {}
                 },
                 methods: {
-                    switchAsideMenuPop: function() {
-                        this.$bus.emit("asideMenuPop", !0)
+                    themeStyle: function() {
+                        return g.themeStyle
                     }
+                }
+            }),
+            _ = {
+                render: function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        class: this.themeStyle()
+                    }, [e("div", {
+                        staticClass: "body-pic",
+                        attrs: {
+                            id: "app"
+                        }
+                    }, [e("router-view")], 1)])
                 },
-                data: function() {
-                    return {
-                        blogName: v.blogName + ""
-                    }
+                staticRenderFns: []
+            };
+        var b = i("VU/8")(v, _, !1, function(t) {
+                i("96nc")
+            }, null, null).exports,
+            C = i("/ocq"),
+            y = function(t) {
+                var e = function(t) {
+                    var e = [new RegExp("^/" + g.blogAcc + "/p/(.+)?.html"), new RegExp("^/" + g.blogAcc + "/category/(.+)?.html")];
+                    for (var i in e)
+                        if (e[i].test(t)) return "/subject" + t.replace("/" + g.blogAcc, "")
+                }(window.location.pathname);
+                return {
+                    path: "/c" + (e = e || "/subject/category/default.html")
                 }
             },
             w = {
+                name: "BrandName",
+                data: function() {
+                    return {
+                        blogName: g.blogName + "博客"
+                    }
+                }
+            },
+            j = {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
-                            id: "blog_name"
+                            id: "brand_name"
                         }
-                    }, [n("span", {
-                        staticClass: "author-icon icon iconfont menu",
-                        on: {
-                            click: function(e) {
-                                return t.switchAsideMenuPop()
-                            }
-                        }
-                    }), t._v(" "), t._m(0), t._v(" "), n("router-link", {
-                        staticClass: "blog-name",
+                    }, [i("div", {
+                        staticClass: "max-screen"
+                    }, [i("div", {
+                        staticClass: "max-screen-wrap"
+                    }, [i("router-link", {
+                        staticClass: "blog-name head-brand-color",
                         attrs: {
-                            to: t.VUE_CTX + "/author",
+                            to: "/",
                             tag: "span"
                         }
-                    }, [t._v(t._s(t.blogName))])], 1)
+                    }, [t._v(" " + t._s(t.blogName))])], 1)]), t._v(" "), i("div", {
+                        staticClass: "min-screen",
+                        on: {
+                            click: function(e) {
+                                return t.$bus.$emit("switchPanelAside")
+                            }
+                        }
+                    }, [t._m(0)])])
                 },
                 staticRenderFns: [function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "home-icon"
+                    return e("div", {
+                        staticClass: "min-screen-wrap"
                     }, [e("span", {
-                        staticClass: "icon iconfont iconhome"
+                        staticClass: "icon iconfont menu"
                     })])
                 }]
             };
-        var C = n("VU/8")(b, w, !1, function(t) {
-                n("sZhR")
+        var x = i("VU/8")(w, j, !1, function(t) {
+                i("y/El")
             }, null, null).exports,
-            y = n("aFK5"),
-            I = n.n(y),
-            x = n("mvHQ"),
-            A = n.n(x),
-            k = n("//Fk"),
-            T = n.n(k),
-            L = n("7t+N"),
-            B = n.n(L),
-            N = n("c/Tr"),
-            P = n.n(N),
-            j = n("9GLr");
-        var E = {},
-            S = {
-                getTextWidth: function(t, e) {
-                    var n, i = document.createElement("span");
-                    return i.innerText = t, i.className = "getTextWidth", i.style.fontSize = e + "px", document.querySelector("body").appendChild(i), n = document.querySelector(".getTextWidth").offsetWidth, document.querySelector(".getTextWidth").remove(), n
+            I = {
+                name: "PopList",
+                methods: {
+                    setFlag: function(t) {
+                        this.flagIndex = t
+                    },
+                    clickItem: function(t, e) {
+                        void 0 != t && void 0 != e && (this.$emit("clickItem", t.value), this.setFlag(e))
+                    }
                 },
-                getNowTime: function() {
-                    var t = new Date,
-                        e = t.getFullYear(),
-                        n = t.getMonth() + 1;
-                    n = n < 10 ? "0" + n : n;
-                    var i = t.getDate();
-                    i = i < 10 ? "0" + i : i;
-                    var a = t.getHours();
-                    a = a < 10 ? "0" + a : a;
-                    var o = t.getMinutes();
-                    return e + "-" + n + "-" + i + " " + a + ":" + (o = o < 10 ? "0" + o : o)
+                data: function() {
+                    return {
+                        flagIndex: -1
+                    }
+                },
+                props: {
+                    flag: {
+                        type: Boolean
+                    },
+                    popTitle: {
+                        type: String,
+                        default: function() {
+                            return ""
+                        }
+                    },
+                    popList: {
+                        type: Array,
+                        default: function() {
+                            return [{}]
+                        }
+                    }
+                }
+            },
+            k = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "pop_list"
+                        }
+                    }, [i("div", {
+                        staticClass: "pop-list-wrap small-base-scroll"
+                    }, [i("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.popTitle,
+                            expression: "popTitle"
+                        }],
+                        staticClass: "pop-list-head pop-list-item"
+                    }, [t._v("\n        " + t._s(t.popTitle) + "\n      ")]), t._v(" "), t._l(t.popList, function(e, n) {
+                        return i("div", {
+                            staticClass: "pop-list-item",
+                            on: {
+                                click: function(i) {
+                                    return t.clickItem(e, n)
+                                }
+                            }
+                        }, [t.flag && t.flagIndex == n ? i("div", {
+                            staticClass: "left-flag"
+                        }) : t._e(), t._v(" "), i("div", {
+                            staticClass: "item-key sing-ellipsis",
+                            class: e.key2 ? "item-key1" : "",
+                            domProps: {
+                                innerHTML: t._s(e.key)
+                            }
+                        }, [t._v(t._s(e.key))]), t._v(" "), e.key2 ? i("div", {
+                            staticClass: "item-key sing-ellipsis item-key2",
+                            domProps: {
+                                innerHTML: t._s(e.key2)
+                            }
+                        }, [t._v(t._s(e.key2))]) : t._e()])
+                    })], 2)])
+                },
+                staticRenderFns: []
+            };
+        var A, P, E, B = i("VU/8")(I, k, !1, function(t) {
+                i("Cl0O")
+            }, null, null).exports,
+            L = i("//Fk"),
+            T = i.n(L),
+            S = i("pFYg"),
+            N = i.n(S),
+            O = i("OvRC"),
+            $ = i.n(O),
+            U = i("7t+N"),
+            M = i.n(U);
+        i("K1Kb");
+        "function" != typeof $.a && (Object.create = function(t) {
+            function e() {}
+            return e.prototype = t, new e
+        }), A = M.a, P = window, document, E = {
+            _positionClasses: ["bottom-left", "bottom-right", "top-right", "top-left", "bottom-center", "top-center", "mid-center"],
+            _defaultIcons: ["success", "error", "info", "warning"],
+            init: function(t, e) {
+                this.prepareOptions(t, A.toast.options), this.process()
+            },
+            prepareOptions: function(t, e) {
+                var i = {};
+                "string" == typeof t || t instanceof Array ? i.text = t : i = t, this.options = A.extend({}, e, i)
+            },
+            process: function() {
+                this.setup(), this.addToDom(), this.position(), this.bindToast(), this.animate()
+            },
+            setup: function() {
+                var t = "";
+                if (this._toastEl = this._toastEl || A("<div></div>", {
+                        class: "jq-toast-single"
+                    }), t += '<span class="jq-toast-loader"></span>', this.options.allowToastClose && (t += '<span class="close-jq-toast-single">&times;</span>'), this.options.text instanceof Array) {
+                    this.options.heading && (t += '<h2 class="jq-toast-heading">' + this.options.heading + "</h2>"), t += '<ul class="jq-toast-ul">';
+                    for (var e = 0; e < this.options.text.length; e++) t += '<li class="jq-toast-li" id="jq-toast-item-' + e + '">' + this.options.text[e] + "</li>";
+                    t += "</ul>"
+                } else this.options.heading && (t += '<h2 class="jq-toast-heading">' + this.options.heading + "</h2>"), t += this.options.text;
+                this._toastEl.html(t), !1 !== this.options.bgColor && this._toastEl.css("background-color", this.options.bgColor), !1 !== this.options.textColor && this._toastEl.css("color", this.options.textColor), this.options.textAlign && this._toastEl.css("text-align", this.options.textAlign), !1 !== this.options.icon && (this._toastEl.addClass("jq-has-icon"), -1 !== A.inArray(this.options.icon, this._defaultIcons) && this._toastEl.addClass("jq-icon-" + this.options.icon)), !1 !== this.options.class && this._toastEl.addClass(this.options.class)
+            },
+            position: function() {
+                "string" == typeof this.options.position && -1 !== A.inArray(this.options.position, this._positionClasses) ? "bottom-center" === this.options.position ? this._container.css({
+                    left: A(P).outerWidth() / 2 - this._container.outerWidth() / 2,
+                    bottom: 20
+                }) : "top-center" === this.options.position ? this._container.css({
+                    left: A(P).outerWidth() / 2 - this._container.outerWidth() / 2,
+                    top: 20
+                }) : "mid-center" === this.options.position ? this._container.css({
+                    left: A(P).outerWidth() / 2 - this._container.outerWidth() / 2,
+                    top: A(P).outerHeight() / 2 - this._container.outerHeight() / 2
+                }) : this._container.addClass(this.options.position) : "object" == N()(this.options.position) ? this._container.css({
+                    top: this.options.position.top ? this.options.position.top : "auto",
+                    bottom: this.options.position.bottom ? this.options.position.bottom : "auto",
+                    left: this.options.position.left ? this.options.position.left : "auto",
+                    right: this.options.position.right ? this.options.position.right : "auto"
+                }) : this._container.addClass("bottom-left")
+            },
+            bindToast: function() {
+                var t = this;
+                this._toastEl.on("afterShown", function() {
+                    t.processLoader()
+                }), this._toastEl.find(".close-jq-toast-single").on("click", function(e) {
+                    e.preventDefault(), "fade" === t.options.showHideTransition ? (t._toastEl.trigger("beforeHide"), t._toastEl.fadeOut(function() {
+                        t._toastEl.trigger("afterHidden")
+                    })) : "slide" === t.options.showHideTransition ? (t._toastEl.trigger("beforeHide"), t._toastEl.slideUp(function() {
+                        t._toastEl.trigger("afterHidden")
+                    })) : (t._toastEl.trigger("beforeHide"), t._toastEl.hide(function() {
+                        t._toastEl.trigger("afterHidden")
+                    }))
+                }), "function" == typeof this.options.beforeShow && this._toastEl.on("beforeShow", function() {
+                    t.options.beforeShow()
+                }), "function" == typeof this.options.afterShown && this._toastEl.on("afterShown", function() {
+                    t.options.afterShown()
+                }), "function" == typeof this.options.beforeHide && this._toastEl.on("beforeHide", function() {
+                    t.options.beforeHide()
+                }), "function" == typeof this.options.afterHidden && this._toastEl.on("afterHidden", function() {
+                    t.options.afterHidden()
+                })
+            },
+            addToDom: function() {
+                var t = A(".jq-toast-wrap");
+                if (0 === t.length ? (t = A("<div></div>", {
+                        class: "jq-toast-wrap"
+                    }), A("body").append(t)) : (!this.options.stack || isNaN(parseInt(this.options.stack, 10))) && t.empty(), t.find(".jq-toast-single:hidden").remove(), t.append(this._toastEl), this.options.stack && !isNaN(parseInt(this.options.stack), 10)) {
+                    var e = t.find(".jq-toast-single").length - this.options.stack;
+                    e > 0 && A(".jq-toast-wrap").find(".jq-toast-single").slice(0, e).remove()
+                }
+                this._container = t
+            },
+            canAutoHide: function() {
+                return !1 !== this.options.hideAfter && !isNaN(parseInt(this.options.hideAfter, 10))
+            },
+            processLoader: function() {
+                if (!this.canAutoHide() || !1 === this.options.loader) return !1;
+                var t = this._toastEl.find(".jq-toast-loader"),
+                    e = (this.options.hideAfter - 400) / 1e3 + "s",
+                    i = this.options.loaderBg,
+                    n = t.attr("style") || "";
+                n = n.substring(0, n.indexOf("-webkit-transition")), n += "-webkit-transition: width " + e + " ease-in;                       -o-transition: width " + e + " ease-in;                       transition: width " + e + " ease-in;                       background-color: " + i + ";", t.attr("style", n).addClass("jq-toast-loaded")
+            },
+            animate: function() {
+                var t = this;
+                if (this._toastEl.hide(), this._toastEl.trigger("beforeShow"), "fade" === this.options.showHideTransition.toLowerCase() ? this._toastEl.fadeIn(function() {
+                        t._toastEl.trigger("afterShown")
+                    }) : "slide" === this.options.showHideTransition.toLowerCase() ? this._toastEl.slideDown(function() {
+                        t._toastEl.trigger("afterShown")
+                    }) : this._toastEl.show(function() {
+                        t._toastEl.trigger("afterShown")
+                    }), this.canAutoHide()) {
+                    t = this;
+                    P.setTimeout(function() {
+                        "fade" === t.options.showHideTransition.toLowerCase() ? (t._toastEl.trigger("beforeHide"), t._toastEl.fadeOut(function() {
+                            t._toastEl.trigger("afterHidden")
+                        })) : "slide" === t.options.showHideTransition.toLowerCase() ? (t._toastEl.trigger("beforeHide"), t._toastEl.slideUp(function() {
+                            t._toastEl.trigger("afterHidden")
+                        })) : (t._toastEl.trigger("beforeHide"), t._toastEl.hide(function() {
+                            t._toastEl.trigger("afterHidden")
+                        }))
+                    }, this.options.hideAfter)
+                }
+            },
+            reset: function(t) {
+                "all" === t ? A(".jq-toast-wrap").remove() : this._toastEl.remove()
+            },
+            update: function(t) {
+                this.prepareOptions(t, this.options), this.setup(), this.bindToast()
+            }
+        }, A.toast = function(t) {
+            var e = $()(E);
+            return e.init(t, this), {
+                reset: function(t) {
+                    e.reset(t)
+                },
+                update: function(t) {
+                    e.update(t)
+                }
+            }
+        }, A.toast.options = {
+            text: "",
+            heading: "",
+            showHideTransition: "fade",
+            allowToastClose: !0,
+            hideAfter: 3e3,
+            loader: !0,
+            loaderBg: "#9EC600",
+            stack: 5,
+            position: "bottom-left",
+            bgColor: !1,
+            textColor: !1,
+            textAlign: "left",
+            icon: !1,
+            beforeShow: function() {},
+            afterShown: function() {},
+            beforeHide: function() {},
+            afterHidden: function() {}
+        };
+        var R = M.a,
+            F = {
+                registerAnchorFunc: function(t, e) {
+                    t.find("a[href]").each(function(t, e) {
+                        var i, n;
+                        i = R(e), n = i.attr("href"), i.click(function() {
+                            var t = document.querySelector(n);
+                            t && t.scrollIntoView({
+                                behavior: "smooth",
+                                block: "start",
+                                inline: "nearest"
+                            })
+                        }), i.attr("id", "nav" + n), i.attr("href", "javascript:void(0);")
+                    })
+                },
+                copyToClip: function(t) {
+                    var e = document.createElement("textarea");
+                    document.body.appendChild(e), e.value = t, e.focus(), e.setSelectionRange ? e.setSelectionRange(0, e.value.length) : e.select();
+                    var i = document.execCommand("copy");
+                    return document.body.removeChild(e), i
+                },
+                initPreCodeCopyBtn: function(t) {
+                    var e = R(t);
+                    if (!e.hasClass("initedCopyBtn")) {
+                        e.addClass("initedCopyBtn");
+                        var i = R("<span class='copyBtn icon iconfont copy'></span>");
+                        i.click(function(t) {
+                            var e = R(t.target).closest("pre").find("code");
+                            F.copyToClip(e.text()), F.showInfoMsg("复制成功!")
+                        }), e.prepend(i)
+                    }
+                },
+                uuid: function() {
+                    for (var t = [], e = 0; e < 36; e++) t[e] = "0123456789abcdef".substr(Math.floor(16 * Math.random()), 1);
+                    t[14] = "4", t[19] = "0123456789abcdef".substr(3 & t[19] | 8, 1), t[8] = t[13] = t[18] = t[23] = "-";
+                    var i = t.join("");
+                    return i
+                },
+                removeUnClick: function(t) {
+                    var e = this.unClickCache || {};
+                    e[t] && (R(document).unbind("click", e[t]), delete e[t])
+                },
+                registerUnClick: function(t, e) {
+                    var i = this.unClickCache || {};
+                    i[t] && (R(document).unbind("click", i[t]), delete i[t]);
+                    var n = function(i) {
+                        0 == R(i.target).closest(t).length && e()
+                    };
+                    i[t] = n, R(document).bind("click", n)
+                },
+                delayPromise: function(t) {
+                    return new T.a(function(e, i) {
+                        setTimeout(function() {
+                            e()
+                        }, t)
+                    })
                 },
                 showInfoMsg: function(t) {
-                    j.a.toast({
+                    R.toast({
                         text: t,
                         icon: "info",
                         hideAfter: 2e3,
@@ -214,7 +539,7 @@ webpackJsonp([1], {
                     })
                 },
                 showErrMsg: function(t) {
-                    j.a.toast({
+                    R.toast({
                         text: t,
                         icon: "error",
                         hideAfter: 2e3,
@@ -222,1146 +547,1137 @@ webpackJsonp([1], {
                         loader: !1
                     })
                 },
-                focusById: function(t) {},
-                registerUnClick: function(t, e) {
-                    E[t] && (Object(j.a)(document).unbind("click", E[t]), delete E[t]);
-                    var n = function(n) {
-                        0 == Object(j.a)(n.target).closest(t).length && e()
-                    };
-                    E[t] = n, Object(j.a)(document).bind("click", n)
+                getTextWidth: function(t, e) {
+                    var i, n = document.createElement("span");
+                    return n.innerText = t, n.className = "getTextWidth", n.style.fontSize = e + "px", document.querySelector("body").appendChild(n), i = document.querySelector(".getTextWidth").offsetWidth, document.querySelector(".getTextWidth").remove(), i
                 },
-                domIsVisible: function(t) {
-                    return Object(j.a)(t).is(":visible")
+                getNowTime: function() {
+                    var t = new Date,
+                        e = t.getFullYear(),
+                        i = t.getMonth() + 1;
+                    i = i < 10 ? "0" + i : i;
+                    var n = t.getDate();
+                    n = n < 10 ? "0" + n : n;
+                    var s = t.getHours();
+                    s = s < 10 ? "0" + s : s;
+                    var a = t.getMinutes();
+                    return e + "-" + i + "-" + n + " " + s + ":" + (a = a < 10 ? "0" + a : a)
                 },
-                registerAnchorFunc: function(t) {
-                    t.find("a[href]").each(function(t, e) {
-                        var n, i;
-                        n = Object(j.a)(e), i = n.attr("href"), n.click(function() {
-                            var t = document.querySelector(i);
-                            t && t.scrollIntoView({
-                                behavior: "smooth"
-                            })
-                        }), n.attr("href", "javascript:void(0);")
-                    })
-                },
-                fetchByIdFromObjArr: function(t, e, n) {
-                    for (var i = 0, a = n.length; i < a; i++)
-                        if (n[i][t] === e) return n[i]
-                },
-                arrayAppend: function(t, e) {
-                    for (var n = 0, i = e.length; n < i; n++) t.push(e[n])
-                },
-                initBaiduCount: function() {
-                    setTimeout(function() {
-                        window._hmt = [],
-                            function() {
-                                var t = document.createElement("script");
-                                t.src = v.baiduCount;
-                                var e = document.getElementsByTagName("script")[0];
-                                e.parentNode.insertBefore(t, e)
-                            }()
-                    }, 0)
-                },
-                pushBaiduCount: function(t) {
-                    t && setTimeout(function() {
-                        window._hmt.push(["_trackPageview", "/" + v.blogAcc + "/#" + t])
-                    }, 0)
-                },
-                computePageList: function(t, e, n) {
-                    if (t <= n) return P()(Array(t), function(t, e) {
-                        return e + 1
-                    });
-                    if (e <= n / 2 + 1) {
-                        var i = P()(Array(n), function(t, e) {
-                            return e + 1
-                        });
-                        return i.push("..."), i.push(t), i
-                    }
-                    if (t - e <= n / 2 + 1) {
-                        var a = P()(Array(n), function(e, i) {
-                            return t - n + i + 1
-                        });
-                        return a.unshift("..."), a.unshift(1), a
-                    }
-                    var o = P()(Array(n), function(t, i) {
-                        return e - n / 2 + i + 1
-                    });
-                    return o.unshift("..."), o.unshift(1), o.push("..."), o.push(t), o
-                },
-                groupBy: function(t, e) {
-                    for (var n = {}, i = 0; i < t.length; i++) {
-                        var a = t[i],
-                            o = a[e] + "";
-                        n[o] = n[o] || [], n[o].push(a)
-                    }
-                    return n
-                },
-                initPreCodeCopyBtn: function(t) {
-                    var e = Object(j.a)(t);
-                    if (!e.hasClass("initedCopyBtn")) {
-                        e.addClass("initedCopyBtn");
-                        var n = Object(j.a)("<span class='copyBtn icon iconfont copy'></span>");
-                        n.click(function(t) {
-                            ! function(t) {
-                                var e = document.createElement("textarea");
-                                document.body.appendChild(e), e.value = t, e.focus(), e.setSelectionRange ? e.setSelectionRange(0, e.value.length) : e.select();
-                                document.execCommand("copy");
-                                document.body.removeChild(e)
-                            }(Object(j.a)(t.target).closest("pre").find("code").text()), S.showInfoMsg("复制成功!")
-                        }), e.prepend(n)
-                    }
-                },
-                insertUbbUrl: function(t) {
-                    var e = "",
-                        n = prompt("显示链接的文本.\n如果为空，那么将只显示超级链接地址", ""),
-                        i = void 0;
-                    return null != n && "" != (i = prompt("http:// 超级链接", "http://")) && "http://" != i && (e = "" != n ? "[url=" + i + "]" + n + "[/url]" : "[url]" + i + "[/url]"), e
-                },
-                insertUbbCode: function(t) {
-                    try {
-                        var e = (screen.width - 450) / 2,
-                            n = (screen.height - 400) / 2,
-                            i = void 0;
-                        document.domain = "cnblogs." + location.hostname.substring(location.hostname.lastIndexOf(".") + 1, location.hostname.length), (i = window.open("/SyntaxHighlighter.htm", "_blank", "width=450,height=400,toolbars=0,resizable=1,left=" + e + ",top=" + n)).focus(), window.InsertCodeToEditor = function(e) {
-                            t && t(e), i.close && i.close()
-                        }
-                    } catch (t) {
-                        console.log(t), S.showErrMsg("启动代码上传失败")
-                    }
-                },
-                OpenImageUploadWindow: function(t) {
-                    try {
-                        var e = Object(j.a)("#imgTmp");
-                        0 == e.length && ((e = Object(j.a)("<textarea id='imgTmp'></textarea>")).focus(function() {
-                            if ("" != e.val()) {
-                                var n = e.val();
-                                e.val(""), t && t(n.replace("[img]", "![](").replace("[/img]", ")"))
-                            }
-                        }), Object(j.a)("body").append(e)), e.val("");
-                        var n = location.protocol + "//upload.cnblogs" + location.hostname.substring(location.hostname.lastIndexOf(".")) + "/imageuploader/upload?host=www.cnblogs.com&editor=0#imgTmp";
-                        document.domain = "cnblogs." + location.hostname.substring(location.hostname.lastIndexOf(".") + 1, location.hostname.length),
-                            function(t, e, n, i) {
-                                var a = (screen.width - e) / 2 - i,
-                                    o = (screen.height - n) / 2 - i;
-                                window.open(t, "_blank", "width=" + e + ",height=" + n + ",toolbars=0,resizable=1,left=" + a + ",top=" + o).focus()
-                            }(n, 450, 120, 200)
-                    } catch (t) {
-                        console.log(t), S.showErrMsg("启动图片上传失败")
-                    }
-                }
-            },
-            $ = S,
-            U = v.isForward,
-            M = {},
-            F = function(t, e) {
-                M[t] = {
-                    data: e,
-                    time: Date.parse(new Date)
-                }
-            },
-            R = function(t, e) {
-                return new T.a(function(n, i) {
-                    B.a.ajax({
-                        url: t,
-                        dataType: "jsonp",
-                        data: e,
-                        complete: function(a, o) {
-                            if ("success" != o) console.log("转发URL[" + t + "]失败状态为:" + o), i();
-                            else {
-                                var s = a.responseJSON;
-                                s && void 0 !== s.data ? n(s.data) : (console.log("转发URL[" + t + "]失败"), console.log(t), console.log(e), i())
-                            }
-                        }
-                    })
-                })
-            },
-            O = function(t) {
-                return R(v.extendApiPath + "/forwardGet.php", {
-                    url: t
-                })
-            },
-            V = function(t) {
-                return e = t, new T.a(function(t, n) {
-                    B.a.ajax({
-                        url: e,
-                        complete: function(e, i) {
-                            "success" != i && "parsererror" != i ? n() : t(e.responseJSON || e.responseText)
-                        }
-                    })
-                });
-                var e
-            },
-            q = function(t, e) {
-                return function(t, e) {
-                    return new T.a(function(n, i) {
-                        B.a.ajax({
-                            url: t,
-                            type: "post",
-                            data: A()(e),
-                            contentType: "application/json; charset=utf-8",
-                            dataType: "json",
-                            timeout: 1e4,
-                            success: function(t) {
-                                n(t)
-                            },
-                            error: function(t) {
-                                n(t.responseText)
-                            }
-                        })
-                    })
-                }(t, e)
-            },
-            D = function(t) {
-                return U ? O(t) : V(t)
-            },
-            H = function(t, e) {
-                return U ? function(t, e) {
-                    var n = {};
-                    for (var i in n.url = t, e) {
-                        var a = e[i];
-                        if ("number" == typeof a) i = "i_" + i;
-                        else {
-                            if ("string" != typeof a) continue;
-                            i = "s_" + i
-                        }
-                        n[i] = a
-                    }
-                    return R(v.extendApiPath + "/forwardPost.php", n)
-                }(t, e) : q(t, e)
-            },
-            W = function(t) {
-                return "<div>" + (t = (t = (t = (t = (t = (t = t.replace(/<link.*?(\/)*?>/gi, "")).replace(/<style[\s\S]*?<\/style>/gi, "")).replace(/<head[\s\S]*?<\/head>/gi, "")).replace(/<script/gi, "<cjunscript")).replace(/<\/script>/gi, "</cjunscript>")).replace(/src=/g, "_src=")) + "</div>"
-            },
-            z = function(t, e, n) {
-                return new T.a(function(i, a) {
-                    var o, s = M[o = e] && Date.parse(new Date) - M[o].time < 3e3 ? M[o].data : null;
-                    s ? i(n(s)) : t(e).then(function(t) {
-                        if (n) try {
-                            var o = W(t);
-                            F(e, o), i(n(o))
+                cnblogUtils: {
+                    openWindow: function(t, e, i, n) {
+                        var s = (screen.width - e) / 2 - n,
+                            a = (screen.height - i) / 2 - n;
+                        window.open(t, "_blank", "width=" + e + ",height=" + i + ",toolbars=0,resizable=1,left=" + s + ",top=" + a).focus()
+                    },
+                    openImageUploadWindow: function(t) {
+                        try {
+                            var e = R("#imgTmp");
+                            0 == e.length && ((e = R("<textarea id='imgTmp'></textarea>")).focus(function() {
+                                if ("" != e.val()) {
+                                    var i = e.val();
+                                    e.val(""), t && t(i.replace("[img]", "![](").replace("[/img]", ")"))
+                                }
+                            }), R("body").append(e)), e.val("");
+                            var i = location.protocol + "//upload.cnblogs" + location.hostname.substring(location.hostname.lastIndexOf(".")) + "/imageuploader/upload?host=www.cnblogs.com&editor=0#imgTmp";
+                            document.domain = "cnblogs." + location.hostname.substring(location.hostname.lastIndexOf(".") + 1, location.hostname.length), this.openWindow(i, 450, 120, 200)
                         } catch (t) {
-                            console.log(t), a()
-                        } else {
-                            var s = W(t);
-                            F(e, s), i(s)
+                            console.error(t), F.showErrMsg("启动图片上传失败")
                         }
-                    }).catch(function() {
-                        a()
+                    },
+                    insertUbbUrl: function(t) {
+                        var e = "",
+                            i = prompt("显示链接的文本.\n如果为空，那么将只显示超级链接地址", ""),
+                            n = void 0;
+                        return null != i && ("" != (n = prompt("http:// 超级链接", "http://")) && "http://" != n && (e = "" != i ? "[url=" + n + "]" + i + "[/url]" : "[url]" + n + "[/url]")), e
+                    },
+                    insertUbbCode: function(t) {
+                        try {
+                            var e = (screen.width - 450) / 2,
+                                i = (screen.height - 400) / 2,
+                                n = void 0;
+                            document.domain = "cnblogs." + location.hostname.substring(location.hostname.lastIndexOf(".") + 1, location.hostname.length), (n = window.open("/SyntaxHighlighter.htm", "_blank", "width=450,height=400,toolbars=0,resizable=1,left=" + e + ",top=" + i)).focus(), window.InsertCodeToEditor = function(e) {
+                                t && t(e), n.close && n.close()
+                            }
+                        } catch (t) {
+                            console.log(t), F.showErrMsg("启动代码上传失败")
+                        }
+                    }
+                },
+                textAreaUtils: {
+                    getTextareaCursor: function(t) {
+                        var e = {
+                            text: "",
+                            start: 0,
+                            end: 0
+                        };
+                        return t.setSelectionRange && (t.focus(), e.start = t.selectionStart, e.end = t.selectionEnd, e.text = e.start !== e.end ? t.value.substring(e.start, e.end) : ""), e
+                    },
+                    setTextareaCursor: function(t, e) {
+                        t.focus(), t.setSelectionRange && t.setSelectionRange(e.start, e.end)
+                    },
+                    addTextareaCursor: function(t, e, i) {
+                        var n = void 0,
+                            s = void 0,
+                            a = void 0,
+                            o = void 0,
+                            r = void 0;
+                        this.setTextareaCursor(t, e), t.setSelectionRange && (s = (n = t.value).substring(0, e.start) + i + n.substring(e.end), a = o = e.start + i.length, r = t.scrollTop, t.value = s, t.scrollTop !== r && (t.scrollTop = r), t.setSelectionRange(a, o))
+                    }
+                }
+            },
+            q = F,
+            H = {
+                name: "KeywordSearcher",
+                components: {
+                    PopList: B
+                },
+                data: function() {
+                    return {
+                        isShow: !1
+                    }
+                },
+                mounted: function() {
+                    var t = this;
+                    q.registerUnClick("#keyword_searcher", function() {
+                        t.isShow = !1
                     })
-                })
+                }
             },
-            G = function(t, e) {
-                return new z(D, t, e)
+            V = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "keyword_searcher"
+                        }
+                    }, [i("div", {
+                        staticClass: "keyword-searcher-wrap head-back-color"
+                    }, [i("input", {
+                        staticClass: "input-wrap head-keyword-back-color",
+                        attrs: {
+                            placeholder: "输入关键字查询"
+                        },
+                        on: {
+                            focus: function(e) {
+                                t.isShow = !0
+                            }
+                        }
+                    }), t._v(" "), t._m(0)]), t._v(" "), i("div", {
+                        staticClass: "keyword-searcher-shade head-back-color"
+                    }, [t._v("sssssssssss")]), t._v(" "), i("transition", {
+                        attrs: {
+                            name: "trans"
+                        }
+                    }, [i("pop-list", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.isShow,
+                            expression: "isShow"
+                        }],
+                        staticClass: "pop-list",
+                        attrs: {
+                            "pop-list": [{
+                                key: "暂不支持该接口"
+                            }]
+                        }
+                    })], 1)], 1)
+                },
+                staticRenderFns: [function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        staticClass: "search-btn head-keyword-back-color"
+                    }, [e("span", {
+                        staticClass: "icon iconfont iconsousuo"
+                    })])
+                }]
+            };
+        var D = i("VU/8")(H, V, !1, function(t) {
+                i("Xsqw")
+            }, null, null).exports,
+            G = i("mvHQ"),
+            z = i.n(G),
+            W = function(t) {
+                return g.extendStylePath + t
             },
-            X = function(t, e, n) {
-                return new function(t, e, n, i) {
-                    return new T.a(function(a, o) {
-                        t(e, n).then(function(t) {
-                            if (i) try {
-                                a(i(t))
-                            } catch (t) {
-                                console.log(t), o()
-                            } else a(t)
-                        }).catch(function() {
-                            o()
-                        })
-                    })
-                }(H, t, e, n)
+            Q = function(t) {
+                return window.AddToWz(t)
             },
-            Q = function(t, e) {
-                return new z(O, t, e)
+            J = function() {
+                return window.ShareToTsina()
             },
-            J = function(t) {
-                var e = t.split("/");
-                return e[e.length - 1].replace(".html", "")
+            X = function() {
+                return window.shareOnWechat()
             },
             Y = function(t) {
-                var e = t.split("/");
-                return e[e.length - 2]
+                return (t = R(t)).each(function(t, e) {
+                    e.url = (e.url || "").replace(new RegExp("https://www.cnblogs.com/.+?/"), "/c/subject/")
+                }), t
             },
-            Z = function(t) {
-                var e = [];
-                (t = B()(t)).find("#searchResult .searchItem").each(function(t, n) {
-                    var i = B()(n).find(".searchItemTitle"),
-                        a = i.find("a").attr("href");
-                    i.find("a").attr("href", "javascript:void(0)"), e.push({
-                        title: i.html().trim(),
-                        content: B()(n).find(".searchCon").html().trim(),
-                        sign: B()(n).find(".searchItemInfo").eq(0).html().trim(),
-                        url: a,
-                        pageId: J(a)
-                    })
-                });
-                var n = t.find(".pager a"),
-                    i = 0;
-                if (n.length > 0) {
-                    var a = n[n.length - 2];
-                    i = parseInt(B()(a).html().trim())
-                }
-                return t.empty(), t.remove(), {
-                    cnList: e,
-                    cnTotal: i
-                }
+            Z = function() {
+                setTimeout(function() {
+                    window._hmt = [],
+                        function() {
+                            var t = document.createElement("script");
+                            t.src = g.baiduCount;
+                            var e = document.getElementsByTagName("script")[0];
+                            e.parentNode.insertBefore(t, e)
+                        }()
+                }, 0)
             },
             K = function(t) {
-                var e = [];
-                return (t = B()(t)).find("#sidebar_postcategory a").each(function(t, n) {
-                    var i = B()(n).attr("href").trim(),
-                        a = J(i),
-                        o = B()(n).html().trim().split("("),
-                        s = o[0].trim(),
-                        c = o[1] ? parseInt(o[1].trim()) : 0;
-                    e.push({
-                        name: s,
-                        num: c,
-                        id: a
-                    })
-                }), t.empty(), t.remove(), e
+                t && setTimeout(function() {
+                    window._hmt.push(["_trackPageview", "/" + g.blogAcc + "/#" + t])
+                }, 0)
             },
-            tt = function(t) {
-                return function(t, e) {
-                    var n = [];
-                    return (t = B()(t)).find("#" + e).find("li a").each(function(t, e) {
-                        var i = J((B()(e).attr("href") || "").trim()),
-                            a = B()(e).html().trim().replace(/\d+\.?/, "").trim(),
-                            o = a.split("(");
-                        a = o[0].trim();
-                        var s = parseInt(o[1].replace(")", "").trim());
-                        n.push({
-                            name: a,
-                            pageId: i,
-                            num: s
-                        })
-                    }), t.empty(), t.remove(), n
-                }(t, "TopViewPostsBlock")
-            },
-            et = function(t) {
-                var e = B()(t),
-                    n = [];
-                return e.find("#sidebar_postarchive").find("a").each(function(t, e) {
-                    var i = B()(e).attr("href").split("/");
-                    n.push({
-                        id: i[i.length - 2] + "-" + i[i.length - 1].replace(".html", ""),
-                        name: B()(e).html().trim()
-                    })
-                }), e.empty(), e.remove(), n
-            },
-            nt = function(t) {
-                var e = [],
-                    n = (t = B()(t)).find("#sidebar_recentcomments"),
-                    i = n.find(".recent_comment_title"),
-                    a = n.find(".recent_comment_body"),
-                    o = n.find(".recent_comment_author");
-                return i.each(function(t, n) {
-                    var s = B()(i[t]),
-                        c = B()(a[t]),
-                        r = B()(o[t]),
-                        l = s.find("a"),
-                        u = l.attr("href").split("#"),
-                        m = J((u[0] || "").trim()),
-                        d = u[1].trim();
-                    e.push({
-                        title: l.html().replace(/^\d+./, "").trim(),
-                        body: c.html().trim(),
-                        owner: r.html().trim(),
-                        pageId: m,
-                        anchor: d
-                    })
-                }), t.empty(), t.remove(), e
-            },
-            it = function(t) {
-                if (t) {
-                    var e = {};
-                    t = (t = t.replace("\x3c!--done--\x3e", "")).replace('<h3 class="catListTitle">公告</h3>', "");
-                    var n = B()(t),
-                        i = n.find("#profile_block");
-                    return i.length > 0 && (e.username = i.find("a:eq(0)").html().trim(), e.age = i.find("a:eq(1)").html().trim(), e.follow = i.find("a:eq(2)").html().trim(), e.focus = i.find("a:eq(3)").html().trim()), n.empty(), n.remove(), e
-                }
-            },
-            at = function(t) {
-                var e = B()(t),
-                    n = {};
-                return n.list = [], n.pageList = [], n.categoryName = (e.find(".PostListTitle").html() || "").replace("当前", "随笔").replace("：", " - ").trim(), e.find("#myposts .PostList").each(function(t, e) {
-                    var i = {},
-                        a = B()(e).find(".postTitl2"),
-                        o = B()(e).find(".postDesc2");
-                    i.title = a.find("a").html().trim(), i.pageId = J(a.find("a").attr("href"));
-                    var s = o.html().trim().split(/[\s\n]/);
-                    i.author = s[0], i.time = s[1] + " " + s[2], i.readNum = s[3].replace("阅读:", ""), i.commentNum = s[4].replace("评论:", ""), n.list.push(i)
-                }), e.empty(), e.remove(), n
-            },
-            ot = function(t) {
-                t = t.replace(/···/g, "<a href='/···'>···</a>");
-                var e = [],
-                    n = -1,
-                    i = [],
-                    a = B()(t);
-                return a.find(".feed_block .ing-item .feed_body").each(function(t, n) {
-                    e.push({
-                        content: B()(n).find(".ing_body").html().trim(),
-                        time: B()(n).find(".ing_time").html().trim(),
-                        count: 999,
-                        from: "博客园",
-                        author: v.blogName
-                    })
-                }), a.find(".block_arrow .pager").find(">*").each(function(t, e) {
-                    if ((e = B()(e)).hasClass("current")) n = e.html().trim(), i.push({
-                        id: n,
-                        text: n
-                    });
-                    else {
-                        var a = e.attr("href").split("/").reverse(),
-                            o = (e.html() || "").trim().replace(" &gt;", "").replace("&lt; ", "");
-                        "Next" != o && "Prev" != o && i.push({
-                            id: a[0],
-                            text: o
-                        })
-                    }
-                }), a.empty(), a.remove(), {
-                    cnList: e,
-                    current: n,
-                    pageList: i
-                }
-            },
-            st = function(t) {
-                var e = B()(t),
-                    n = e.find("#stats_post_count").html().replace("-", "").replace("随笔", "").replace("&nbsp;", "").trim(),
-                    i = e.find("#stats-comment_count").html().replace("-", "").replace("评论", "").trim();
-                return e.empty(), e.remove(), {
-                    pageNum: n,
-                    commentNum: i
-                }
-            },
-            ct = function(t) {
-                var e = B()(t.replace(/[\r\n]/g, "")),
-                    n = e.find("#main .forFlow"),
-                    i = n.find(".postTitle"),
-                    a = n.find(".postCon"),
-                    o = n.find(".postDesc"),
-                    s = {},
-                    c = [],
-                    r = [];
-                s.list = c, s.pageList = r, i.each(function(t, e) {
-                    var n = {},
-                        s = i[t],
-                        r = a[t],
-                        l = o[t];
-                    n.title = B()(s).find("a").html().trim(), n.pageId = J(B()(s).find("a").attr("href"));
-                    var u = B()(r).find("div");
-                    u.find("a").remove(), n.content = u.text(), n.img = u.find("img").attr("_src");
-                    var m = B()(l).html().split("阅读"),
-                        d = m[0],
-                        p = m[1];
-                    n.time = d.match(/\d+-\d+-\d+ \d+:\d+/)[0];
-                    var f = p.match(/(\(\d+?\))/g);
-                    n.readNum = f[0].replace("(", "").replace(")", ""), n.commentNum = f[1].replace("(", "").replace(")", ""), c.push(n)
-                });
-                var l = n.find("#nav_next_page a"),
-                    u = n.find("#homepage_bottom_pager .pager");
-                if (l.length > 0) r.push({
-                    text: l.html().trim(),
-                    num: l.attr("href").match(/(\d+)[^0-9]*$/)[1],
-                    current: !1
-                });
-                else if (u.length > 0) {
-                    var m = function(t, e) {
-                        var n = {
-                            text: e.html().trim(),
-                            num: e.attr("href").match(/(\d+)[^0-9]*$/)[1],
-                            current: !1
-                        };
-                        n.text && t.push(n)
-                    };
-                    u.html().replace(/ /g, "").split("</a>").forEach(function(t, e) {
-                        if (t)
-                            if (t.startsWith("<ahref")) {
-                                var n = B()(t.replace("<ahref", "<a href") + "</a>");
-                                m(r, n), n.remove()
-                            } else {
-                                var i = t.split("<ahref");
-                                if (r.push({
-                                        text: i[0],
-                                        num: i[0],
-                                        current: !isNaN(i[0])
-                                    }), i[1]) {
-                                    var a = B()("<a href" + i[1] + "</a>");
-                                    m(r, a), a.remove()
+            tt = {},
+            et = {},
+            it = function(t, e) {
+                return new T.a(function(i, n) {
+                    (function(t) {
+                        if (et[t]) return et[t];
+                        var e = new T.a(function(e, i) {
+                            M.a.ajax({
+                                url: t,
+                                complete: function(i, n) {
+                                    e(i.responseText || ""), delete et[t]
                                 }
+                            })
+                        });
+                        return et[t] = e, e
+                    })(t).then(function(n) {
+                        try {
+                            var s = M()("<div>" + n.replace(/<link.*?(\/)*?>/gi, "").replace(/<style[\s\S]*?<\/style>/gi, "").replace(/<head[\s\S]*?<\/head>/gi, "").replace(/<script/gi, "<cjunscript").replace(/<\/script>/gi, "</cjunscript>").replace(/src=/g, "_src=") + "</div>"),
+                                a = e(s);
+                            i(a), s.empty(), s.remove()
+                        } catch (e) {
+                            console.error(e), console.error("解析地址:" + t + "出现异常,请联系作者"), i(void 0)
+                        }
+                    })
+                })
+            },
+            nt = function(t, e, i) {
+                var n = t + z()(e || {});
+                if (et[n]) return et[n];
+                var s = new T.a(function(s, a) {
+                    M.a.ajax({
+                        type: "post",
+                        url: t,
+                        data: z()(e),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        complete: function(e, a) {
+                            try {
+                                s(i ? i(e.responseJSON || e.responseText) : e.responseJSON || e.responseText)
+                            } catch (e) {
+                                console.error(e), console.error("解析地址:" + t + "出现异常,请联系作者"), s(void 0)
+                            } finally {
+                                delete et[n]
                             }
+                        }
                     })
-                }
-                return r.length > 1 && r.forEach(function(t, e) {
-                    "上一页" == t.text ? t.text = "<" : "下一页" == t.text && (t.text = ">")
-                }), e.empty(), e.remove(), s
+                });
+                return et[n] = s, s
             },
-            rt = function(t) {
-                var e = {},
-                    n = B()(t),
-                    i = n.find(".forFlow .entrylist"),
-                    a = i.find(".entrylistTitle").html().trim();
-                return e.categoryName = a, e.list = [], e.pageList = [], i.find(".entrylistItem").each(function(t, n) {
-                    var i = B()(n).find(".entrylistItemTitle"),
-                        a = J(i.attr("href")),
-                        o = i.html().trim(),
-                        s = B()(n).find(".entrylistPostSummary");
-                    s.find("a").remove();
-                    var c = s.children().html().trim(),
-                        r = B()(n).find(".entrylistItemPostDesc").text().replace(/  /g, ""),
-                        l = r.match(/\d+-\d+-\d+ \d+:\d+/)[0],
-                        u = (r = r.replace(l, "").replace("编辑", "")).split(" ");
-                    e.list.push({
-                        pageId: a,
-                        title: o,
-                        content: c,
-                        time: l,
-                        author: u[2].trim(),
-                        readNum: u[4].trim(),
-                        commentNum: u[7].trim()
+            st = {
+                loadMusicSong: function(t) {
+                    return new T.a(function(e, i) {
+                        M.a.get(g.musicApiUrl.replace(":type", "song").replace(":id", t).replace(":r", Math.random()), function(t) {
+                            e(t[0])
+                        })
                     })
-                }), n.empty(), n.remove(), e
-            },
-            lt = function(t) {
-                var e = [],
-                    n = B()(t);
-                e.title = n.find("#cb_post_title_url").html().trim(), e.body = n.find(".postBody").prop("outerHTML").trim().replace(new RegExp("_src", "g"), "src"), e.fontNum = n.find(".postBody").text().length;
-                var i = n.find(".postDesc");
-                return e.time = i.find("#post-date").html().trim(), e.mdUrl = i.find("a:contains('MD')").attr("href"), e.editUrl = i.find("a:contains('编辑')").attr("href"), e.addToWzId = i.find("a:contains('收藏')").attr("onclick").replace("AddToWz(", "").replace(")", ""), n.empty(), n.remove(), e
-            },
-            ut = function(t) {
-                var e = B()(t),
-                    n = {};
-                return n.fucus = "关注我" == (e.find("#green_channel_follow").html() || "").trim(), n.digg = "好文要顶" == (e.find("#green_channel_digg").html() || "").trim(), e.empty(), e.remove(), n
-            },
-            mt = function(t) {
-                return t.replace("<div>", "").replace("</div>", "").trim()
-            },
-            dt = function(t) {
-                var e = {},
-                    n = [],
-                    i = B()(t);
-                return e.current = (i.find(".current").html() || "").trim(), e.list = n, i.find(".feedbackItem").each(function(t, e) {
-                    var i, a = B()(e),
-                        o = a.find("[onclick^='return Reply']").length > 0,
-                        s = a.find("[onclick^='return Quote']").length > 0,
-                        c = a.find("[onclick^='return Del']").length > 0,
-                        r = a.find("[onclick^='return Get']").length > 0,
-                        l = (a.find("[id$='_avatar']").html() || "").trim(),
-                        u = a.find(".layer").prop("outerHTML"),
-                        m = a.find("[id^='comment_anchor']").prop("outerHTML"),
-                        d = a.find(".comment_date").html().trim(),
-                        p = a.find("[id^=a_comment_author_]").html(),
-                        f = a.find("[id^=a_comment_author_]").attr("href"),
-                        h = f.split("/").reverse()[1],
-                        g = a.find(".blog_comment_body").html().trim(),
-                        v = a.find(".comment_vote"),
-                        b = v.find("a").attr("onclick"),
-                        w = void 0,
-                        C = /voteComment\((\d*),/.exec(b);
-                    C && (w = C[1].trim());
-                    var y = B()(m);
-                    i = (y.attr("name") || "").trim(), y.remove();
-                    var I = u + m + "<input id='__anchor" + w + "' style='width:0px'/>",
-                        x = v.find("a").eq(0).html().trim().replace("(", "").replace(")", "").replace("支持", ""),
-                        A = v.find("a").eq(1).html().trim().replace("(", "").replace(")", "").replace("反对", "");
-                    l || (l = _("/img/body/defAvatar.jpg")), n.push({
-                        isReply: o,
-                        isQuote: s,
-                        isDel: c,
-                        isUpdate: r,
-                        layerAnchor: I,
-                        time: d,
-                        commenter: p,
-                        commenterUrl: f,
-                        commentBody: g,
-                        commentId: w,
-                        support: x,
-                        oppose: A,
-                        commenterId: h,
-                        avatar: l,
-                        commenterAnchor: i
+                },
+                loadMusicPlayList: function(t) {
+                    return new T.a(function(e, i) {
+                        M.a.get(g.musicApiUrl.replace(":type", "playlist").replace(":id", t).replace(":r", Math.random()), function(t) {
+                            e(t)
+                        })
                     })
-                }), i.empty(), i.remove(), e
-            },
-            pt = function(t) {
-                var e = {},
-                    n = B()(t),
-                    i = n.find(".user_avatar img").attr("_src");
-                return e.headUrl = i, n.empty(), n.remove(), e
-            },
-            ft = function(t) {
-                var e = {},
-                    n = void 0;
-                n = "string" == typeof t ? JSON.parse(t) : t, e.isSuccess = n.isSuccess, e.duration = n.duration;
-                var i = B()(W(n.message));
-                return e.commentBody = i.find(".bq_post_comment").prop("outerHTML").trim(), e.layerAnchor = i.find("a").prop("outerHTML").trim(), e.commenterId = i.find("a").attr("href").split("/").reverse()[1], e.commenter = i.find("a b").html().trim(), e.support = 0, e.oppose = 0, i.empty(), i.remove(), e
-            },
-            ht = function(t) {
-                return "string" == typeof t ? JSON.parse(t) : t
-            },
-            gt = function(t) {
-                return "string" == typeof t ? JSON.parse(t) : t
-            },
-            vt = function(t) {
-                return t
-            },
-            _t = function(t) {
-                return t
-            },
-            bt = function(t) {
-                return "string" == typeof t ? JSON.parse(t) : t
-            },
-            wt = function(t) {
-                return rt(t)
-            },
-            Ct = function(t) {
-                var e = {},
-                    n = B()(t),
-                    i = n.find("a:contains(«)");
-                i.length > 0 && (e.prePageId = J(i.attr("href")), e.preTitle = (i.next().html() || "").trim());
-                var a = n.find("a:contains(»)");
-                return a.length > 0 && (e.posPageId = J(a.attr("href")), e.posTitle = (a.next().html() || "").trim()), n.empty(), n.remove(), e
-            },
-            yt = function(t) {
-                var e = B()(t),
-                    n = "",
-                    i = e.find(".author_avatar");
-                return n = i.length > 0 ? i.attr("_src").trim() : "", e.empty(), e.remove(), n.replace("face", "avatar")
-            },
-            It = function(t) {
-                var e = [],
-                    n = B()(t);
-                return n.find("#taglist td").each(function(t, n) {
-                    var i = B()(n).find("a"),
-                        a = B()(n).find("span");
-                    i.length > 0 && a.length > 0 && e.push({
-                        name: i.html().trim(),
-                        id: Y(i.attr("href")),
-                        num: a.html().trim().replace(")", "").replace("(", "")
-                    })
-                }), n.empty(), n.remove(), e
-            },
-            xt = function(t) {
-                var e = B()(t),
-                    n = [],
-                    i = [],
-                    a = {
-                        current: -1
-                    };
-                return a.pageList = i, e.find(".avatar_list li a[title]").each(function(t, e) {
-                    var i = B()(e),
-                        a = (i.attr("href") || "").split("/").reverse()[0],
-                        o = (i.find(".avatar_name").html() || "").trim(),
-                        s = i.find(".avatar_pic img").attr("_src");
-                    n.push({
-                        account: a,
-                        username: o,
-                        avatar: s
-                    })
-                }), e.find(".pager >*").each(function(t, e) {
-                    var n = B()(e),
-                        o = (n.html() || "").trim(); - 1 == o.indexOf("&gt") && -1 == o.indexOf("&lt") && (i.push(o), n.hasClass("current") && (a.current = o))
-                }), e.empty(), e.remove(), {
-                    followList: n,
-                    pageInfo: a
-                }
-            },
-            At = function(t) {
-                var e = [],
-                    n = B()(t);
-                return n.find("#BlogPostCategory a").each(function(t, n) {
-                    var i = B()(n);
-                    e.push({
-                        id: J(i.attr("href")),
-                        text: i.html()
-                    })
-                }), n.empty(), n.remove(), e
-            },
-            kt = {
+                },
                 loadMusicSongExt: function() {
                     return new T.a(function(t, e) {
-                        var n = [];
-                        v.musicIds.forEach(function(t) {
-                            n.push(new T.a(function(e, n) {
-                                kt.loadMusicSong(t).then(function(t) {
+                        var i = [];
+                        g.musicIds.forEach(function(t) {
+                            i.push(new T.a(function(e, i) {
+                                st.loadMusicSong(t).then(function(t) {
                                     e(t)
                                 })
                             }))
-                        }), T.a.all(n).then(function(e) {
+                        }), T.a.all(i).then(function(e) {
                             t(e)
                         })
                     })
                 },
                 loadMusicPlayListExt: function() {
                     return new T.a(function(t, e) {
-                        kt.loadMusicPlayList(v.musicIds).then(function(e) {
+                        st.loadMusicPlayList(g.musicIds).then(function(e) {
                             t(e)
                         })
                     })
                 },
-                loadMusicSong: function(t) {
-                    return new T.a(function(e, n) {
-                        B.a.get(v.musicApiUrl.replace(":type", "song").replace(":id", t).replace(":r", Math.random()), function(t) {
-                            e(JSON.parse(t))
+                parseMusicInterface: function(t) {
+                    var e = [];
+                    return t.forEach(function(t, i) {
+                        t = t[0] || t, e.push({
+                            index: i,
+                            pic: t.pic,
+                            author: t.author,
+                            title: t.title,
+                            url: t.url,
+                            lrc: t.lrc
                         })
-                    })
-                },
-                loadMusicPlayList: function(t) {
-                    return new T.a(function(e, n) {
-                        B.a.get(v.musicApiUrl.replace(":type", "playlist").replace(":id", t).replace(":r", Math.random()), function(t) {
-                            e(JSON.parse(t))
-                        })
-                    })
+                    }), e
                 },
                 loadMusicList: function() {
                     var t = void 0;
-                    return t = Array.isArray(v.musicIds) ? kt.loadMusicSongExt() : kt.loadMusicPlayListExt(), new T.a(function(e, n) {
+                    return t = Array.isArray(g.musicIds) ? st.loadMusicSongExt() : st.loadMusicPlayListExt(), new T.a(function(e, i) {
                         t.then(function(t) {
-                            e(function(t) {
-                                var e = [];
-                                return t.forEach(function(t) {
-                                    t = t[0] || t, e.push({
-                                        cover: t.cover,
-                                        author: t.artist,
-                                        name: t.name,
-                                        url: t.url,
-                                        lrc: t.lrc
-                                    })
-                                }), e
-                            }(t))
+                            e(st.parseMusicInterface(t))
                         })
                     })
                 },
-                loadBlogSearch: function(t) {
-                    return Q("https://zzk.cnblogs.com/s/blogpost?w=" + encodeURI("blog:" + v.blogAcc + " " + t), Z)
+                loadArticleNum: function() {
+                    return it("/" + g.blogAcc + "/tag/", function(t) {
+                        return {
+                            pageNum: parseInt((t.find("#stats_post_count").html() || "").replace("随笔", "").replace("-", "").trim()),
+                            commentNum: parseInt((t.find("#stats-comment_count").html() || "").replace("评论", "").replace("-", "").trim())
+                        }
+                    })
                 },
-                loadArticleClassify: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/sidecolumn.aspx", K)
-                },
-                loadHotArticle: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/TopLists.aspx", tt)
-                },
-                loadArticleArchives: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/sidecolumn.aspx", et)
-                },
-                loadLastComment: function() {
+                loadBlogTalkShort: function() {
                     return new T.a(function(t, e) {
-                        G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/sidecolumn.aspx", nt).then(function(e) {
-                            0 == e.length && t([]);
-                            var n = $.groupBy(e, "owner"),
-                                i = [];
-                            I()(n).forEach(function(t) {
-                                var e = n[t][0];
-                                i.push(new T.a(function(t, n) {
-                                    kt.loadArticleComment(e.pageId, 0, e.anchor).then(function(n) {
-                                        t({
-                                            avatar: function(t, e) {
-                                                for (var n = 0; n < t.length; n++)
-                                                    if (t[n].commenterAnchor == e) return t[n].avatar
-                                            }(n.list, e.anchor),
-                                            owner: e.owner
-                                        })
-                                    })
-                                }))
-                            }), T.a.all(i).then(function(n) {
-                                n.forEach(function(t) {
-                                    e.forEach(function(e) {
-                                        t.owner == e.owner && (e.avatar = t.avatar)
-                                    })
-                                }), t(e)
+                        st.loadBlogTalk(-1).then(function(e) {
+                            e.cnList.length <= 5 ? t(e.cnList) : t(e.cnList.slice(5, e.cnList.length))
+                        })
+                    })
+                },
+                loadBlogTalk: function(t) {
+                    return new T.a(function(e, i) {
+                        st.loadMyCommentList(g.feelingBlogId, t).then(function(i) {
+                            e({
+                                cnList: i.list,
+                                count: i.size,
+                                pageNum: i.count,
+                                current: t
                             })
+                        })
+                    })
+                },
+                loadBlogPostInfo: function(t) {
+                    return it("/" + g.blogAcc + "/ajax/BlogPostInfo.aspx?blogId=" + g.blogId + "&postId=" + t + "&blogUserGuid=" + g.blogUserGuid, function(t) {
+                        var e = {};
+                        return e.fucus = "关注我" == (t.find("#green_channel_follow").html() || "").trim(), e.digg = "好文要顶" == (t.find("#green_channel_digg").html() || "").trim(), e
+                    })
+                },
+                loadAuthorHeadImg: function() {
+                    return it("/" + g.blogAcc + "/ajax/BlogPostInfo.aspx?blogId=" + g.blogId + "&postId=" + g.blogPostId + "&blogUserGuid=" + g.blogUserGuid, function(t) {
+                        var e = t.find(".author_avatar").attr("_src");
+                        return {
+                            face: e,
+                            avatar: e.replace("face", "avatar")
+                        }
+                    })
+                },
+                loadCloudLabel: function() {
+                    return it("/" + g.blogAcc + "/tag/", function(t) {
+                        return t.find("#taglist td a").map(function(t, e) {
+                            return {
+                                name: M()(e).html(),
+                                url: M()(e).attr("href")
+                            }
                         })
                     })
                 },
                 loadAuthorBlogInfo: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/news.aspx", it)
-                },
-                loadAuthorHeadImg: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/BlogPostInfo.aspx?blogId=" + v.blogId + "&postId=" + v.blogPostId + "&blogUserGuid=" + v.blogUserGuid, yt)
-                },
-                loadCloudLabel: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/tag/", It)
-                },
-                loadBlogTalk: function(t) {
-                    return Q("https://ing.cnblogs.com/u/" + v.blogAcc + "/" + t, ot)
-                },
-                loadArticleNum: function() {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/tag/", st)
-                },
-                loadAllArticle: function(t) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/default.html?page=" + t, ct)
-                },
-                loadTagArticle: function(t, e) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/tag/" + t + "/?page=" + e, at)
-                },
-                loadCategoryArticle: function(t, e) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/category/" + t + ".html?page=" + e, rt)
-                },
-                loadArchivesArticle: function(t, e) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/archive/" + t + ".html?page=" + e, wt)
-                },
-                loadArticle: function(t) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/p/" + t + ".html", lt)
-                },
-                loadBlogPostInfo: function(t) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/BlogPostInfo.aspx?blogId=" + v.blogId + "&postId=" + t + "&blogUserGuid=" + v.blogUserGuid, ut)
-                },
-                loadCommentCount: function(t) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/GetCommentCount.aspx?postId=" + t, mt)
-                },
-                loadViewCount: function(t) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/GetViewCount.aspx?postId=" + t, mt)
-                },
-                loadArticleComment: function(t, e, n) {
-                    var i = "https://www.cnblogs.com/" + v.blogAcc + "/ajax/GetComments.aspx?postId=" + t + "&pageIndex=" + e;
-                    return n && (i = i + "&anchorCommentId=" + n), G(i, dt)
-                },
-                loadArticleCommentInfoByAnchor: function(t, e) {
-                    var n = 50 / v.commentLength;
-                    return new T.a(function(i, a) {
-                        T.a.all([kt.loadCommentCount(t), kt.loadArticleComment(t, 0, e)]).then(function(t) {
-                            var a = t[0],
-                                o = t[1];
-                            if (a > v.commentLength) {
-                                var s = function(t, e) {
-                                        for (var n = 0; n < t.length; n++)
-                                            if (t[n].commenterAnchor == e) return n
-                                    }(o.list, e),
-                                    c = (o.current - 1) * n + Math.ceil(s / (v.commentLength - 1)),
-                                    r = (c - 1) % n * v.commentLength,
-                                    l = r + v.commentLength,
-                                    u = o.list.slice(r, l),
-                                    m = Math.ceil(a / v.commentLength);
-                                i({
-                                    size: m,
-                                    current: c,
-                                    list: u
-                                })
-                            } else i({
-                                size: 1,
-                                current: 1,
-                                list: o.list
-                            })
-                        })
+                    return it("/" + g.blogAcc + "/ajax/news.aspx", function(t) {
+                        var e = t.find("#profile_block a"),
+                            i = {};
+                        return i.username = (M()(e[0]).html() || "").trim(), i.age = (M()(e[1]).html() || "").trim(), i.follow = (M()(e[2]).html() || "").trim(), i.focus = (M()(e[3]).html() || "").trim(), i.guid = t.find("cjunscript:contains(getFollowStatus(')").html().replace("getFollowStatus('", "").replace("');", ""), i
                     })
-                },
-                loadArticelCommentInfo: function(t, e) {
-                    return new T.a(function(n, i) {
-                        kt.loadCommentCount(t).then(function(i) {
-                            var a = Math.ceil(i / v.commentLength);
-                            e = -1 == e ? a : e;
-                            var o = 50 / v.commentLength,
-                                s = Math.ceil(e / o),
-                                c = (e - 1) % o * v.commentLength,
-                                r = c + v.commentLength;
-                            kt.loadArticleComment(t, s).then(function(t) {
-                                if (i > v.commentLength) {
-                                    var o = a,
-                                        s = e,
-                                        l = t.list.slice(c, r).reverse();
-                                    n({
-                                        size: o,
-                                        current: s,
-                                        list: l
-                                    })
-                                } else n({
-                                    size: 1,
-                                    current: 1,
-                                    list: t.list.reverse()
-                                })
-                            })
-                        })
-                    })
-                },
-                loadUserInfo: function(t) {
-                    return G("https://home.cnblogs.com/u/" + t + "/", pt)
-                },
-                addComment: function(t, e, n) {
-                    return e = e || 0, X("https://www.cnblogs.com/" + v.blogAcc + "/ajax/PostComment/Add.aspx", {
-                        postId: parseInt(t),
-                        body: n,
-                        parentCommentId: parseInt(e)
-                    }, ft)
-                },
-                commentOperator: function(t, e, n) {
-                    return X("https://www.cnblogs.com/" + v.blogAcc + "/ajax/vote/comment", {
-                        commentId: parseInt(t),
-                        isAbandoned: !1,
-                        voteType: e
-                    }, n)
-                },
-                commentDigg: function(t) {
-                    return kt.commentOperator(t, "Digg", ht)
-                },
-                commentBury: function(t) {
-                    return kt.commentOperator(t, "Bury", ht)
-                },
-                blogpost: function(t) {
-                    return X("https://www.cnblogs.com/" + v.blogAcc + "/ajax/vote/blogpost", {
-                        postId: parseInt(t),
-                        isAbandoned: !1,
-                        voteType: "Digg"
-                    }, gt)
                 },
                 blogFollow: function() {
-                    return X("https://www.cnblogs.com/" + v.blogAcc + "/ajax/Follow/FollowBlogger.aspx", {
-                        blogUserGuid: v.blogUserGuid
-                    }, vt)
+                    return nt("/" + g.blogAcc + "/ajax/Follow/FollowBlogger.aspx", {
+                        blogUserGuid: g.blogUserGuid
+                    })
                 },
-                loadCommentBody: function(t) {
-                    return X("https://www.cnblogs.com/" + v.blogAcc + "/ajax/comment/GetCommentBody.aspx", {
-                        commentId: parseInt(t)
-                    }, _t)
+                getCommentBody: function(t) {
+                    return nt("/" + g.blogAcc + "/ajax/comment/GetCommentBody.aspx", {
+                        commentId: t
+                    })
+                },
+                addComment: function(t, e, i) {
+                    return t = parseInt(t), i = i ? parseInt(i) : 0, nt("/" + g.blogAcc + "/ajax/PostComment/Add.aspx", {
+                        postId: t,
+                        body: e,
+                        parentCommentId: i
+                    })
                 },
                 updateComment: function(t, e) {
-                    return X("https://www.cnblogs.com/" + v.blogAcc + "/ajax/PostComment/Update.aspx", {
-                        commentId: parseInt(t),
+                    return nt("/" + g.blogAcc + "/ajax/PostComment/Update.aspx", {
+                        commentId: t,
                         body: e
-                    }, bt)
+                    })
                 },
-                addToWz: function(t) {
-                    return window.AddToWz(t)
+                deleteComment: function(t, e, i) {
+                    return nt("/" + g.blogAcc + "/ajax/comment/DeleteComment.aspx", {
+                        commentId: parseInt(t),
+                        pageIndex: e,
+                        parentId: i
+                    })
                 },
-                shareToTsina: function() {
-                    return window.ShareToTsina ? window.ShareToTsina() : ""
+                diggComment: function(t, e, i) {
+                    return nt("/" + g.blogAcc + "/ajax/vote/comment", {
+                        commentId: parseInt(e),
+                        isAbandoned: i,
+                        postId: parseInt(t),
+                        voteType: "Digg"
+                    })
                 },
-                shareOnWechat: function() {
-                    return window.shareOnWechat ? window.shareOnWechat() : ""
+                buryComment: function(t, e, i) {
+                    return nt("/" + g.blogAcc + "/ajax/vote/comment", {
+                        commentId: parseInt(e),
+                        isAbandoned: i,
+                        postId: parseInt(t),
+                        voteType: "Bury"
+                    })
                 },
-                loadPrevnext: function(t) {
-                    return G("https://www.cnblogs.com/" + v.blogAcc + "/ajax/post/prevnext?postId=" + t, Ct)
+                voteBlogPost: function(t, e) {
+                    return nt("/" + g.blogAcc + "/ajax/vote/blogpost", {
+                        isAbandoned: e,
+                        postId: parseInt(t),
+                        voteType: "Digg"
+                    })
                 },
-                loadUserName: function() {
-                    return new T.a(function(t, e) {
-                        t({
-                            username: ""
+                buryBlogPost: function(t, e) {
+                    return nt("/" + g.blogAcc + "/ajax/vote/blogpost", {
+                        isAbandoned: e,
+                        postId: t,
+                        voteType: "Bury"
+                    })
+                },
+                loadMyCommentList: function(t, e) {
+                    return new T.a(function(i, n) {
+                        st.loadCommentCount(t).then(function(n) {
+                            var s = Math.ceil(n / 10);
+                            e = -1 == e ? s : e;
+                            var a = Math.ceil(e / 5),
+                                o = 10 * parseInt((e - 1) % 5),
+                                r = 10 * parseInt(e % 5);
+                            o > r && (r = o + 10), st.loadCommentList(t, a).then(function(t) {
+                                i({
+                                    list: t.slice(o, r),
+                                    count: s,
+                                    size: n,
+                                    current: e
+                                })
+                            })
                         })
                     })
                 },
-                loadFollowers: function(t) {
-                    var e = "https://home.cnblogs.com/u/" + v.blogAcc + "/relation/followers/";
-                    return t && t > 1 && (e += "?page=" + t), Q(e, xt)
+                loadCommentList: function(t, e) {
+                    return it("/" + g.blogAcc + "/ajax/GetComments.aspx?postId=" + t + "&pageIndex=" + e, function(t) {
+                        return t.find(".feedbackItem").map(function(t, e) {
+                            var i = {};
+                            return i.commentId = parseInt(M()(e).find("[class='layer']").attr("href").replace("#", "")), i.level = M()(e).find(".layer").html(), i.label = M()(e).find(".louzhu").html() || "", i.date = M()(e).find(".comment_date").html(), i.author = M()(e).find("[id^='a_comment_author_']").text(), i.authorUrl = M()(e).find("[id^='a_comment_author_']").attr("href"), i.desc = M()(e).find("[id^='comment_body_']").html().replace(new RegExp("_src", "g"), "src").trim(), i.digg = M()(e).find(".comment_digg").length >= 1 ? M()(e).find(".comment_digg").html().trim().replace("支持(", "").replace(")", "") : void 0, i.burry = M()(e).find(".comment_burry").length >= 1 ? M()(e).find(".comment_burry").html().trim().replace("反对(", "").replace(")", "") : void 0, i.avatarUrl = (M()(e).find("[id^='comment_'][id$='_avatar']").html() || "").trim(), i.avatarHdUrl = (M()(e).find("[id^='comment_'][id$='_avatar']").html() || "").trim().replace("face", "avatar"), i.replayBtn = M()(e).find("[onclick^='return ReplyComment']").length > 0, i.quoteBtn = M()(e).find("[onclick^='return QuoteComment']").length > 0, i.delBtn = M()(e).find("[onclick^='return DelComment']").length > 0, i.updateBtn = M()(e).find("[onclick^='return GetCommentBody']").length > 0, i.avatarUrl || i.avatarHdUrl || (i.avatarUrl = W(g.defHeadImg), i.avatarHdUrl = W(g.defHeadImg)), i
+                        })
+                    })
                 },
                 loadCategoriesTags: function(t) {
-                    var e = "https://www.cnblogs.com/" + v.blogAcc + "/ajax/CategoriesTags.aspx?blogId=" + v.blogId + "&postId=" + t;
-                    return G(e, At)
-                }
-            },
-            Tt = kt,
-            Lt = {
-                name: "BlogSearch",
-                created: function() {
-                    var t = this;
-                    $.registerUnClick("#blog_search", function() {
-                        t.isDialog = !1
+                    return it("/" + g.blogAcc + "/ajax/CategoriesTags.aspx?blogId=" + g.blogId + "&postId=" + t, function(t) {
+                        var e = {};
+                        return e.categorys = t.find("#BlogPostCategory a").map(function(t, e) {
+                            return {
+                                title: M()(e).html(),
+                                url: M()(e).attr("href")
+                            }
+                        }), e.tags = t.find("#EntryTag a").map(function(t, e) {
+                            return {
+                                title: M()(e).html(),
+                                url: M()(e).attr("href")
+                            }
+                        }), e
                     })
                 },
-                methods: {
-                    inputKeyword: function(t) {
-                        var e = this;
-                        this.isLoading = !0, Tt.loadBlogSearch(this.keyword).then(function(t) {
-                            e.isLoading = !1, t.cnList.length > 0 ? e.list = t.cnList : e.list = e.defList, e.isDialog = !0
-                        })
+                loadCommentCount: function(t) {
+                    return it("/" + g.blogAcc + "/ajax/GetCommentCount.aspx?postId=" + t, function(t) {
+                        return t.html()
+                    })
+                },
+                loadViewCount: function(t) {
+                    return it("/" + g.blogAcc + "/ajax/GetViewCount.aspx?postId=" + t, function(t) {
+                        return t.html()
+                    })
+                },
+                loadArticle: function(t) {
+                    return it("/" + g.blogAcc + "/p/" + t + ".html", function(e) {
+                        var i = {};
+                        return i.title = e.find("#topics").find("#cb_post_title_url span").html(), i.body = '<div class="postBody">' + e.find("#topics").find(".postBody").html().replace(new RegExp("_src", "g"), "src") + "</div>", i.time = e.find("#topics .postDesc #post-date").html(), i.editUrl = e.find("#topics .postDesc [rel='nofollow']").attr("href"), i.fontNum = e.find("#topics").find(".postBody").text().length, i.readNum = e.find("#post_view_count").text(), i.pageId = t, i
+                    })
+                },
+                loadTagList: function(t, e) {
+                    return it("/" + g.blogAcc + "/tag/" + t + "/?page=" + e, function(t) {
+                        return {
+                            title: (t.find(".PostListTitle").html() || "").trim(),
+                            list: t.find("#mainContent .PostList").map(function(t, e) {
+                                var i = {};
+                                i.title = M()(e).find("[id*='TitleUrl'] span").html().trim(), i.url = M()(e).find("[id*='TitleUrl']").attr("href").trim();
+                                var n = M()(e).find(".postDesc2").text().trim().split("\n")[0].split(" ");
+                                return i.time = n[1] + " " + n[2], i.readNum = parseInt(M()(e).find(".postDesc2 .post-view-count").text().replace("阅读:", "").replace(")", "")), i.commentNum = parseInt(M()(e).find(".postDesc2 .post-comment-count").text().replace("评论:", "").replace(")", "")), i.recommendNum = parseInt(M()(e).find(".postDesc2 .post-digg-count").text().replace("推荐:", "").replace(")", "")), i.editUrl = M()(e).find(".postDesc2 a").attr("href").trim(), i
+                            })
+                        }
+                    })
+                },
+                loadCommonListParser: function(t) {
+                    var e = (t.find(".entrylistTitle").html() || "").trim();
+                    return {
+                        list: t.find("#mainContent .entrylistItem").map(function(t, e) {
+                            var i = {};
+                            return i.title = M()(e).find(".entrylistItemTitle span").html().trim(), i.url = M()(e).find(".entrylistItemTitle").attr("href").trim(), i.desc = M()(e).find(".c_b_p_desc").html().trim(), i.time = M()(e).find(".entrylistItemPostDesc [title='permalink']").html().trim(), i.readNum = parseInt(M()(e).find(".entrylistItemPostDesc .post-view-count").text().replace("阅读(", "").replace(")", "")), i.commentNum = parseInt(M()(e).find(".entrylistItemPostDesc .post-comment-count").text().replace("评论(", "").replace(")", "")), i.recommendNum = parseInt(M()(e).find(".entrylistItemPostDesc .post-digg-count").text().replace("推荐(", "").replace(")", "")), i.editUrl = M()(e).find(".entrylistItemPostDesc [rel='nofollow']").attr("href").trim(), i
+                        }),
+                        title: e
                     }
+                },
+                loadArchiveList: function(t, e) {
+                    return it("/" + g.blogAcc + "/archive/" + t + ".html?page=" + e, function(t) {
+                        return st.loadCommonListParser(t)
+                    })
+                },
+                loadCategoryList: function(t, e) {
+                    return it("/" + g.blogAcc + "/category/" + t + ".html?page=" + e, function(t) {
+                        return st.loadCommonListParser(t)
+                    })
+                },
+                loadPrevnext: function(t) {
+                    return it("/" + g.blogAcc + "/ajax/post/prevnext?postId=" + t, function(t) {
+                        var e = t.find(".p_n_p_prefix:contains(«)").attr("href"),
+                            i = t.find(".p_n_p_prefix:contains(»)").attr("href"),
+                            n = void 0,
+                            s = void 0;
+                        if (e) {
+                            var a = e.split("/");
+                            n = a[a.length - 1].replace(".html", "")
+                        }
+                        if (i) {
+                            var o = i.split("/");
+                            s = o[o.length - 1].replace(".html", "")
+                        }
+                        return {
+                            preId: n,
+                            posId: s
+                        }
+                    })
+                },
+                loadDefaultCategoryList: function(t) {
+                    return it("/" + g.blogAcc + "/default.html?page=" + t, function(t) {
+                        var e = function(t) {
+                                return parseInt((t.split("page=")[1] || "").trim())
+                            },
+                            i = [];
+                        return {
+                            list: t.find("#mainContent .day").map(function(t, e) {
+                                var i = {};
+                                i.archiveTime = M()(e).find(".dayTitle a").html().trim(), i.title = M()(e).find(".postTitle a span").text().trim(), i.url = M()(e).find(".postTitle a").attr("href");
+                                var n = M()(e).find(".postCon .c_b_p_desc");
+                                n.find("a").remove(), i.desc = n.html().trim(), i.time = M()(e).find(".postDesc").html().split("\n")[0].split("@")[1].trim(), i.readNum = parseInt(M()(e).find(".postDesc").text().split("\n")[2].replace("阅读(", "").replace(")", "").trim()), i.commentNum = parseInt(M()(e).find(".postDesc").text().split("\n")[3].replace("评论(", "").replace(")", "")), i.recommendNum = parseInt(M()(e).find(".postDesc").text().split("\n")[4].replace("推荐(", "").replace(")", "")), i.editUrl = M()(e).find(".postDesc a").attr("href").trim();
+                                var s = i.url.split("/");
+                                return i.pageId = s[s.length - 1].replace(".html", ""), i
+                            }),
+                            title: "",
+                            pageList: i = (i = t.find("#nav_next_page a").map(function(t, i) {
+                                i = M()(i);
+                                return {
+                                    num: e(i.attr("href")),
+                                    text: i.html().trim(),
+                                    focus: !0
+                                }
+                            })).length > 0 ? i : t.find("#homepage_top_pager .pager").text().split("\n").map(function(t) {
+                                return t.trim()
+                            }).filter(function(t) {
+                                return "" != t
+                            }).map(function(i) {
+                                var n = t.find("#homepage_top_pager .pager").find("a:contains(" + i + ")");
+                                return {
+                                    num: n.length > 0 ? e(n.attr("href")) : i,
+                                    text: i,
+                                    focus: 0 == n.length
+                                }
+                            })
+                        }
+                    })
+                },
+                loadSideColumn: function() {
+                    return it("/" + g.blogAcc + "/ajax/sidecolumn.aspx", function(t) {
+                        var e = function(t, e) {
+                                return {
+                                    url: M()(e).attr("href"),
+                                    title: M()(e).text()
+                                }
+                            },
+                            i = t.find(".catListLink li a").map(e),
+                            n = t.find(".catListEssay li a").map(e),
+                            s = t.find(".catListTag li a").map(function(t, i) {
+                                var n = e(0, i),
+                                    s = M()(i).parent().remove("a").text().trim().split("(");
+                                return s[1] && (n.num = parseInt(s[1].replace(")", ""))), n
+                            }),
+                            a = {};
+                        a.liScore = t.find("liScore").text().trim(), a.liRank = t.find("liRank").text().trim();
+                        var o = function(t, i) {
+                                var n = e(0, i),
+                                    s = n.title.split("(");
+                                return n.title = s[0], n.num = parseInt(s[1].replace(")", "")), n
+                            },
+                            r = t.find(".catListPostCategory li a").map(o),
+                            c = t.find(".catListPostArchive li a").map(o),
+                            l = {},
+                            u = [];
+                        return t.find(".catListComment li").each(function(t, e) {
+                            var i = M()(e);
+                            i.hasClass("recent_comment_title") ? (l.url = i.find("a").attr("href"), l.title = i.find("a").text()) : i.hasClass("recent_comment_body") ? l.body = i.text() : i.hasClass("recent_comment_author") && (l.committer = i.text().replace("--", ""), u.push(l), l = {})
+                        }), {
+                            catListLink: i,
+                            catListEssay: n,
+                            catListTag: s,
+                            catListBlogRank: a,
+                            catListPostCategory: r,
+                            catListPostArchive: c,
+                            catListComment: u
+                        }
+                    })
+                },
+                loadTopLists: function() {
+                    return it("/" + g.blogAcc + "/ajax/TopLists.aspx", function(t) {
+                        var e = function(t, e) {
+                            var i = M()(e).attr("href"),
+                                n = M()(e).text().trim().split("(");
+                            return {
+                                url: i,
+                                title: n[0],
+                                num: parseInt(n[1].replace(")", "").trim())
+                            }
+                        };
+                        return {
+                            topViewPostsBlock: t.find("#TopViewPostsBlock li a").map(e),
+                            topFeedbackPostsBlock: t.find("#TopFeedbackPostsBlock li a").map(e),
+                            topDiggPostsBlock: t.find("#TopDiggPostsBlock li a").map(e)
+                        }
+                    })
+                },
+                loadCommitterFaceUrl: function(t, e) {
+                    if (tt.committerName = tt.committerName || {}, tt.committerName[e]) return new T.a(function(t, i) {
+                        t(tt.committerName[e])
+                    });
+                    var i = t.split("/"),
+                        n = i[i.length - 1].replace(".html", "");
+                    return it("/" + g.blogAcc + "/ajax/GetComments.aspx?postId=" + n + "&pageIndex=0", function(t) {
+                        return t.find(".feedbackItem").each(function(t, e) {
+                            var i = (M()(e).find("[id^='a_comment_author_']").html() || "").trim(),
+                                n = (M()(e).find("[id$='_avatar']").html() || "").trim();
+                            i && n && (tt.committerName[i] = n)
+                        }), tt.committerName[e]
+                    })
+                }
+            },
+            at = st,
+            ot = {
+                name: "MusicPlayer",
+                components: {
+                    PopList: B
+                },
+                created: function() {
+                    var t = this;
+                    this.audio.ontimeupdate = this.musicUpdate, this.audio.onerror = this.musicError, this.audio.oncanplay = this.musicCanplay, this.audio.onended = this.musicEnded, at.loadMusicList().then(function(e) {
+                        t.playList = e, t.musicState(), t.musicState()
+                    }), q.registerUnClick("#music_player", function() {
+                        t.showPlay = !1
+                    })
                 },
                 data: function() {
                     return {
-                        isLoading: !1,
-                        keyword: "",
-                        isDialog: !1,
-                        defList: [{
+                        delayTime: 0,
+                        audio: new Audio,
+                        isPlay: !1,
+                        playing: {
+                            index: 0,
+                            title: "音乐播放器",
+                            name: "",
                             url: "",
-                            title: "",
-                            content: "查无数据"
-                        }],
-                        list: [{
-                            url: "",
-                            title: "",
-                            content: "查无数据"
-                        }]
+                            pic: ""
+                        },
+                        playList: [],
+                        showPlay: !1,
+                        cssStyle: {
+                            maxTitleWidth: 130,
+                            titleWidth: 130,
+                            barMaxWidth: 140,
+                            barWidth: 0,
+                            fontSize: "9"
+                        }
+                    }
+                },
+                computed: {
+                    getPicImgStyle: function() {
+                        if (this.playing.pic) return {
+                            background: 'url("' + this.playing.pic + '") no-repeat'
+                        }
+                    },
+                    musicList: function() {
+                        return this.playList.map(function(t, e) {
+                            return {
+                                key: t.title,
+                                key2: t.author,
+                                value: t,
+                                index: e
+                            }
+                        })
+                    }
+                },
+                methods: {
+                    musicEnded: function(t) {
+                        q.showInfoMsg("播放结束,自动切换下一首"), this.musicPlayPos()
+                    },
+                    musicUpdate: function(t) {
+                        this.cssStyle.barWidth = (this.audio.currentTime / this.audio.duration * this.cssStyle.barMaxWidth).toFixed(0)
+                    },
+                    musicError: function(t) {
+                        var e = this;
+                        q.showInfoMsg("播放失败,5秒后自动切换下一首"), this.delayTime = setTimeout(function() {
+                            e.musicPlayPos()
+                        }, 5e3)
+                    },
+                    musicCanplay: function(t) {},
+                    musicState: function() {
+                        this.playing.url ? (this.isPlay = !this.isPlay, this.isPlay ? this.audio.play() : this.audio.pause()) : this.musicPlayPos()
+                    },
+                    musicPlayPre: function() {
+                        0 == this.playing.index ? this.musicPlay(this.playList[this.playList.length - 1]) : this.musicPlay(this.playList[this.playing.index - 1])
+                    },
+                    musicPlayPos: function() {
+                        this.playing.index == this.playList.length - 1 ? this.musicPlay(this.playList[0]) : this.musicPlay(this.playList[this.playing.index + 1])
+                    },
+                    musicSetInfo: function(t) {
+                        this.playing.url = t.url, this.playing.index = t.index, this.playing.pic = t.pic, this.playing.title = t.title + "[" + t.author + "]";
+                        var e = q.getTextWidth(this.playing.name, this.cssStyle.fontSize);
+                        e > this.cssStyle.maxTitleWidth ? this.cssStyle.titleWidth = e : this.cssStyle.titleWidth = this.cssStyle.maxTitleWidth, this.$refs.popList.setFlag(t.index)
+                    },
+                    musicPlay: function(t) {
+                        try {
+                            this.audio.src = t.url, this.audio.play(), this.musicSetInfo(t), this.isPlay = !0, this.delayTime > 0 && (clearTimeout(this.delayTime), this.delayTime = 0)
+                        } catch (t) {
+                            this.musicError()
+                        }
+                    },
+                    clickItem: function(t) {
+                        this.musicPlay(t)
                     }
                 }
             },
-            Bt = {
+            rt = {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
-                            id: "blog_search"
+                            id: "music_player"
                         }
-                    }, [n("div", {
-                        staticClass: "search-input-wrap"
-                    }, [n("input", {
-                        directives: [{
-                            name: "model",
-                            rawName: "v-model",
-                            value: t.keyword,
-                            expression: "keyword"
-                        }],
-                        staticClass: "input-wrap",
-                        attrs: {
-                            type: "text",
-                            placeholder: "输入关键字查询..."
+                    }, [i("div", {
+                        staticClass: "music-player-out-wrap"
+                    }, [i("div", {
+                        staticClass: "music-player-wrap head-back-color"
+                    }, [i("div", {
+                        staticClass: "music-img-wrap",
+                        class: {
+                            Rotation: t.isPlay
+                        }
+                    }, [i("div", {
+                        staticClass: "div-img head-music-pic",
+                        style: t.getPicImgStyle
+                    })]), t._v(" "), i("div", {
+                        staticClass: "music-right-wrap"
+                    }, [i("div", {
+                        staticClass: "music-ope-wrap"
+                    }, [i("div", {
+                        staticClass: "music-title",
+                        style: {
+                            width: t.cssStyle.titleWidth + "px"
                         },
-                        domProps: {
-                            value: t.keyword
+                        attrs: {
+                            title: t.playing.title
+                        }
+                    }, [i("div", {
+                        staticClass: "music-display-info sing-ellipsis",
+                        class: {
+                            marquee: t.isPlay
+                        },
+                        style: {
+                            width: t.cssStyle.titleWidth - 5 + "px"
+                        }
+                    }, [t._v(t._s(t.playing.title) + "\n            ")]), t._v(" "), i("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.isPlay,
+                            expression: "isPlay"
+                        }],
+                        staticClass: "music-display-info sing-ellipsis",
+                        class: {
+                            marqueeT: t.isPlay
+                        },
+                        style: {
+                            width: t.cssStyle.titleWidth - 5 + "px"
+                        }
+                    }, [t._v(t._s(t.playing.title) + "\n            ")])]), t._v(" "), i("div", {
+                        staticClass: "music-ope-bar"
+                    }, [i("span", {
+                        staticClass: "pre",
+                        on: {
+                            click: t.musicPlayPre
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont iconskip-previous"
+                    })]), t._v(" "), i("span", {
+                        staticClass: "play",
+                        on: {
+                            click: t.musicState
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont ",
+                        class: {
+                            timeout: !t.isPlay, play1: t.isPlay
+                        }
+                    })]), t._v(" "), i("span", {
+                        staticClass: "pos",
+                        on: {
+                            click: t.musicPlayPos
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont iconskip-next"
+                    })])])]), t._v(" "), t._m(0), t._v(" "), i("div", {
+                        staticClass: "music-progress",
+                        style: {
+                            width: t.cssStyle.barWidth + "px"
+                        }
+                    })]), t._v(" "), i("div", {
+                        staticClass: "music-list-wrap",
+                        on: {
+                            click: function(e) {
+                                t.showPlay = !t.showPlay
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont headphones"
+                    })])]), t._v(" "), i("div", {
+                        staticClass: "music-player-shade head-back-color"
+                    }), t._v(" "), i("transition", {
+                        attrs: {
+                            name: "trans"
+                        }
+                    }, [i("pop-list", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.showPlay,
+                            expression: "showPlay"
+                        }],
+                        ref: "popList",
+                        staticClass: "pop-list",
+                        attrs: {
+                            "pop-list": t.musicList,
+                            "pop-title": "音乐列表",
+                            flag: !0
                         },
                         on: {
-                            input: [function(e) {
-                                e.target.composing || (t.keyword = e.target.value)
-                            }, t.inputKeyword],
-                            propertychange: t.inputKeyword,
-                            click: function(e) {
-                                t.isDialog = !0
-                            }
+                            clickItem: t.clickItem
                         }
-                    }), t._v(" "), n("div", {
-                        staticClass: "input-icon"
-                    }, [n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: !t.isLoading,
-                            expression: "!isLoading"
-                        }],
-                        staticClass: "icon iconfont -search"
-                    }), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: t.isLoading,
-                            expression: "isLoading"
-                        }],
-                        staticClass: "loading-clz"
-                    }, [t._m(0)])])]), t._v(" "), n("div", {
-                        staticClass: "search-dialog-wrap small-base-scroll ",
-                        class: {
-                            "search-dialog-show": t.isDialog, "search-dialog-hide": !t.isDialog
-                        }
-                    }, t._l(t.list, function(e) {
-                        return n("div", {
-                            staticClass: "search-item"
-                        }, [e.pageId ? n("router-link", {
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId,
-                                tag: "div"
-                            }
-                        }, [n("div", {
-                            staticClass: "search-title ellipsis-title",
-                            domProps: {
-                                innerHTML: t._s(e.title)
-                            }
-                        }, [t._v(t._s(e.title))]), t._v(" "), n("div", {
-                            staticClass: "search-content ellipsis-content",
-                            domProps: {
-                                innerHTML: t._s(e.content)
-                            }
-                        }, [t._v(t._s(e.content))])]) : t._e(), t._v(" "), e.pageId ? t._e() : n("div", [n("div", {
-                            staticClass: "search-title ellipsis-title",
-                            domProps: {
-                                innerHTML: t._s(e.title)
-                            }
-                        }, [t._v(t._s(e.title))]), t._v(" "), n("div", {
-                            staticClass: "search-content ellipsis-content",
-                            domProps: {
-                                innerHTML: t._s(e.content)
-                            }
-                        }, [t._v(t._s(e.content))])])], 1)
-                    }), 0)])
+                    })], 1)], 1)])
                 },
                 staticRenderFns: [function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
                     return e("div", {
-                        staticClass: "load5"
-                    }, [e("div", {
-                        staticClass: "loader"
-                    }, [this._v("Loading...")])])
+                        staticClass: "music-volume-wrap"
+                    }, [e("span", {
+                        staticClass: "icon iconfont volume-"
+                    })])
                 }]
             };
-        var Nt = n("VU/8")(Lt, Bt, !1, function(t) {
-                n("iAH+")
+        var ct = i("VU/8")(ot, rt, !1, function(t) {
+                i("NJOw")
             }, null, null).exports,
-            Pt = {
-                name: "BlogMusic",
-                created: function() {
+            lt = {
+                data: function() {
+                    return {
+                        showPop: !1,
+                        beerList: []
+                    }
+                },
+                name: "BeerList",
+                components: {
+                    PopList: B
+                },
+                mounted: function() {
+                    var t = this;
+                    q.registerUnClick("#beer_list", function() {
+                        t.showPop = !1
+                    }), at.loadBlogTalkShort().then(function(e) {
+                        e.each(function(e, i) {
+                            t.beerList.push({
+                                key: i.desc,
+                                val: i
+                            })
+                        })
+                    })
+                }
+            },
+            ut = {
+                render: function() {
                     var t = this,
-                        e = this;
-                    this.audio.ontimeupdate = this.musicUpdate, this.audio.onerror = this.musicError, this.audio.oncanplay = this.musicCanplay, this.audio.onended = this.musicEnded, Tt.loadMusicList().then(function(e) {
-                        t.musicList = e, e.length > 0 && t.musicSetInfo(e[0], -1)
-                    }), Tt.loadBlogTalk(1).then(function(t) {
-                        t && (e.feelList = t.cnList.slice(0, 3))
-                    }), Tt.loadUserName().then(function(t) {
-                        e.username = t.username
-                    }), $.registerUnClick("#blog_music", function() {
-                        e.musicDialog = !1, e.feelDialog = !1
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        staticClass: "head-back-color",
+                        attrs: {
+                            id: "beer_list"
+                        }
+                    }, [i("div", {
+                        staticClass: "beer-list-wrap"
+                    }, [i("div", {
+                        staticClass: "beer-wrap head-back-color",
+                        on: {
+                            click: function(e) {
+                                t.showPop = !t.showPop
+                            }
+                        }
+                    }, [t._m(0)]), t._v(" "), i("transition", {
+                        attrs: {
+                            name: "trans"
+                        }
+                    }, [i("pop-list", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.showPop,
+                            expression: "showPop"
+                        }],
+                        staticClass: "pop-list",
+                        attrs: {
+                            "pop-list": t.beerList,
+                            "pop-title": "闲言碎语"
+                        }
+                    })], 1)], 1)])
+                },
+                staticRenderFns: [function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        staticClass: "beer-inner-wrap"
+                    }, [e("span", {
+                        staticClass: "icon iconfont iconmessage-alt"
+                    })])
+                }]
+            };
+        var dt = i("VU/8")(lt, ut, !1, function(t) {
+                i("hISp")
+            }, null, null).exports,
+            mt = {
+                name: "SetBtn",
+                methods: {
+                    openManagerView: function() {
+                        window.open(g.manPage)
+                    }
+                }
+            },
+            pt = {
+                render: function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        staticClass: "head-back-color",
+                        attrs: {
+                            id: "set_btn"
+                        }
+                    }, [e("div", {
+                        staticClass: "set-btn-out-wrap"
+                    }, [e("div", {
+                        staticClass: "set-btn-wrap",
+                        on: {
+                            click: this.openManagerView
+                        }
+                    }, [e("span", [this._v("设置")]), this._v(" "), e("span", {
+                        staticClass: "icon iconfont angeldown1"
+                    })])])])
+                },
+                staticRenderFns: []
+            };
+        var ht = i("VU/8")(mt, pt, !1, function(t) {
+                i("bQOS")
+            }, null, null).exports,
+            ft = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement;
+                    return (t._self._c || e)("div", {
+                        attrs: {
+                            id: "min_set_btn"
+                        },
+                        on: {
+                            click: function(e) {
+                                return t.$emit("clickSet")
+                            }
+                        }
+                    }, [t._m(0)])
+                },
+                staticRenderFns: [function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", [e("span", {
+                        staticClass: "icon iconfont shezhi"
+                    })])
+                }]
+            };
+        var gt = i("VU/8")({
+                name: "MinSetBtn"
+            }, ft, !1, function(t) {
+                i("IRy7")
+            }, null, null).exports,
+            vt = {
+                name: "BrandTitle",
+                data: function() {
+                    return {
+                        blogName: g.blogName + "博客"
+                    }
+                }
+            },
+            _t = {
+                render: function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        staticClass: "head-back-color",
+                        attrs: {
+                            id: "brand_title"
+                        }
+                    }, [e("router-link", {
+                        staticClass: "brand-title-wrap",
+                        attrs: {
+                            to: "/",
+                            tag: "div"
+                        }
+                    }, [this._v(this._s(this.blogName))])], 1)
+                },
+                staticRenderFns: []
+            };
+        var bt = {
+                name: "BlogHeadBar",
+                data: function() {
+                    return {
+                        minShowSet: !1
+                    }
+                },
+                mounted: function() {
+                    var t = this;
+
+                    function e() {
+                        M()(t.$refs.blogHeadBar).css("overflow", M()(window).width() < 900 ? "hidden" : ""), t.minShowSet = !1
+                    }
+                    e(), M()(window).resize(function(t) {
+                        e()
+                    }), this.$refs.blogHeadBar.addEventListener("transitionstart", function(t) {
+                        M()(t.target).css("overflow", "hidden")
+                    }), this.$refs.blogHeadBar.addEventListener("transitionend", function(t) {
+                        "250" == M()(t.target).height() && M()(t.target).css("overflow", "")
                     })
                 },
-                methods: {
-                    openUser: function() {
-                        window.open(v.manPage)
-                    },
-                    musicEnded: function(t) {
-                        $.showInfoMsg("播放结束,自动切换下一首"), this.musicPlayPos()
-                    },
-                    musicUpdate: function(t) {
-                        this.barWidth = (this.audio.currentTime / this.audio.duration * this.barMaxWidth).toFixed(0)
-                    },
-                    musicError: function(t) {
-                        $.showInfoMsg("播放失败,自动切换下一首"), this.musicPlayPos()
-                    },
-                    musicCanplay: function(t) {},
-                    musicSetInfo: function(t, e) {
-                        this.playing.index = e, this.playing.img = t.cover, this.playing.name = t.name + "[" + t.author + "]";
-                        var n = $.getTextWidth(this.playing.name, this.fontSize);
-                        n > this.maxTitleWidth ? this.titleWidth = n : this.titleWidth = this.maxTitleWidth
-                    },
-                    musicPlay: function(t, e) {
-                        this.audio.src = t.url, this.audio.play(), this.playing.url = t.url, this.musicSetInfo(t, e), this.isPlay = !0
-                    },
-                    musicState: function() {
-                        this.playing.url ? (this.isPlay = !this.isPlay, this.isPlay ? this.audio.play() : this.audio.pause()) : this.musicPlayPos()
-                    },
-                    musicPlayPre: function() {
-                        var t = void 0,
-                            e = void 0;
-                        0 == this.playing.index ? (e = this.musicList - 1, t = this.musicList[e]) : (e = this.playing.index - 1, t = this.musicList[e]), this.musicPlay(t, e)
-                    },
-                    musicPlayPos: function() {
-                        var t = void 0,
-                            e = void 0;
-                        this.playing.index == this.musicList.length - 1 ? (e = 0, t = this.musicList[e]) : (e = this.playing.index + 1, t = this.musicList[e]), this.musicPlay(t, e)
-                    }
+                computed: {},
+                components: {
+                    BrandTitle: i("VU/8")(vt, _t, !1, function(t) {
+                        i("40ZC")
+                    }, null, null).exports,
+                    MinSetBtn: gt,
+                    SetBtn: ht,
+                    BeerList: dt,
+                    MusicPlayer: ct,
+                    KeywordSearcher: D,
+                    BrandName: x
                 },
-                watch: {
-                    musicDialog: function(t, e) {
-                        t && (this.feelDialog = !1)
-                    },
-                    feelDialog: function(t, e) {
-                        t && (this.musicDialog = !1)
+                methods: {
+                    switchSetView: function() {
+                        var t = this;
+                        setTimeout(function() {
+                            t.minShowSet = !t.minShowSet
+                        }, this.minShowSet && M()("#blog_head_bar .pop-list").is(":visible") ? 300 : 0)
                     }
+                }
+            },
+            Ct = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        ref: "blogHeadBar",
+                        staticClass: "head-back-color",
+                        style: {
+                            height: t.minShowSet ? "250px" : "50px"
+                        },
+                        attrs: {
+                            id: "blog_head_bar"
+                        }
+                    }, [i("brand-title", {
+                        staticClass: "brand-title"
+                    }), t._v(" "), i("brand-name"), t._v(" "), i("min-set-btn", {
+                        staticClass: "min-set-btn",
+                        on: {
+                            clickSet: t.switchSetView
+                        }
+                    }), t._v(" "), i("keyword-searcher", {
+                        staticClass: "keyword-searcher"
+                    }), t._v(" "), i("div", {
+                        staticClass: "float-right-wrap"
+                    }, [i("music-player", {
+                        staticClass: "music-player"
+                    }), t._v(" "), i("beer-list", {
+                        staticClass: "beer-list"
+                    }), t._v(" "), i("set-btn", {
+                        staticClass: "set-btn"
+                    })], 1)], 1)
+                },
+                staticRenderFns: []
+            };
+        var yt = i("VU/8")(bt, Ct, !1, function(t) {
+                i("x2cN")
+            }, null, null).exports,
+            wt = {
+                name: "AvatarArea",
+                components: {},
+                created: function() {
+                    var t = this;
+                    at.loadAuthorHeadImg().then(function(e) {
+                        t.avatarObj = e
+                    })
                 },
                 data: function() {
                     return {
-                        audio: new Audio,
-                        musicDialog: !1,
-                        feelDialog: !1,
-                        isPlay: !1,
-                        maxTitleWidth: 144,
-                        titleWidth: 144,
-                        barMaxWidth: 145,
-                        barWidth: 0,
-                        fontSize: "9",
-                        playing: {
-                            index: -1,
-                            name: "音乐播放器",
-                            url: "",
-                            img: _("/img/body/music_play.png")
-                        },
-                        musicList: [],
-                        feelList: [],
-                        username: ""
+                        avatarSign: g.avatarSign,
+                        avatarName: g.blogName,
+                        avatarObj: {
+                            face: "",
+                            avatar: ""
+                        }
+                    }
+                },
+                methods: {
+                    showDefaultImg: function(t) {
+                        this.isInitError || (this.isInitError = !0)
+                    },
+                    foucsMe: function() {
+                        at.blogFollow().then(function(t) {
+                            q.showInfoMsg(t)
+                        })
                     }
                 }
             },
@@ -1369,252 +1685,342 @@ webpackJsonp([1], {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
+                        staticClass: "panel-avatar-dec",
                         attrs: {
-                            id: "blog_music"
+                            id: "avatar_area"
                         }
-                    }, [n("div", {
-                        staticClass: "music-top-view"
-                    }, [n("div", {
-                        staticClass: "music-view"
-                    }, [n("div", {
-                        staticClass: "music-img-wrap",
-                        class: {
-                            Rotation: t.isPlay
+                    }, [i("div", {
+                        staticClass: "avatar-area-wrap",
+                        on: {
+                            click: t.foucsMe
                         }
-                    }, [n("img", {
+                    }, [i("router-link", {
                         attrs: {
-                            src: t.playing.img
+                            to: t.VUE_CTX + "/author",
+                            tag: "img",
+                            src: t.avatarObj.avatar,
+                            onerror: "this.src='" + t.avatarObj.face + "';this.onerror=null;"
                         }
-                    })]), t._v(" "), n("div", {
-                        staticClass: "music-ope-wrap"
-                    }, [n("div", {
-                        staticClass: "music-head"
-                    }, [n("div", {
-                        staticClass: "music-head-wrap",
-                        style: {
-                            width: t.titleWidth + "px"
-                        }
-                    }, [n("div", {
-                        staticClass: " music-display-info",
-                        class: {
-                            marquee: t.isPlay
-                        }
-                    }, [t._v(t._s(t.playing.name))]), t._v(" "), n("div", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: t.isPlay,
-                            expression: "isPlay"
-                        }],
-                        staticClass: " music-display-info",
-                        class: {
-                            marqueeT: t.isPlay
-                        }
-                    }, [t._v(t._s(t.playing.name))])])]), t._v(" "), n("div", {
-                        staticClass: "music-ope-btn"
-                    }, [n("div", {
-                        staticClass: "music-left"
-                    }, [n("span", {
-                        staticClass: "music-pre",
-                        on: {
-                            click: t.musicPlayPre
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconskip-previous"
-                    })]), t._v(" "), n("span", {
-                        staticClass: "music-play",
-                        on: {
-                            click: t.musicState
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont ",
-                        class: {
-                            timeout: !t.isPlay, play1: t.isPlay
-                        }
-                    })]), t._v(" "), n("span", {
-                        staticClass: "music-pos",
-                        on: {
-                            click: t.musicPlayPos
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconskip-next"
-                    })])]), t._v(" "), t._m(0)]), t._v(" "), n("div", {
-                        staticClass: "music-bottom-bar",
-                        style: {
-                            width: t.barWidth + "px"
-                        }
-                    })])]), t._v(" "), n("div", {
-                        staticClass: "music-list-btn",
-                        on: {
-                            click: function(e) {
-                                t.musicDialog = !t.musicDialog
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont headphones"
-                    })]), t._v(" "), n("div", {
-                        staticClass: "music-beer-btn",
-                        on: {
-                            click: function(e) {
-                                t.feelDialog = !t.feelDialog
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconmessage-alt"
-                    }), t._v(" "), n("span", {
-                        staticClass: "bell-font"
-                    }, [t._v("闲言碎语")])]), t._v(" "), n("div", {
-                        staticClass: "music-login-btn",
-                        on: {
-                            click: t.openUser
-                        }
-                    }, [n("span", {
-                        staticClass: "music-login-name-wrap",
-                        attrs: {
-                            title: t.username ? t.username : "设置"
-                        }
-                    }, [n("span", {
-                        staticClass: "music-login-name sing-ellipsis"
-                    }, [t._v(t._s(t.username ? t.username : "设置"))]), t._v(" "), n("span", {
+                    }), t._v(" "), i("div", {
+                        staticClass: "panel-avatar-sign"
+                    }, [i("div", {
+                        staticClass: "name-wrap panel-aside-color"
+                    }, [i("span", [t._v(t._s(t.avatarName))]), t._v(" "), i("span", {
                         staticClass: "icon iconfont angeldown1"
-                    })])])]), t._v(" "), n("div", {
-                        staticClass: "block-list-dialog music-list-dialog small-base-scroll",
-                        class: {
-                            "list-dialog-show": t.musicDialog, "list-dialog-hide": !t.musicDialog
-                        }
-                    }, t._l(t.musicList, function(e, i) {
-                        return n("div", {
-                            staticClass: "music-item",
-                            on: {
-                                click: function(n) {
-                                    return t.musicPlay(e, i)
-                                }
-                            }
-                        }, [n("div", {
-                            directives: [{
-                                name: "show",
-                                rawName: "v-show",
-                                value: i == t.playing.index,
-                                expression: "index==playing.index"
-                            }],
-                            staticClass: "music-playing"
-                        }), t._v(" "), n("div", {
-                            staticClass: "music-index"
-                        }, [t._v(t._s(i))]), t._v(" "), n("div", {
-                            staticClass: "music-name sing-ellipsis"
-                        }, [t._v(t._s(e.name))]), t._v(" "), n("div", {
-                            staticClass: "music-author "
-                        }, [t._v(t._s(e.author))])])
-                    }), 0), t._v(" "), n("div", {
-                        staticClass: "block-list-dialog feel-list-dialog small-base-scroll",
-                        class: {
-                            "list-dialog-show": t.feelDialog, "list-dialog-hide": !t.feelDialog
-                        }
-                    }, [t._m(1), t._v(" "), t._l(t.feelList, function(e, i) {
-                        return n("div", {
-                            staticClass: "list-group-item"
-                        }, [n("div", [n("div", {
-                            staticClass: "feel-content",
-                            domProps: {
-                                innerHTML: t._s(e.content)
-                            }
-                        }, [t._v(t._s(e.content))]), t._v(" "), n("div", {
-                            staticClass: "feel-time"
-                        }, [t._v(t._s(e.time))])])])
-                    })], 2)])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "music-right"
-                    }, [e("span", {
-                        staticClass: "icon iconfont volume-"
-                    })])
-                }, function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "feel-list-title"
-                    }, [e("strong", [this._v("闲言碎语")])])
-                }]
-            };
-        var Et = {
-                name: "BlogHead",
-                components: {
-                    BlogMusic: n("VU/8")(Pt, jt, !1, function(t) {
-                        n("p416")
-                    }, null, null).exports,
-                    BlogSearch: Nt,
-                    BlogName: C
-                },
-                data: function() {
-                    return {
-                        isPop: !1,
-                        isHidden: !0,
-                        blogName: v.blogName + ""
-                    }
-                },
-                methods: {
-                    setEvent: function() {
-                        this.isPop = !this.isPop, !this.isPop && (this.isHidden = !0)
-                    }
-                },
-                mounted: function() {
-                    var t = this;
-                    setTimeout(function() {
-                        var e = function(e) {
-                            e.srcElement.className.indexOf("headSetNotPop") > 0 ? t.isHidden = !0 : t.isHidden = !1
-                        };
-                        t.$refs.blogHead.addEventListener("transitionend", e), t.$refs.blogHead.addEventListener("webkitTransitionEnd", e)
-                    }, 2e3)
-                }
-            },
-            St = {
-                render: function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        attrs: {
-                            id: "blog_head"
-                        }
-                    }, [e("div", {
-                        ref: "blogHead",
-                        staticClass: "blog-head-wrap",
-                        class: {
-                            headSetPop: this.isPop, headSetNotPop: !this.isPop, "blog-hidden": this.isHidden
-                        }
-                    }, [e("blog-name"), this._v(" "), e("blog-search"), this._v(" "), e("blog-music", {
-                        staticClass: "blog-music"
-                    }), this._v(" "), e("div", {
-                        staticClass: "blog-head-set-wrap",
-                        on: {
-                            click: this.setEvent
-                        }
-                    }, [e("span", {
-                        staticClass: "icon iconfont shezhi"
-                    })])], 1)])
+                    })]), t._v(" "), i("div", {
+                        staticClass: "sign-wrap panel-aside-color"
+                    }, [i("span", [t._v(t._s(t.avatarSign))])])])], 1)])
                 },
                 staticRenderFns: []
             };
-        var $t = n("VU/8")(Et, St, !1, function(t) {
-                n("0Ixs")
+        var xt = i("VU/8")(wt, jt, !1, function(t) {
+                i("L9Fe")
             }, null, null).exports,
-            Ut = {
+            It = {
+                name: "MenuItems",
+                methods: {
+                    calChildrenHeight: function(t) {
+                        return "height:" + 33 * t + "px"
+                    },
+                    clickItem: function(t) {
+                        t && (t.startsWith("https") ? window.open(t) : this.$route.path != t && this.$router.push(t))
+                    }
+                },
                 props: {
-                    funcMenus: {
+                    menuIdentify: {
+                        type: String,
+                        default: function() {
+                            return ""
+                        }
+                    },
+                    menuTitle: {
+                        type: String,
+                        default: function() {
+                            return ""
+                        }
+                    },
+                    menuList: {
                         type: Array,
                         default: function() {
                             return []
                         }
                     }
+                }
+            },
+            kt = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "menu_items"
+                        }
+                    }, [i("div", {
+                        staticClass: "menu-items-wrap"
+                    }, [i("div", {
+                        staticClass: "menu-item-title"
+                    }, [t._v(t._s(t.menuTitle))]), t._v(" "), i("div", {
+                        staticClass: "menu-item-area"
+                    }, [i("form", t._l(t.menuList, function(e, n) {
+                        return i("div", {
+                            staticClass: "item-row panel-aside-color"
+                        }, [i("input", {
+                            staticClass: "func-radio",
+                            attrs: {
+                                name: "func-radio-item",
+                                type: "radio",
+                                id: "func-radio-item_" + t.menuIdentify + "_" + n,
+                                onclick: "let wrap=this.closest('form');if(this.id==wrap.lastMenuId){this.checked=false;wrap.lastMenuId='undefined';return;};wrap.lastMenuId=this.id"
+                            }
+                        }), t._v(" "), i("label", {
+                            attrs: {
+                                for: "func-radio-item_" + t.menuIdentify + "_" + n
+                            }
+                        }, [i("div", {
+                            staticClass: "parent-item-wrap",
+                            on: {
+                                click: function(i) {
+                                    return t.clickItem(e.url)
+                                }
+                            }
+                        }, [i("div", {
+                            staticClass: "icon-wrap"
+                        }, [i("span", {
+                            staticClass: "icon iconfont",
+                            class: e.icon
+                        })]), t._v(" "), i("div", {
+                            staticClass: "title-wrap"
+                        }, [i("span", [t._v(t._s(e.title))])]), t._v(" "), e.children && e.children.length > 0 ? i("div", {
+                            staticClass: "arrow-wrap"
+                        }, [i("span", {
+                            staticClass: "icon iconfont bottom show-bottom-icon"
+                        })]) : t._e()])]), t._v(" "), e.children && e.children.length > 0 ? i("div", {
+                            staticClass: "children-wrap",
+                            style: t.calChildrenHeight(e.children.length)
+                        }, t._l(e.children, function(e) {
+                            return i("div", {
+                                staticClass: "children-item-wrap",
+                                on: {
+                                    click: function(i) {
+                                        return t.clickItem(e.url)
+                                    }
+                                }
+                            }, [i("span", [t._v(t._s(e.title))]), t._v(" "), e.num ? i("span", {
+                                staticClass: "children-num"
+                            }, [t._v(t._s(e.num))]) : t._e()])
+                        }), 0) : t._e()])
+                    }), 0)])])])
                 },
-                name: "BlogMenuItem",
+                staticRenderFns: []
+            };
+        var At = i("VU/8")(It, kt, !1, function(t) {
+                i("JGYj")
+            }, null, null).exports,
+            Pt = a()([], g.blogFriendList),
+            Et = {
+                name: "PanelAside",
+                components: {
+                    MenuItems: At,
+                    AvatarArea: xt
+                },
+                data: function() {
+                    return {
+                        mainExtNav: g.mainExtNav,
+                        funcMenuNav: []
+                    }
+                },
                 methods: {
-                    openPage: function(t) {
-                        window.open(t)
+                    openManage: function() {
+                        window.open(g.manPage)
+                    },
+                    openRss: function() {
+                        window.open(g.subPage)
+                    },
+                    openMail: function() {
+                        window.open(g.sendPage)
+                    }
+                },
+                created: function() {
+                    var t = this;
+                    at.loadSideColumn().then(function(e) {
+                        t.funcMenuNav.push({
+                            title: "分类",
+                            icon: "iconleimupinleifenleileibie",
+                            children: Y(e.catListPostCategory)
+                        }, {
+                            title: "档案",
+                            icon: "paper",
+                            children: Y(e.catListPostArchive)
+                        }, {
+                            title: "标签",
+                            icon: "iconpurchase-tag",
+                            children: Y(e.catListTag)
+                        }, {
+                            title: "链接",
+                            icon: "links",
+                            children: g.blogUsedLinks
+                        }, {
+                            title: "友链",
+                            icon: "iconheart",
+                            children: Pt
+                        })
+                    })
+                }
+            },
+            Bt = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        staticClass: "panel-aside-back-color",
+                        attrs: {
+                            id: "panel_aside"
+                        }
+                    }, [i("div", {
+                        staticClass: "panel-aside-wrap none-base-scroll"
+                    }, [i("avatar-area"), t._v(" "), i("menu-items", {
+                        attrs: {
+                            "menu-identify": "1",
+                            "menu-title": "导航",
+                            "menu-list": t.mainExtNav
+                        }
+                    }), t._v(" "), i("menu-items", {
+                        attrs: {
+                            "menu-identify": "2",
+                            "menu-title": "组成",
+                            "menu-list": t.funcMenuNav
+                        }
+                    })], 1), t._v(" "), i("div", {
+                        staticClass: "panel-aside-bottom"
+                    }, [i("div", {
+                        staticClass: "blog-menu-bar panel-aside-color"
+                    }, [i("div", {
+                        on: {
+                            click: t.openManage
+                        }
+                    }, [i("div", {
+                        staticClass: "icon iconfont cogs"
+                    }), t._v(" "), i("div", [t._v("管理")])]), t._v(" "), i("div", {
+                        on: {
+                            click: t.openRss
+                        }
+                    }, [i("div", {
+                        staticClass: "icon iconfont rss"
+                    }), t._v(" "), i("div", [t._v("文章")])]), t._v(" "), i("div", {
+                        on: {
+                            click: t.openMail
+                        }
+                    }, [i("div", {
+                        staticClass: "icon iconfont talk"
+                    }), t._v(" "), i("div", [t._v("联系")])])])])])
+                },
+                staticRenderFns: []
+            };
+        var Lt = i("VU/8")(Et, Bt, !1, function(t) {
+                i("r5eF")
+            }, null, null).exports,
+            Tt = i("c/Tr"),
+            St = i.n(Tt),
+            Nt = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "page_line"
+                        }
+                    }, [i("div", {
+                        staticClass: "post-comment-num"
+                    }, [i("ul", {
+                        staticClass: "pagination"
+                    }, t._l(t.pageLines, function(e) {
+                        return i("li", {
+                            on: {
+                                click: function(i) {
+                                    return t.$emit("clickItem", e.num)
+                                }
+                            }
+                        }, [i("a", {
+                            class: e.focus ? "active" : ""
+                        }, [t._v(t._s(e.text))])])
+                    }), 0)])])
+                },
+                staticRenderFns: []
+            };
+        var Ot = i("VU/8")({
+                name: "PageLine",
+                props: {
+                    pageLines: {
+                        default: function() {
+                            return []
+                        }
+                    }
+                }
+            }, Nt, !1, function(t) {
+                i("Auw8")
+            }, null, null).exports,
+            $t = St()(Array(g.pageItemImgs - 1), function(t, e) {
+                return e
+            }).sort(function() {
+                return Math.random() >= .5 ? 1 : -1
+            }).map(function(t) {
+                return 1 + t
+            }),
+            Ut = {
+                components: {
+                    PageLine: Ot
+                },
+                data: function() {
+					fetch('https://v1.hitokoto.cn')
+							.then(response => response.json())
+							.then(data => {
+							const hitokoto = document.getElementById('title-sign')
+							hitokoto.innerText = data.hitokoto
+							})
+							.catch(console.error)
+                    return {
+                        arrList: [],
+                        title: "",
+                        pageList: [],
+                        pageNum: 0,
+                        categoryId: "default",
+                        archiveId: "",
+                        tagId: "",
+                        articleName: g.blogName,
+                        categoryTitle: g.blogName,
+                        
+						
+                    }
+                },
+                created: function() {
+                    this.initCategoryBody()
+                },
+                methods: {
+                    getRandomImgClz: function() {
+                        var t = $t.shift();
+                        return $t.push(t), "panel-item-pic-" + t
+                    },
+                    clickItem: function(t) {
+                        this.initCategoryBody(t)
+                    },
+                    initCategoryBody: function(t) {
+                        var e = this;
+                        this.$bus.emit("fullLoadingOpen"), this.categoryId = this.$route.params.categoryId, this.archiveId = this.$route.params.archiveYear ? this.$route.params.archiveYear + "/" + this.$route.params.archiveMonth : void 0, this.tagId = this.$route.params.tagId, this.pageNum = t;
+                        var i = function(t) {
+                            e.arrList = Y(t.list), e.title = t.title, e.pageList = t.pageList, e.$bus.emit("fullLoadingClose")
+                        };
+                        this.categoryId && "default" != this.categoryId ? at.loadCategoryList(this.categoryId, this.pageNum).then(i) : this.archiveId ? at.loadArchiveList(this.archiveId, this.pageNum).then(i) : this.tagId ? at.loadTagList(this.tagId, this.pageNum).then(i) : at.loadDefaultCategoryList(this.pageNum).then(i)
+                    }
+                },
+                name: "ArticlesBody",
+                watch: {
+                    $route: function() {
+                        this.initCategoryBody()
                     }
                 }
             },
@@ -1622,300 +2028,321 @@ webpackJsonp([1], {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
-                            id: "blog_menu_items"
+                            id: "category_body"
                         }
-                    }, [n("div", {
-                        staticClass: "blog-menu-items"
-                    }, [n("form", t._l(t.funcMenus, function(e, i) {
-                        return n("div", {
-                            staticClass: "func-menu-item-wrap"
-                        }, [n("input", {
-                            staticClass: "func-radio",
-                            staticStyle: {
-                                display: "none"
-                            },
+                    }, [i("div", {
+                        staticClass: "category-body-wrap"
+                    }, [i("div", {
+                        staticClass: "head-title"
+                    }, [t.title ? i("div", {
+                        staticClass: "title-font"
+                    }, [t._v(t._s(t.title))]) : t._e(), t._v(" "), t.title ? t._e() : i("div", {
+                        staticClass: "title-thumb"
+                    }, [t._v(t._s(t.categoryTitle))]), t._v(" "), t.title ? t._e() : i("div", {
+						attrs: {
+							id: "title-sign"
+						}
+                    }, [t._v(t._s(t.categorySign))])]), t._v(" "), i("div", {
+                        staticClass: "article-list-wrap"
+                    }, t._l(t.arrList, function(e, n) {
+                        return i("router-link", {
+                            key: n,
+                            staticClass: "item-wrap",
                             attrs: {
-                                name: "func-radio-item",
-                                type: "radio",
-                                id: "func-radio-item_" + i,
-                                onclick: "let wrap=this.closest('form');if(this.id==wrap.lastMenuId){this.checked=false;wrap.lastMenuId='undefined';return;};wrap.lastMenuId=this.id"
+                                tag: "div",
+                                to: e.url
                             }
-                        }), t._v(" "), n("div", {
-                            staticClass: "func-menu-item"
-                        }, [n("label", {
+                        }, [e.desc ? i("div", {
+                            staticClass: "complex-item"
+                        }, [i("div", {
+                            staticClass: "item-img"
+                        }, [i("div", {
+                            staticClass: "div-img",
+                            class: t.getRandomImgClz()
+                        }), t._v(" "), e.img ? i("img", {
                             attrs: {
-                                for: "func-radio-item_" + i
+                                src: e.img
                             }
-                        }, [n("div", {
-                            staticClass: "func-menu-title"
-                        }, [n("span", {
-                            staticClass: "title-name"
-                        }, [n("span", {
-                            staticClass: "icon iconfont",
-                            class: [e.icon]
-                        }), t._v(" "), n("span", [t._v(t._s(e.titleName))])]), t._v(" "), t._m(0, !0)])]), t._v(" "), n("div", {
-                            staticClass: "func-menu-list",
-                            style: {
-                                height: 35 * e.list.length + "px"
+                        }) : t._e()]), t._v(" "), i("div", {
+                            staticClass: "item-body"
+                        }, [i("div", {
+                            staticClass: "item-title sing-ellipsis panel-item-title-color",
+                            attrs: {
+                                title: e.title
                             }
-                        }, t._l(e.list, function(e) {
-                            return e.name ? n("div", [n("router-link", {
-                                directives: [{
-                                    name: "show",
-                                    rawName: "v-show",
-                                    value: e.to,
-                                    expression: "inbItem.to"
-                                }],
-                                staticClass: "func-menu-list-item",
-                                attrs: {
-                                    to: e.to || "",
-                                    tag: "div"
-                                }
-                            }, [n("span", {
-                                staticClass: "list-item-name"
-                            }, [t._v("\n                      " + t._s(e.name) + "\n                      ")]), t._v(" "), e.num ? n("span", {
-                                staticClass: "list-item-num"
-                            }, [t._v("\n                      " + t._s(e.num) + "\n                      ")]) : t._e()]), t._v(" "), n("div", {
-                                directives: [{
-                                    name: "show",
-                                    rawName: "v-show",
-                                    value: !e.to,
-                                    expression: "!inbItem.to"
-                                }],
-                                staticClass: "func-menu-list-item",
-                                on: {
-                                    click: function(n) {
-                                        return t.openPage(e.url)
-                                    }
-                                }
-                            }, [n("span", {
-                                staticClass: "list-item-name"
-                            }, [t._v("\n                      " + t._s(e.name) + "\n                      ")]), t._v(" "), e.num ? n("span", {
-                                staticClass: "list-item-num"
-                            }, [t._v("\n                      " + t._s(e.num) + "\n                      ")]) : t._e()])], 1) : t._e()
-                        }), 0)])])
-                    }), 0)])])
+                        }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
+                            staticClass: "item-desc three-ellipsis",
+                            attrs: {
+                                title: e.desc
+                            }
+                        }, [t._v(t._s(e.desc))]), t._v(" "), i("div", {
+                            staticClass: "item-bottom"
+                        }, [i("div", {
+                            staticClass: "item-author"
+                        }, [i("span", {
+                            staticClass: "icon iconfont renyuanguanli"
+                        }), t._v(" "), i("span", [t._v(t._s(t.articleName))])]), t._v(" "), i("div", {
+                            staticClass: "item-time"
+                        }, [i("span", {
+                            staticClass: "icon iconfont ios-shijian"
+                        }), t._v(" "), i("span", [t._v(t._s(e.time))])]), t._v(" "), i("div", {
+                            staticClass: "item-read"
+                        }, [i("span", {
+                            staticClass: "icon iconfont see"
+                        }), t._v(" "), i("span", [t._v(t._s(e.readNum) + "条阅读")])]), t._v(" "), i("div", {
+                            staticClass: "item-comment"
+                        }, [i("span", {
+                            staticClass: "icon iconfont talk"
+                        }), t._v(" "), i("span", [t._v(t._s(e.commentNum) + "条评论")])])])])]) : t._e(), t._v(" "), e.desc ? t._e() : i("div", {
+                            staticClass: "simple-item"
+                        }, [i("div", {
+                            staticClass: "simple-item-body"
+                        }, [i("div", {
+                            staticClass: "simple-item-title"
+                        }, [t._v("\n                " + t._s(e.title) + "\n              ")]), t._v(" "), i("div", {
+                            staticClass: "simple-item-bottom"
+                        }, [t._v("\n                " + t._s(t.articleName) + " " + t._s(e.time) + " 阅读:" + t._s(e.readNum) + " 评论:" + t._s(e.commentNum) + "\n              ")])])])])
+                    }), 1), t._v(" "), i("page-line", {
+                        attrs: {
+                            "page-lines": t.pageList
+                        },
+                        on: {
+                            clickItem: t.clickItem
+                        }
+                    })], 1)])
                 },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "title-arrow"
-                    }, [e("span", {
-                        staticClass: "icon iconfont bottom show-bottom-icon"
-                    })])
-                }]
+                staticRenderFns: []
             };
-        var Ft = n("VU/8")(Ut, Mt, !1, function(t) {
-                n("blGy")
-            }, null, null).exports,
-            Rt = r()([], v.blogFriendList),
-            Ot = {};
-        //Ot[p("Par5Nt==")] = p("t+Xta+lOoDXCaRXRcn=="), Ot[p("k1s3")] = p("OwuIQwM6LG9hkhQR2gjpP49bQGjqPgIS2gdvPaiS"), Rt.unshift(Ot);
-        var Vt = {
-                name: "BlogAside",
-                components: {
-                    BlogMenuItem: Ft
-                },
-                methods: {
-                    avatarName: function() {
-                        return v.blogName
-                    },
-                    foucsMe: function() {
-                        Tt.blogFollow().then(function(t) {
-                            $.showInfoMsg(t)
-                        })
-                    },
-                    openManage: function() {
-                        window.open(v.manPage)
-                    },
-                    openRss: function() {
-                        window.open(v.subPage)
-                    },
-                    openMail: function() {
-                        window.open(v.sendPage)
-                    },
-                    openWindow: function(t) {
-                        window.open(t)
+        var Rt = i("VU/8")(Ut, Mt, !1, function(t) {
+            i("f++C")
+        }, null, null).exports;
+        i("nVrZ");
+        ! function(t, e, i) {
+            Array.prototype.indexOf || (Array.prototype.indexOf = function(t) {
+                var e = this.length >>> 0,
+                    i = Number(arguments[1]) || 0;
+                for ((i = i < 0 ? Math.ceil(i) : Math.floor(i)) < 0 && (i += e); i < e; i++)
+                    if (i in this && this[i] === t) return i;
+                return -1
+            });
+            var n = "emoji",
+                s = {
+                    showTab: !0,
+                    animation: "fade",
+                    icons: []
+                };
+
+            function a(e, i) {
+                switch (this.$content = t(e), this.options = i, this.index = emoji_index, i.animation) {
+                    case "none":
+                        this.showFunc = "show", this.hideFunc = "hide", this.toggleFunc = "toggle";
+                        break;
+                    case "slide":
+                        this.showFunc = "slideDown", this.hideFunc = "slideUp", this.toggleFunc = "slideToggle";
+                        break;
+                    case "fade":
+                    default:
+                        this.showFunc = "fadeIn", this.hideFunc = "fadeOut", this.toggleFunc = "fadeToggle"
+                }
+                this._init()
+            }
+            e.emoji_index = 0, a.prototype = {
+                _init: function() {
+                    var n, s, a, o = this,
+                        r = this.options.button,
+                        c = this.options.inpCall,
+                        l = o.index;
+                    r || (n = '<input type="image" class="emoji_btn" id="emoji_btn_' + l + '" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZBAMAAAA2x5hQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAkUExURUxpcfTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAOfx6yUAAAALdFJOUwAzbVQOoYrzwdwkAoU+0gAAAM1JREFUGNN9kK0PQWEUxl8fM24iCYopwi0muuVuzGyKwATFZpJIU01RUG/RBMnHxfz+Oef9uNM84d1+23nO+zxHKVG2WWupRJkdcAwtpCK0lpbqWE01pB0QayonREMoIp7AawQrWSgGGb4pn6dSeSh68FAVXqHqy3wKrkJiDGDTg3dnp//w+WnwlwIOJauF+C7sXRVfdha4O4oIJfTbtdSxs2uqhs585A0ko8iLTMEcDE1n65A+29pYAlr72nz9dKu7GuNTcsL2fDQzB/wCPVJ69nZGb3gAAAAASUVORK5CYII="/>', s = this.$content.offset().top + this.$content.outerHeight() + 10, a = this.$content.offset().left + 2, t(n).appendTo(t("body")), t("#emoji_btn_" + l).css({
+                        top: s + "px",
+                        left: a + "px"
+                    }), r = "#emoji_btn_" + l);
+                    var u = this.options.showTab,
+                        d = this.options.icons,
+                        m = d.length;
+                    if (0 === m) return alert("Missing icons config!"), !1;
+                    for (var p, h, f, g, v, _, b, C, y, w, j, x = '<div class="emoji_container " id="emoji_container_' + l + '">', I = '<div class="emoji_content none-base-scroll">', k = '<div class="emoji_tab" style="' + (1 !== m || u ? "" : "display:none;") + '"><div class="emoji_tab_prev"></div><div class="emoji_tab_list"><ul>', A = 0; A < m; A++)
+                        if (h = d[A].name || "group" + (A + 1), f = d[A].path, g = d[A].maxNum, v = d[A].excludeNums, _ = d[A].file || ".jpg", b = d[A].placeholder || "#em" + (A + 1) + "_{alias}#", C = d[A].alias, y = d[A].title, w = 0, f && g) {
+                            p = '<div id="emoji' + A + '" class="emoji_icons" style="' + (0 === A ? "" : "display:none;") + '"><ul>';
+                            for (var P = 1; P <= g; P++)
+                                if (!(v && v.indexOf(P) >= 0)) {
+                                    if (C) {
+                                        if ("object" !== (void 0 === C ? "undefined" : N()(C))) {
+                                            alert("Error config about alias!");
+                                            break
+                                        }
+                                        j = b.replace(new RegExp("{alias}", "gi"), C[P].toString())
+                                    } else j = b.replace(new RegExp("{alias}", "gi"), P.toString());
+                                    p += '<li><a data-emoji_code="' + j + '" data-index="' + w + '" title="' + (y && y[P] ? y[P] : "") + '"><img src="' + f + P + _ + '"/></a></li>', w++
+                                } I += p += "</ul></div>", k += '<li data-emoji_tab="emoji' + A + '" class="' + (0 === A ? "selected" : "") + '" title="' + h + '">' + h + "</li>"
+                        } else alert("The " + A + " index of icon groups has error config!");
+                    x += I += "</div>", x += k += '</ul></div><div class="emoji_tab_next"></div></div>', t(x += '<div class="emoji_preview"><img/></div>').appendTo(r);
+                    var E = "544px",
+                        B = t(e).width();
+                    if (B < 544) switch (this.options.position) {
+                        case "topLeft":
+                        case "bottomLeft":
+                            E = B - 2 * t(r).offset().right + "px";
+                            break;
+                        default:
+                            E = B - 2 * t(r).offset().left + "px"
                     }
+                    switch (t("#emoji_container_" + l).css("width", E), t("#emoji_container_" + l + " .emoji_tab_list").css("width", parseInt(E) - 44 + "px"), this.options.position) {
+                        case "topLeft":
+                            t(r).offset().top - t("#emoji_container_" + l).outerHeight() - 5, t(r).offset().left - t("#emoji_container_" + l).outerWidth() + t(r).outerHeight();
+                            break;
+                        case "topRight":
+                            t(r).offset().top - t("#emoji_container_" + l).outerHeight() - 5, t(r).offset().left;
+                            break;
+                        case "bottomLeft":
+                            t(r).offset().top + t(r).outerHeight() + 5, t(r).offset().left - t("#emoji_container_" + l).outerWidth() + t(r).outerHeight();
+                            break;
+                        default:
+                            t(r).offset().top + t(r).outerHeight() + 5, t(r).offset().left
+                    }
+                    var L = m % 8 == 0 ? parseInt(m / 8) : parseInt(m / 8) + 1,
+                        T = 1;
+                    t(i).on({
+                        click: function(e) {
+                            var i, n, s, a = e.target,
+                                u = o.$content[0];
+                            a === t(r)[0] ? (t("#emoji_container_" + l)[o.toggleFunc](), o.$content.focus()) : t(a).parents("#emoji_container_" + l).length > 0 ? (i = t(a).data("emoji_code") || t(a).parent().data("emoji_code"), n = t(a).data("emoji_tab"), i ? ("DIV" === u.nodeName ? (s = '<img class="emoji_icon" src="' + t("#emoji_container_" + l + ' a[data-emoji_code="' + i + '"] img').attr("src") + '"/>', o._insertAtCursor(c, u, s, !1)) : o._insertAtCursor(c, u, i), o.hide()) : n ? t(a).hasClass("selected") || (t("#emoji_container_" + l + " .emoji_icons").hide(), t("#emoji_container_" + l + " #" + n).show(), t(a).addClass("selected").siblings().removeClass("selected")) : t(a).hasClass("emoji_tab_prev") ? T > 1 && (t("#emoji_container_" + l + " .emoji_tab_list ul").css("margin-left", "-503" * (T - 2) + "px"), T--) : t(a).hasClass("emoji_tab_next") && T < L && (t("#emoji_container_" + l + " .emoji_tab_list ul").css("margin-left", "-503" * T + "px"), T++), o.$content.focus()) : t("#emoji_container_" + l + ":visible").length > 0 && (o.hide(), o.$content.focus())
+                        }
+                    }), t("#emoji_container_" + l + " .emoji_icons a").mouseenter(function() {
+                        var e = t(this).data("index");
+                        parseInt(e / 5) % 2 == 0 ? t("#emoji_container_" + l + " .emoji_preview").css({
+                            left: "auto",
+                            right: 0
+                        }) : t("#emoji_container_" + l + " .emoji_preview").css({
+                            left: 0,
+                            right: "auto"
+                        });
+                        var i = t(this).find("img").attr("src");
+                        t("#emoji_container_" + l + " .emoji_preview img").attr("src", i).parent().show()
+                    }), t("#emoji_container_" + l + " .emoji_icons a").mouseleave(function() {
+                        t("#emoji_container_" + l + " .emoji_preview img").removeAttr("src").parent().hide()
+                    })
                 },
+                _insertAtCursor: function(t, n, s, a) {
+                    var o, r;
+                    if ("DIV" === n.nodeName) {
+                        if (n.focus(), e.getSelection) {
+                            if ((o = e.getSelection()).getRangeAt && o.rangeCount) {
+                                (r = o.getRangeAt(0)).deleteContents();
+                                var c = i.createElement("div");
+                                c.innerHTML = s;
+                                for (var l, u, d = i.createDocumentFragment(); l = c.firstChild;) u = d.appendChild(l);
+                                var m = d.firstChild;
+                                r.insertNode(d), u && ((r = r.cloneRange()).setStartAfter(u), a ? r.setStartBefore(m) : r.collapse(!0), o.removeAllRanges(), o.addRange(r))
+                            }
+                        } else if ((o = i.selection) && "Control" !== o.type) {
+                            var p = o.createRange();
+                            p.collapse(!0), o.createRange().pasteHTML(s), a && ((r = o.createRange()).setEndPoint("StartToStart", p), r.select())
+                        }
+                    } else if (i.selection) n.focus(), (o = i.selection.createRange()).text = s, o.select();
+                    else if (n.selectionStart || 0 === n.selectionStart) {
+                        var h = n.selectionStart,
+                            f = n.selectionEnd,
+                            g = n.scrollTop;
+                        n.value = n.value.substring(0, h) + s + n.value.substring(f, n.value.length), g > 0 && (n.scrollTop = g), n.focus(), n.selectionStart = h + s.length, n.selectionEnd = h + s.length
+                    } else n.value += s, n.focus();
+                    t && t(n.value)
+                },
+                show: function() {
+                    t("#emoji_container_" + this.index)[this.showFunc]()
+                },
+                hide: function() {
+                    t("#emoji_container_" + this.index)[this.hideFunc]()
+                },
+                toggle: function() {
+                    t("#emoji_container_" + this.index)[this.toggleFunc]()
+                }
+            }, t.fn[n] = function(e) {
+                return emoji_index++, this.each(function() {
+                    var i = t(this),
+                        o = i.data("plugin_" + n + emoji_index),
+                        r = t.extend({}, s, i.data(), "object" === (void 0 === e ? "undefined" : N()(e)) && e);
+                    o || i.data("plugin_" + n + emoji_index, o = new a(this, r)), "string" == typeof e && o[e]()
+                })
+            }, t.fn[n].Constructor = a
+        }(M.a, window, document),
+        function(t, e, i) {
+            var n = "emojiParse",
+                s = {
+                    icons: []
+                };
+
+            function a(e, i) {
+                this.$content = t(e), this.options = i, this._init()
+            }
+            a.prototype = {
+                _init: function() {
+                    var t, e, i, n, s, a, o = this.options.icons,
+                        r = o.length,
+                        c = {};
+                    if (r > 0)
+                        for (var l = 0; l < r; l++)
+                            if (t = o[l].path, e = o[l].file || ".jpg", i = o[l].placeholder, n = o[l].alias, t)
+                                if (n) {
+                                    for (var u in n) n.hasOwnProperty(u) && (c[n[u]] = u);
+                                    s = i.replace(new RegExp("{alias}", "gi"), "([\\s\\S]+?)");
+                                    try {
+                                        a = new RegExp(s, "gm")
+                                    } catch (t) {
+                                        return this.$content.html()
+                                    }
+                                    this.$content.html(this.$content.html().replace(a, function(i, n) {
+                                        var s = c[n];
+                                        return s ? '<img class="emoji_icon" src="' + t + s + e + '"/>' : i
+                                    }))
+                                } else s = i.replace(new RegExp("{alias}", "gi"), "(\\d+?)"), this.$content.html(this.$content.html().replace(new RegExp(s, "gm"), '<img class="emoji_icon" src="' + t + "$1" + e + '"/>'));
+                    else alert("Path not config!")
+                }
+            }, t.fn[n] = function(e) {
+                return this.each(function() {
+                    var i = t(this),
+                        o = i.data("plugin_" + n),
+                        r = t.extend({}, s, i.data(), "object" === (void 0 === e ? "undefined" : N()(e)) && e);
+                    o || i.data("plugin_" + n, o = new a(this, r)), "string" == typeof e && o[e]()
+                })
+            }, t.fn[n].Constructor = a
+        }(M.a, window, document);
+        var Ft = M.a,
+            qt = function(t, e) {
+                return {
+                    showTab: !0,
+                    animation: "fade",
+                    button: t,
+                    inpCall: e,
+                    icons: g.faceIcon
+                }
+            },
+            Ht = function(t, e, i) {
+                Ft("#" + t).emoji(qt(e, i))
+            },
+            Vt = function(t) {
+                var e = Ft("<span>" + t + "</span>");
+                e.emojiParse(qt());
+                var i = e.html();
+                return e.remove(), i
+            },
+            Dt = {
+                name: "BlogInfoPage",
                 created: function() {
                     var t = this;
-                    this.$bus.on("asideMenuPop", function() {
-                        t.asideIsShow = !t.asideIsShow
-                    }), Tt.loadAuthorHeadImg().then(function(e) {
-                        t.avatar = e
-                    }), Tt.loadArticleClassify().then(function(e) {
-                        e.forEach(function(e) {
-                            e.to = t.VUE_CTX + "/works/category/category/" + e.id + "/1"
-                        }), t.funcMenus[0].list = e
-                    }), Tt.loadArticleArchives().then(function(e) {
-                        e.forEach(function(e) {
-                            e.to = t.VUE_CTX + "/works/category/archives/" + e.id + "/1"
-                        }), t.funcMenus[1].list = e
-                    }), Tt.loadCloudLabel().then(function(e) {
-                        e.forEach(function(e) {
-                            e.to = t.VUE_CTX + "/works/category/tag/" + e.id + "/1"
-                        }), t.funcMenus[2].list = e
+                    at.loadAuthorBlogInfo().then(function(e) {
+                        t.info = e
+                    }),
+					at.loadArticleNum().then(function(e) {
+                        t.infoArtcle = e
                     })
                 },
                 data: function() {
                     return {
-                        avatarSign: v.avatarSign,
-                        asideIsShow: !1,
-                        avatar: "",
-                        mainExtNav: v.mainExtNav,
-                        funcMenus: [{
-                            titleName: "分类",
-                            icon: "menu",
-                            list: []
-                        }, {
-                            titleName: "档案",
-                            icon: "paper",
-                            list: []
-                        }, {
-                            titleName: "标签",
-                            icon: "label",
-                            list: []
-                        }, {
-                            titleName: "链接",
-                            icon: "links",
-                            list: v.blogUsedLinks
-                        }, {
-                            titleName: "友链",
-                            icon: "iconheart",
-                            list: Rt
-                        }]
-                    }
-                }
-            },
-            qt = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_aside"
-                        }
-                    }, [n("div", {
-                        staticClass: "blog-aside-oub-wrap",
-                        class: {
-                            "blog-aside-show": t.asideIsShow, "blog-aside-hide": !t.asideIsShow
-                        }
-                    }, [n("div", {
-                        staticClass: "blog-aside-wrap"
-                    }, [n("div", {
-                        staticClass: "blog-menu-content-wrap"
-                    }, [n("div", {
-                        staticClass: "blog-menu-content"
-                    }, [n("div", {
-                        staticClass: "blog-head-wrap",
-                        on: {
-                            click: t.foucsMe
-                        }
-                    }, [n("router-link", {
-                        attrs: {
-                            to: t.VUE_CTX + "/author",
-                            tag: "div"
-                        }
-                    }, [n("img", {
-                        staticClass: "avatar-img",
-                        attrs: {
-                            src: t.avatar
-                        }
-                    })]), t._v(" "), n("div", [n("span", {
-                        staticClass: "avatar-name"
-                    }, [t._v("\n          " + t._s(t.avatarName()) + "\n          "), n("span", {
-                        staticClass: "icon iconfont angeldown1"
-                    })])]), t._v(" "), n("div", {
-                        staticClass: "avatar-sign "
-                    }, [t._v("\n              " + t._s(t.avatarSign) + "\n            ")])], 1), t._v(" "), n("div", {
-                        staticClass: "blog-menu-title"
-                    }, [t._v("\n            导航\n          ")]), t._v(" "), n("div", {
-                        staticClass: "aside-display-content"
-                    }, [n("router-link", {
-                        staticClass: "aside-display-content-item text-dark",
-                        attrs: {
-                            to: t.VUE_CTX + "/works/category/all/1/1",
-                            tag: "div"
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconhome"
-                    }), n("span", [t._v("首页")])]), t._v(" "), t._l(t.mainExtNav, function(e) {
-                        return n("div", {
-                            staticClass: "aside-display-content-item",
-                            on: {
-                                click: function(n) {
-                                    return t.openWindow(e.url)
-                                }
-                            }
-                        }, [n("span", {
-                            staticClass: "icon iconfont",
-                            class: e.icon
-                        }), n("span", [t._v(t._s(e.title))])])
-                    })], 2), t._v(" "), n("div", {
-                        staticClass: "blog-menu-title blog-menu-title-board"
-                    }, [t._v("\n            组成\n          ")]), t._v(" "), n("blog-menu-item", {
-                        attrs: {
-                            "func-menus": t.funcMenus
-                        }
-                    })], 1)]), t._v(" "), n("div", {
-                        staticClass: "blog-menu-bar"
-                    }, [n("div", {
-                        on: {
-                            click: t.openManage
-                        }
-                    }, [n("div", {
-                        staticClass: "icon iconfont cogs"
-                    }), t._v(" "), n("div", [t._v("管理")])]), t._v(" "), n("div", {
-                        on: {
-                            click: t.openRss
-                        }
-                    }, [n("div", {
-                        staticClass: "icon iconfont rss"
-                    }), t._v(" "), n("div", [t._v("文章")])]), t._v(" "), n("div", {
-                        on: {
-                            click: t.openMail
-                        }
-                    }, [n("div", {
-                        staticClass: "icon iconfont talk"
-                    }), t._v(" "), n("div", [t._v("联系")])])])])]), t._v(" "), n("div", {
-                        staticClass: "blod-aside-shape",
-                        on: {
-                            click: function(e) {
-                                t.asideIsShow = !1
-                            }
-                        }
-                    })])
-                },
-                staticRenderFns: []
-            };
-        var Dt = n("VU/8")(Vt, qt, !1, function(t) {
-            n("cbI5")
-        }, null, null).exports;
-        console.log(p("sXMn2v9pP49bxw2FLqAnVwsSxyWqx4sjx0EZYs3nmyBckwuJQHcSLhkhkGjqPas3PgkHLaCSPT9qObWRPp8="), p("2g93Phx6xHtICz5p2XCfNhsSkXjYDpCZNXV7Q4rYN4ZRNHcvQwnnMz3="), p("2g93Phx6xgWZNU5p2XCfNhsSkXjYDpMICzt7Q4rYN4ZRNHcvQwnnMz3="));
-        var Ht = p("OwuIQwM6LG9hkhQR2gjpP49bQGjqPgIS2gdvPaiS"),
-            Wt = p("k4oZPXVn2v9pP49bx4sjx4CekXjR"),
-            zt = {
-                name: "BlogBottom",
-                methods: {
-                    page: function() {
-                        window.open(Ht)
-                    },
-                    detail: function() {
-                        return Wt
-                    }
-                },
-                data: function() {
-                    return {
-                        copyright: "Copyright © " + (new Date).getFullYear() + " " + v.blogName,
-                        plugName: "c_blog",
-                        author: "cjunn",
-                        technology: "Powered by vue on cnblogs"
+                        info: {},
+						infoArtcle: {}
                     }
                 }
             },
@@ -1923,30 +2350,949 @@ webpackJsonp([1], {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "blog_info_page"
+                        }
+                    }, [i("div", {
+                        staticClass: "menu-body-item"
+                    }, [t._m(0), t._v(" "), i("div", {
+                        staticClass: "menu_blog_info_wrap_clz"
+                    }, [i("div", {
+                        staticClass: "menu-body-info"
+                    }, [i("div", {
+                        staticClass: "info-item"
+                    }, [t._m(1), t._v(" "), i("span", {
+                        staticClass: "info-item-right"
+                    }, [i("span", {
+                        staticClass: "info-item-bg"
+                    }, [i("span", [t._v(t._s(t.infoArtcle.pageNum))])])])]), t._v(" "), i("div", {
+                        staticClass: "info-item"
+                    }, [t._m(2), t._v(" "), i("span", {
+                        staticClass: "info-item-right"
+                    }, [i("span", {
+                        staticClass: "info-item-bg"
+                    }, [i("span", [t._v(t._s(t.infoArtcle.commentNum))])])])]), t._v(" "), i("div", {
+                        staticClass: "info-item"
+                    }, [t._m(3), t._v(" "), i("span", {
+                        staticClass: "info-item-right"
+                    }, [i("span", {
+                        staticClass: "info-item-bg"
+                    }, [i("span", [t._v(t._s(t.info.age))])])])]), t._v(" "),i("div", {
+                        staticClass: "info-item"
+                    }, [t._m(4), t._v(" "), i("span", {
+                        staticClass: "info-item-right"
+                    }, [i("span", {
+                        staticClass: "info-item-bg"
+                    }, [i("span", [t._v(t._s(t.info.follow))])])])]), t._v(" "), i("div", {
+                        staticClass: "info-item"
+                    }, [t._m(5), t._v(" "), i("span", {
+                        staticClass: "info-item-right"
+                    }, [i("span", {
+                        staticClass: "info-item-bg"
+                    }, [i("span", [t._v(t._s(t.info.focus))])])])])])])])])
+                },
+                staticRenderFns: [function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        staticClass: "menu-body-item-title"
+                    }, [e("div", [this._v("博客信息")])])
+                }, function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("span", {
+                        staticClass: "info-item-left"
+                    }, [e("span", {
+                        staticClass: "icon iconfont paper"
+                    }), this._v(" "), e("span", [this._v("文章数目")])])
+                }, function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("span", {
+                        staticClass: "info-item-left"
+                    }, [e("span", {
+                        staticClass: "icon iconfont iconmessage-alt"
+                    }), this._v(" "), e("span", [this._v("评论数目")])])
+                }, function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("span", {
+                        staticClass: "info-item-left"
+                    }, [e("span", {
+                        staticClass: "icon iconfont ios-shijian"
+                    }), this._v(" "), e("span", [this._v("运行天数")])])
+                }, function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("span", {
+                        staticClass: "info-item-left"
+                    }, [e("span", {
+                        staticClass: "icon iconfont equalizer"
+                    }), this._v(" "), e("span", [this._v("博客粉丝")])])
+                }, function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("span", {
+                        staticClass: "info-item-left"
+                    }, [e("span", {
+                        staticClass: "icon iconfont refresh"
+                    }), this._v(" "), e("span", [this._v("关注博主")])])
+                }]
+            };
+        var zt = i("VU/8")(Dt, Gt, !1, function(t) {
+                i("Kepi")
+            }, null, null).exports,
+            Wt = {
+                name: "BlogCloudPage",
+                created: function() {
+                    var t = this;
+                    at.loadCloudLabel().then(function(e) {
+                        t.labels = Y(e)
+                    })
+                },
+                data: function() {
+                    return {
+                        labels: []
+                    }
+                }
+            },
+            Qt = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "blog_cloud_page"
+                        }
+                    }, [i("div", {
+                        staticClass: "menu-body-item"
+                    }, [t._m(0), t._v(" "), i("div", {
+                        staticClass: "cloud-content cloud_label_content_clz"
+                    }, t._l(t.labels, function(e) {
+                        return i("span", [i("router-link", {
+                            attrs: {
+                                to: e.url,
+                                title: e.name
+                            }
+                        }, [i("span", {
+                            staticClass: "info-item-bg"
+                        }, [i("span", [t._v(t._s(e.name))])])])], 1)
+                    }), 0)])])
+                },
+                staticRenderFns: [function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        staticClass: "menu-body-item-title"
+                    }, [e("div", [this._v("标签云")])])
+                }]
+            };
+        var Jt = i("VU/8")(Wt, Qt, !1, function(t) {
+                i("uGug")
+            }, null, null).exports,
+            Xt = (i("NknJ"), document),
+            Yt = window,
+            Zt = Xt.body,
+            Kt = Xt.querySelector.bind(Xt),
+            te = Xt.querySelectorAll.bind(Xt),
+            ee = (Yt.requestAnimationFrame, /Mobile|Android|iOS|iPhone|iPad|iPod|Windows Phone|KFAPWI/i.test(navigator.userAgent)),
+            ie = ee ? "touchstart" : "mouseenter",
+            ne = ee ? "touchend" : "mouseleave",
+            se = ee ? "touchend" : "click",
+            ae = ee ? "orientationchange" : "resize",
+            oe = "vertical",
+            re = "horizontal",
+            ce = function(t) {
+                return t instanceof HTMLElement
+            },
+            le = function(t) {
+                return "string" == typeof t
+            },
+            ue = function(t) {
+                return "[object Object]" === Object.prototype.toString.call(t)
+            },
+            de = function(t) {
+                var e = function(t, e, i) {
+                    if (t && !i) return Yt.getComputedStyle(t).getPropertyValue(e);
+                    t.style[e] = i
+                }(t, "position");
+                return e && "static" !== e
+            },
+            me = Xt.documentElement.clientHeight,
+            pe = "toc",
+            he = "*[data-toc]",
+            fe = {
+                dom: he,
+                classNames: {
+                    toc: pe,
+                    fxied: pe + "-fixed",
+                    brand: pe + "-brand",
+                    navbar: pe + "-navbar",
+                    hightlight: pe + "-hightlight",
+                    nav: pe + "-nav",
+                    link: pe + "-link",
+                    active: "active",
+                    marginLeft1: "ml-1",
+                    marginLeft2: "ml-2",
+                    marginLeft3: "ml-3",
+                    marginLeft4: "ml-4",
+                    marginLeft5: "ml-5",
+                    marginLeft6: "ml-6"
+                },
+                hightlight: !0,
+                brand: "目录",
+                shadow: "shadow",
+                idPrefix: "toc-heading-",
+                offsetBody: Zt,
+                tocFixed: {
+                    top: 24,
+                    left: 0
+                },
+                maxDepth: 6,
+                autoScroll: !0
+            },
+            ge = function(t) {
+                var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : fe;
+                return le(t) || ce(t) ? e.dom = t : ue(t) && (e = t), this.options = a()({}, fe, e), this.megre(), this.winEvents(), this
+            };
+        ge.prototype = {
+            megre: function() {
+                var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+                if (ue(t)) {
+                    if (this.options = a()({}, this.options, t), le(this.options.dom) && (this.options.dom = Kt(this.options.dom) || Kt(he)), !this.options.dom || !ce(this.options.dom)) throw new Error("Not found any content, Please sure this dom is exist");
+                    var e;
+                    this.options.maxDepth = (e = parseInt(this.options.maxDepth || 6)) >= 1 && e <= 6 ? e : 6;
+                    var i = this.options.offsetBody;
+                    if (i && i !== Zt)
+                        if (ce(i)) this.options.offsetBody = de(i) ? i : Zt;
+                        else if (le(i)) {
+                        var n = function(t) {
+                            try {
+                                return Kt(t)
+                            } catch (t) {
+                                return null
+                            }
+                        }(i);
+                        this.options.offsetBody = n && n !== Zt && de(i) ? n : Zt
+                    } else this.options.offsetBody = Zt;
+                    else this.options.offsetBody = Zt;
+                    this.toc = Kt(this.options.dom.dataset.toc) || Kt("." + this.options.classNames.toc);
+                    var s = this.toc && this.toc.classList;
+                    return s && !s.contains(this.options.classNames.toc) && s.add(this.options.classNames.toc), this
+                }
+            },
+            reload: function() {
+                this.hightlight = !0 === this.options.hightlight ? Kt("." + this.options.classNames.hightlight) : null, this.navbar = this.navbar || Kt("." + this.options.classNames.navbar), this.tocEvent(), this.fixed(), this.shadow(), !this.elements && (this.elements = this.loadHeadings()), this.events = [this.offsetBodyScrollEvent.bind(this)], this.offsetBodyScrollDebounce(), this.activeToc(), this.syncTocScroll(), this.setTocScroll()
+            },
+            winEvents: function() {
+                var t = this;
+                Yt.addEventListener(ae, function() {
+                    me = Xt.documentElement.clientHeight, t.debounce(t.setTocScroll, 200).call(t)
+                })
+            },
+            setTocScroll: function() {
+                this.resetTocScroll();
+                var t = this.options.tocFixed,
+                    e = this.navbar;
+                if (this.options.autoScroll && t && this.toc.offsetHeight + (t.top || 0) > me) {
+                    var i = me - this.getOffsetY(e) - (t.top || 0);
+                    e.style.maxHeight = i + "px", e.style.overflowY = "auto"
+                }
+            },
+            resetTocScroll: function() {
+                this.navbar.style.maxHeight = "inherit", this.navbar.style.overflowY = "inherit"
+            },
+            syncTocScroll: function() {
+                var t = this.navbar,
+                    e = this.active;
+                if (e && function(t) {
+                        var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : oe;
+                        return e === oe ? t.scrollHeight > t.clientHeight : e === re && t.scrollWidth > t.clientWidth
+                    }(t)) {
+                    var i = e.offsetTop;
+                    t.scrollTo(0, i)
+                }
+            },
+            offsetBodyScrollEvent: function() {
+                this.activeToc(), this.syncTocScroll()
+            },
+            addOffsetBodyScrollEvent: function() {
+                (this.options.offsetBody === Zt ? Yt : this.options.offsetBody).addEventListener("scroll", this.events[0])
+            },
+            removeOffsetBodyScrollEvent: function() {
+                (this.options.offsetBody === Zt ? Yt : this.options.offsetBody).removeEventListener("scroll", this.events[0])
+            },
+            offsetBodyScrollDebounce: function() {
+                this.removeOffsetBodyScrollEvent(), this.debounce(this.addOffsetBodyScrollEvent, 200).call(this)
+            },
+            reset: function() {
+                this.clear();
+                var t = Xt.createDocumentFragment(),
+                    e = this.elements = this.loadHeadings(),
+                    i = e.targets,
+                    n = e.levels;
+                if ("string" == typeof this.options.brand) {
+                    var s = Xt.createElement("div");
+                    s.classList.add(this.options.classNames.brand), s.textContent = this.options.brand, t.appendChild(s)
+                }
+                var a = Xt.createElement("div");
+                if (a.classList.add(this.options.classNames.navbar), t.appendChild(a), this.navbar = a, !0 === this.options.hightlight) {
+                    var o = Xt.createElement("div");
+                    o.classList.add(this.options.classNames.hightlight), a.appendChild(o)
+                }
+                var r = this.options.classNames.nav,
+                    c = null,
+                    l = 1;
+                n.forEach(function(t, e, n) {
+                    var s = i[e];
+                    if (s)
+                        if (0 === e || n[e - 1] !== t) {
+                            var o = Xt.createElement("nav");
+                            if (o.classList.add(r), o.appendChild(s), 1 === t) a.appendChild(o);
+                            else if (t >= l) c.appendChild(o);
+                            else {
+                                for (var u = c.parentNode, d = 0; d < l - t - 1; d++) u = u.parentNode;
+                                u && u.appendChild(o)
+                            }
+                            c = o, l = t
+                        } else c.appendChild(s)
+                }), this.toc.appendChild(t), this.reload()
+            },
+            getOffsetBodyScrollTop: function() {
+                var t = this.options.offsetBody;
+                return t === Yt ? t.pageYOffset : t === Zt ? Xt.documentElement.scrollTop || Zt.scrollTop : t.scrollTop
+            },
+            GID: function() {
+                var t = 0,
+                    e = this.options.idPrefix;
+                return {
+                    next: function() {
+                        return {
+                            value: "" + e + ++t
+                        }
+                    }
+                }
+            },
+            debounce: function(t, e) {
+                return function() {
+                    var i = this,
+                        n = arguments;
+                    t.timer && clearTimeout(t.timer), t.timer = setTimeout(function() {
+                        t.apply(i, n)
+                    }, e)
+                }
+            },
+            empty: function(t) {
+                if (t && ce(t))
+                    for (; t.lastChild;) t.removeChild(t.lastChild)
+            },
+            clear: function() {
+                this.empty(this.toc), this.elements = null
+            },
+            activeToc: function() {
+                var t = this.elements,
+                    e = t.offsets,
+                    i = t.targets,
+                    n = this.getOffsetBodyScrollTop(),
+                    s = i[e.findIndex(function(t) {
+                        return Number(t) > n
+                    })];
+                s && this.setActive(s)
+            },
+            getOffsetY: function(t) {
+                var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : Zt,
+                    i = t.offsetTop;
+                return t.offsetParent && t.offsetParent !== e && (i += this.getOffsetY(t.offsetParent)), i
+            },
+            loadHeadings: function() {
+                var t = this,
+                    e = this.options.maxDepth,
+                    i = e,
+                    n = St()(this.options.dom.querySelectorAll(["h1", "h2", "h3", "h4", "h5", "h6"].slice(0, e).join(",")) || []),
+                    s = this.GID();
+                n.forEach(function(e, n, a) {
+                    var o = function(t, e, n) {
+                            if (n <= 1 || 0 === e) return 1;
+                            if (n > i) return i;
+                            for (var s = t.filter(function(t, i) {
+                                    return i < e
+                                }), a = s.length - 1; a >= 0; a--) {
+                                var o = s[a][1],
+                                    r = +s[a][3].nodeName[1];
+                                if (n < r) return n > o ? o : n;
+                                if (n === r) return o;
+                                if (r < n) return o + 1
+                            }
+                        }(a, n, +e.nodeName[1]),
+                        r = t.getOffsetY(e, t.options.offsetBody);
+                    ! function(t) {
+                        t.id && 1 === te("#" + t.id).length || (t.id = s.next().value)
+                    }(e);
+                    var c = function(e, i) {
+                        if (!e.textContent.replace(/\s/g, "")) return !1;
+                        var n = t.toc.querySelector('a[href="#' + e.id + '"]');
+                        return n || ((n = Xt.createElement("a")).href = "#" + e.id, n.classList.add(t.options.classNames.link), i >= 2 && n.classList.add("" + t.options.classNames["marginLeft" + (i - 1)]), n.textContent = e.textContent), n
+                    }(e, o);
+                    a.splice(n, 1, [n, o, r, e, c])
+                });
+                var a = {
+                    levels: [],
+                    offsets: [],
+                    sources: [],
+                    targets: []
+                };
+                return n.forEach(function(t, e) {
+                    a.levels[e] = t[1], a.offsets[e] = t[2], a.sources[e] = t[3], a.targets[e] = t[4]
+                }), a
+            },
+            setActive: function(t) {
+                var e = this.active,
+                    i = e ? e.classList : [],
+                    n = this.options.classNames.active,
+                    s = "." + this.options.classNames.link + "." + this.options.classNames.active;
+                e && i.contains(n) && i.remove(n), i = (e = this.active = t && ce(t) ? t : Kt(s)) && (e.classList || []), e && !i.contains(n) && i.add(n), this.setHightlight(e)
+            },
+            setHightlight: function(t) {
+                this.hightlight && (t ? (this.hightlight.style.top = t.offsetTop + "px", this.hightlight.style.height = t.offsetHeight + "px") : (this.hightlight.style.top = 0, this.hightlight.style.height = 0))
+            },
+            __enter: function(t) {
+                this.setHightlight(t.target)
+            },
+            __leave: function() {
+                this.setActive(this.active)
+            },
+            __click: function(t) {
+                this.offsetBodyScrollDebounce(), this.setActive(t.target)
+            },
+            tocEvent: function() {
+                if (this.hightlight) {
+                    var t = this;
+                    St()(te("." + this.options.classNames.toc + " ." + this.options.classNames.link) || []).forEach(function(e) {
+                        e.addEventListener(ie, t.__enter.bind(t)), e.addEventListener(ne, t.__leave.bind(t)), e.addEventListener(se, t.__click.bind(t))
+                    })
+                }
+            },
+            shadow: function() {
+                if (!1 !== this.options.shadow) {
+                    var t = this.toc,
+                        e = t && (t.classList || []),
+                        i = this.options.shadow;
+                    !e.contains(i) && e.add(i)
+                }
+            },
+            fixed: function() {
+                var t = this.toc,
+                    e = this.options.tocFixed;
+                if (t) {
+                    var i = this.options.classNames.fxied,
+                        n = t.classList;
+                    !1 === e ? (t.style.top = "inherit", t.style.left = "inherit", n.contains(i) && n.remove(i)) : (!n.contains(i) && n.add(i), e.top && (t.style.top = e.top + "px"), e.left && (t.style.left = e.left + "px"))
+                }
+            }
+        };
+        var ve = ge,
+            _e = {
+                name: "BlogNavicatPage",
+                data: function() {
+                    return {
+                        isOpenFullScreen: !1
+                    }
+                },
+                beforeRouterEnter: function() {
+                    M()("#toc_page").empty()
+                },
+                created: function() {
+                    var t = this;
+                    this.$bus.on("articleDestroy", function(t) {
+                        M()("#blog_cloud_ad").show(), M()("#toc_page").empty()
+                    }), this.$bus.on("articleInited", function(e) {
+                        if (M()("#blog_cloud_ad").hide(), M()(e).attr("data-toc", "#toc_page"), 0 != M()("#app div[data-toc]").length) {
+                            M()("#toc_page").empty(), new ve({
+                                dom: "#app div[data-toc]",
+                                offsetBody: document.querySelector("#app .body-wrap")
+                            }).reset();
+                            var i = M()("#toc_page");
+                            i.css("max-width", "100%"), i.css("top", "0"), i.css("padding", "0"), i.css("margin", "0"), M()("#toc_page .toc-fixed").css("box-shadow", "0"), q.registerAnchorFunc(i);
+                            var n = M()("<span class='icon iconfont top topBtn topBtnDown'></span>");
+                            n.click(function() {
+                                n.hasClass("topBtnDown") ? t.$bus.emit("panelToBottom", {}) : t.$bus.emit("panelToTop", {})
+                            }), M()("#toc_page .toc-brand").append(n), M()(".toc-nav").css("max-height", M()(".body-wrap").height() - 140 + "px"), t.$bus.on("panelScrollEven", function(t) {
+                                var e = M()(".blog-navicat-page");
+                                t.target.scrollTop > 60 ? (n.removeClass("topBtnDown"), e.css("position", "fixed"), e.css("top", "60px"), M()(".toc-nav").css("max-height", M()(".body-wrap").height() - 100 + "px")) : (M()(".toc-nav").css("max-height", M()(".body-wrap").height() - 140 + "px"), n.addClass("topBtnDown"), e.css("position", ""), e.css("top", ""))
+                            })
+                        }
+                    })
+                }
+            },
+            be = {
+                render: function() {
+                    this.$createElement;
+                    this._self._c;
+                    return this._m(0)
+                },
+                staticRenderFns: [function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        attrs: {
+                            id: "blog_navicat_page"
+                        }
+                    }, [e("div", {
+                        staticClass: "blog-navicat-page"
+                    }, [e("div", {
+                        attrs: {
+                            id: "toc_page"
+                        }
+                    })])])
+                }]
+            };
+        var Ce = i("VU/8")(_e, be, !1, function(t) {
+                i("2fxl")
+            }, null, null).exports,
+            ye = {
+                name: "BlogCloudAd",
+                methods: {
+                    openAdPage: function(t) {
+                        window.open(t)
+                    }
+                },
+                data: function() {
+                    return {
+                        list: [{
+                            img: "https://yjlaugus.gitee.io/blog/img/body/ad1.jpg",
+                            url: "https://yjlaugus.gitee.io/index"
+                        }]
+                    }
+                }
+            },
+            we = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "blog_cloud_ad"
+                        }
+                    }, [i("div", {
+                        staticClass: "pub-body-title"
+                    }, [t._v("福利区")]), t._v(" "), t._l(t.list, function(e) {
+                        return i("div", {
+                            staticClass: "blog-cloud-ad-item"
+                        }, [i("img", {
+                            attrs: {
+                                src: e.img
+                            },
+                            on: {
+                                click: function(i) {
+                                    return t.openAdPage(e.url)
+                                }
+                            }
+                        })])
+                    })], 2)
+                },
+                staticRenderFns: []
+            };
+        var je = {
+                components: {
+                    BlogCloudAd: i("VU/8")(ye, we, !1, function(t) {
+                        i("NgtY")
+                    }, null, null).exports,
+                    BlogNavicatPage: Ce,
+                    BlogCloudPage: Jt,
+                    AsideInfoPage: zt
+                },
+                name: "BodyAside",
+                data: function() {
+                    return {
+                        selectItem: 1,
+                        viewPosts: [],
+                        catListComment: []
+                    }
+                },
+                methods: {
+                    clickOpenArticle: function(t) {
+                        this.$router.currentRoute.path != t && this.$router.push(t)
+                    }
+                },
+                created: function() {
+                    var t = this;
+                    at.loadTopLists().then(function(e) {
+                        Y(e.topViewPostsBlock), t.viewPosts = e.topViewPostsBlock
+                    }), at.loadSideColumn().then(function(e) {
+                        Y(e.catListComment), e.catListComment.map(function(e) {
+                            e.body = Vt(e.body), t.catListComment.push(e), at.loadCommitterFaceUrl(e.url, e.committer).then(function(t) {
+                                e.img = t
+                            })
+                        })
+                    }), this.$bus.on("articleInited", function(t) {
+                        t.selectItem = 3
+                    })
+                }
+            },
+            xe = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "pub_aside"
+                        }
+                    }, [i("div", {
+                        staticClass: "pub-head"
+                    }, [i("span", {
+                        staticClass: "article-menu-item",
+                        class: 1 == t.selectItem ? "article-menu-bottom" : "",
+                        on: {
+                            click: function(e) {
+                                t.selectItem = 1
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont fire"
+                    })]), t._v(" "), i("span", {
+                        staticClass: "article-menu-item",
+                        class: 2 == t.selectItem ? "article-menu-bottom" : "",
+                        on: {
+                            click: function(e) {
+                                t.selectItem = 2
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont talk"
+                    })]), t._v(" "), i("span", {
+                        staticClass: "article-menu-item",
+                        class: 3 == t.selectItem ? "article-menu-bottom" : "",
+                        on: {
+                            click: function(e) {
+                                t.selectItem = 3
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont menu"
+                    })])]), t._v(" "), i("div", {
+                        staticClass: "pub-body"
+                    }, [i("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: 1 == t.selectItem,
+                            expression: "selectItem==1"
+                        }],
+                        staticClass: "pub-body-view-posts"
+                    }, [i("div", [i("div", {
+                        staticClass: "pub-body-title"
+                    }, [t._v("热门文章")]), t._v(" "), i("div", t._l(t.viewPosts, function(e, n) {
+                        return i("div", {
+                            staticClass: "pub-item",
+                            on: {
+                                click: function(i) {
+                                    return t.clickOpenArticle(e.url)
+                                }
+                            }
+                        }, [i("div", {
+                            staticClass: "pub-face panel-right-img-style",
+                            class: "panel-right-img-pic-" + n
+                        }), t._v(" "), i("div", {
+                            staticClass: "pub-item-wrap"
+                        }, [i("div", {
+                            staticClass: "item-title double-ellipsis",
+                            attrs: {
+                                title: e.title
+                            }
+                        }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
+                            staticClass: "item-see"
+                        }, [i("span", {
+                            staticClass: "icon iconfont see"
+                        }), t._v(" "), i("span", [t._v(t._s(e.num))])])])])
+                    }), 0)]), t._v(" "), i("aside-info-page"), t._v(" "), i("blog-cloud-page")], 1), t._v(" "), i("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: 2 == t.selectItem,
+                            expression: "selectItem==2"
+                        }],
+                        staticClass: "pub-body-comment"
+                    }, [i("div", [i("div", {
+                        staticClass: "pub-body-title"
+                    }, [t._v("最新评论")]), t._v(" "), i("div", t._l(t.catListComment, function(e, n) {
+                        return i("div", {
+                            staticClass: "pub-item",
+                            on: {
+                                click: function(i) {
+                                    return t.clickOpenArticle(e.url)
+                                }
+                            }
+                        }, [i("div",{
+                            staticClass: "comface"
+                        },[i("img", {
+                            //staticClass: "pub-face panel-right-img-style",
+                            attrs: {
+                                src: e.img
+                            }
+                        })]), t._v(" "), i("div", {
+                            staticClass: "pub-item-wrap"
+                        }, [i("div", {
+                            staticClass: "item-title sing-ellipsis",
+                            attrs: {
+                                title: e.title
+                            }
+                        }, [t._v(t._s(e.title))]), t._v(" "), i("div", {
+                            staticClass: "item-body double-ellipsis",
+                            attrs: {
+                                title: e.body
+                            },
+                            domProps: {
+                                innerHTML: t._s(e.body)
+                            }
+                        }, [t._v(t._s(e.body))]), t._v(" "), i("div", {
+                            staticClass: "item-committer",
+                            attrs: {
+                                title: e.committer
+                            }
+                        }, [t._v("-- " + t._s(e.committer))])])])
+                    }), 0), t._v(" "), i("aside-info-page"), t._v(" "), i("blog-cloud-page")], 1)]), t._v(" "), i("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: 3 == t.selectItem,
+                            expression: "selectItem==3"
+                        }],
+                        staticClass: "pub-body-menulist"
+                    }, [i("blog-cloud-ad"), t._v(" "), i("blog-navicat-page")], 1)])])
+                },
+                staticRenderFns: []
+            };
+        var Ie = {
+                name: "RouteBody",
+                components: {
+                    ArticlesBody: Rt,
+                    PubAside: i("VU/8")(je, xe, !1, function(t) {
+                        i("kCXk")
+                    }, null, null).exports
+                },
+                mounted: function() {},
+                data: function() {
+                    return {
+                        leftHeight: "",
+                        rightHeight: ""
+                    }
+                },
+                methods: {
+                    resetView: function() {}
+                }
+            },
+            ke = {
+                render: function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        attrs: {
+                            id: "route_body"
+                        }
+                    }, [e("router-view", {
+                        ref: "routeView",
+                        staticClass: "inner-route-body",
+                        style: {
+                            maxHeight: this.leftHeight + "px"
+                        }
+                    }), this._v(" "), e("pub-aside", {
+                        ref: "pubAside",
+                        staticClass: "pub-aside",
+                        style: {
+                            maxHeight: this.rightHeight + "px"
+                        }
+                    })], 1)
+                },
+                staticRenderFns: []
+            };
+        var Ae = i("VU/8")(Ie, ke, !1, function(t) {
+                i("f4Rk")
+            }, null, null).exports,
+            Pe = {
+                data: function() {
+                    return {
+                        isClose: !0,
+                        isShade: !1
+                    }
+                },
+                methods: {
+                    openLoading: function(t) {
+                        var e = this;
+                        this.isClose = !1, this.$nextTick(function() {
+                            setTimeout(function() {
+                                e.isShade = !0
+                            }, 20), setTimeout(function() {
+                                t()
+                            }, 320)
+                        })
+                    },
+                    closeLoading: function(t) {
+                        this.isShade = !1
+                    },
+                    afterLeave: function(t) {
+                        var e = this;
+                        this.$nextTick(function() {
+                            setTimeout(function() {
+                                e.isClose = !0
+                            }, 20)
+                        })
+                    }
+                },
+                name: "RouteBodyShade"
+            },
+            Ee = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: !t.isClose,
+                            expression: "!isClose"
+                        }],
+                        attrs: {
+                            id: "route_body_shade"
+                        }
+                    }, [i("div", {
+                        staticClass: "loading-screen-lump-wrap"
+                    }, [i("transition", {
+                        attrs: {
+                            name: "trans"
+                        },
+                        on: {
+                            "after-leave": t.afterLeave
+                        }
+                    }, [i("div", {
+                        staticClass: "loading-screen-lump",
+                        class: t.isShade ? "loading-screen-lump-show" : ""
+                    }, [i("div", {
+                        staticClass: "loading-screen-wrap"
+                    }, [i("div", {
+                        staticClass: "loading-screen-in"
+                    }, [i("div", {
+                        staticClass: "k-ball-holder3"
+                    }, [i("div", {
+                        staticClass: "k-ball7a"
+                    }), t._v(" "), i("div", {
+                        staticClass: "k-ball7b"
+                    }), t._v(" "), i("div", {
+                        staticClass: "k-ball7c"
+                    }), t._v(" "), i("div", {
+                        staticClass: "k-ball7d"
+                    })])])])])])], 1), t._v(" "), i("transition", {
+                        attrs: {
+                            name: "fade"
+                        },
+                        on: {
+                            "after-leave": t.afterLeave
+                        }
+                    }, [t.isShade ? i("div", {
+                        staticClass: "loading-screen-back"
+                    }, [t._v("111")]) : t._e()])], 1)
+                },
+                staticRenderFns: []
+            };
+        var Be = i("VU/8")(Pe, Ee, !1, function(t) {
+                i("4n8e")
+            }, null, null).exports,
+            Le = {
+                render: function() {
+                    var t = this.$createElement,
+                        e = this._self._c || t;
+                    return e("div", {
+                        attrs: {
+                            id: "loading_bar"
+                        }
+                    }, [e("div", {
+                        staticClass: "loading-bar"
+                    }, [e("transition", {
+                        attrs: {
+                            name: "trans"
+                        }
+                    }, [e("div", {
+                        staticClass: "preloaderbar show active",
+                        class: {
+                            preloaderbarShow: !this.isClose
+                        }
+                    }, [e("span", {
+                        staticClass: "bar"
+                    })])])], 1)])
+                },
+                staticRenderFns: []
+            };
+        var Te = i("VU/8")({
+            name: "LoadingBar",
+            data: function() {
+                return {
+                    isClose: !0
+                }
+            },
+            methods: {
+                openLoadingBar: function() {
+                    this.isClose = !1
+                },
+                closeLoadingBar: function() {
+                    this.isClose = !0
+                }
+            }
+        }, Le, !1, function(t) {
+            i("d6nk")
+        }, null, null).exports;
+        console.log(m.outPrint[0], m.outPrint[1], m.outPrint[2]);
+        var Se = m.myPage,
+            Ne = m.myUrl,
+            Oe = {
+                name: "BlogBottom",
+                methods: {
+                    page: function() {
+                        window.open(Se)
+                    },
+                    detail: function() {
+                        return Ne
+                    }
+                },
+                data: function() {
+                    return {
+                        copyright: "Copyright © " + (new Date).getFullYear() + " " + g.blogName,
+                        plugName: "c_blog",
+                        author: "cjunn",
+                        technology: "Powered by vue on cnblogs"
+                    }
+                }
+            },
+            $e = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
                             id: "blog_bottom"
                         }
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "copyright"
-                    }, [t._v(t._s(t.copyright) + "\n    "), n("span", {
+                    }, [t._v(t._s(t.copyright) + "\n    "), i("span", {
                         staticClass: "author-clz",
                         on: {
                             click: t.page
                         }
-                    }, [n("span", [t._v(t._s(t.detail()))])])]), t._v(" "), n("div", {
+                    }, [i("span", [t._v(t._s(t.detail()))])])]), t._v(" "), i("div", {
                         staticClass: "technology"
                     }, [t._v(t._s(t.technology))])])
                 },
                 staticRenderFns: []
             };
-        var Xt = n("VU/8")(zt, Gt, !1, function(t) {
-                n("mL6P")
+        var Ue = i("VU/8")(Oe, $e, !1, function(t) {
+                i("gp1v")
             }, null, null).exports,
-            Qt = (n("UJDJ"), n("sCtt")),
-            Jt = n.n(Qt),
-            Yt = {
+            Me = {
                 name: "BlogFullPage",
                 methods: {
                     closeFullScreenEven: function() {
@@ -1965,25 +3311,25 @@ webpackJsonp([1], {
                 created: function() {
                     var t = this;
                     this.$bus.on("openFullScreenEven", function(e) {
-                        var n = B()(e.body);
-                        n.find("h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]").each(function(t, e) {
-                            var n = B()(e);
-                            n.attr("id", n.attr("id") + "__fullscreen")
-                        }), t.article.body = n.prop("outerHTML"), t.article.title = e.title, n.remove(), setTimeout(function() {
+                        var i = M()(e.body);
+                        i.find("h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]").each(function(t, e) {
+                            var i = M()(e);
+                            i.attr("id", i.attr("id") + "__fullscreen")
+                        }), t.article.body = i.prop("outerHTML"), t.article.title = e.title, i.remove(), setTimeout(function() {
                             t.$nextTick(function() {
-                                B()("#post_body_fiex_menu_anchor").empty(), B()("#post_body_content_fullscreen").attr("data-toc", "#post_body_fiex_menu_anchor"), new Jt.a({
+                                M()("#post_body_fiex_menu_anchor").empty(), M()("#post_body_content_fullscreen").attr("data-toc", "#post_body_fiex_menu_anchor"), new ve({
                                     dom: "#post_body_content_fullscreen",
                                     offsetBody: document.querySelector(".post-body-content-fiex-wrap")
-                                }).reset(), t.isOpenFullScreen = !0, $.registerAnchorFunc(B()("#post_body_fiex_menu_anchor"));
-                                var e = B()("<span class='icon iconfont top topBtn topBtnDown'></span>");
-                                B()("#post_body_fiex_menu_anchor .toc-brand").append(e), e.click(function() {
+                                }).reset(), t.isOpenFullScreen = !0, q.registerAnchorFunc(M()("#post_body_fiex_menu_anchor"));
+                                var e = M()("<span class='icon iconfont top topBtn topBtnDown'></span>");
+                                M()("#post_body_fiex_menu_anchor .toc-brand").append(e), e.click(function() {
                                     e.hasClass("topBtnDown") ? document.getElementById("full_body_bottom_target").scrollIntoView({
                                         behavior: "smooth"
                                     }) : document.getElementById("full_body_top_target").scrollIntoView({
                                         behavior: "smooth"
                                     })
-                                }), B()(".post-body-content-fiex-wrap").scroll(function(t) {
-                                    B()("#full_body_top_target").offset().top < -80 ? e.removeClass("topBtnDown") : e.addClass("topBtnDown")
+                                }), M()(".post-body-content-fiex-wrap").scroll(function(t) {
+                                    M()("#full_body_top_target").offset().top < -80 ? e.removeClass("topBtnDown") : e.addClass("topBtnDown")
                                 })
                             })
                         })
@@ -1992,20 +3338,20 @@ webpackJsonp([1], {
                     })
                 }
             },
-            Zt = {
+            Re = {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
                             id: "blog_article_full_screen"
                         }
-                    }, [n("transition", {
+                    }, [i("transition", {
                         attrs: {
                             name: "fade"
                         }
-                    }, [n("div", {
+                    }, [i("div", {
                         directives: [{
                             name: "show",
                             rawName: "v-show",
@@ -2013,17 +3359,17 @@ webpackJsonp([1], {
                             expression: "isOpenFullScreen"
                         }],
                         staticClass: "blog-article-full-screen-warp"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "post-body-content-fiex-wrap"
-                    }, [n("div", {
+                    }, [i("div", {
                         attrs: {
                             id: "full_body_top_target"
                         }
-                    }), t._v(" "), n("div", {
+                    }), t._v(" "), i("div", {
                         staticClass: "post-body-content-fiex-inner-wrap"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "post-body-title-fullscreen"
-                    }, [t._v(t._s(t.article.title))]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.article.title))]), t._v(" "), i("div", {
                         directives: [{
                             name: "highlight",
                             rawName: "v-highlight"
@@ -2034,20 +3380,20 @@ webpackJsonp([1], {
                         domProps: {
                             innerHTML: t._s(t.article.body)
                         }
-                    }, [t._v(t._s(t.article.body))])]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.article.body))])]), t._v(" "), i("div", {
                         staticClass: "post-body-fiex-close"
-                    }, [n("span", {
+                    }, [i("span", {
                         staticClass: "icon iconfont LogonClosed",
                         on: {
                             click: t.closeFullScreenEven
                         }
-                    })]), t._v(" "), n("div", {
+                    })]), t._v(" "), i("div", {
                         staticClass: "post-body-fiex-menu"
-                    }, [n("div", {
+                    }, [i("div", {
                         attrs: {
                             id: "post_body_fiex_menu_anchor"
                         }
-                    })]), t._v(" "), n("div", {
+                    })]), t._v(" "), i("div", {
                         attrs: {
                             id: "full_body_bottom_target"
                         }
@@ -2055,24 +3401,38 @@ webpackJsonp([1], {
                 },
                 staticRenderFns: []
             };
-        var Kt = {
+        var Fe = {
                 name: "BlogPanel",
+                methods: {
+                    panelScrollEvent: function(t) {
+                        this.$bus.emit("panelScrollEven", t)
+                    }
+                },
+                data: function() {
+                    return {
+                        loading: !0,
+                        lastPageId: "",
+                        routeMinHeight: "",
+                        asideIsShow: !1
+                    }
+                },
+                created: function() {},
                 components: {
-                    BlogFullPage: n("VU/8")(Yt, Zt, !1, function(t) {
-                        n("QeqI")
+                    BlogFullPage: i("VU/8")(Me, Re, !1, function(t) {
+                        i("jC4j")
                     }, null, null).exports,
-                    BlogBottom: Xt,
-                    BlogAside: Dt,
-                    BlogHead: $t
+                    BlogBottom: Ue,
+                    LoadingBar: Te,
+                    LoadingBody: Be,
+                    RouteBody: Ae,
+                    ArticlesBody: Rt,
+                    PanelAside: Lt,
+                    BlogHeadBar: yt
+                },
+                beforeRouteUpdate: function(t, e, i) {
+                    this.$bus.emit("fullLoadingOpen", i)
                 },
                 mounted: function() {
-                    var t = this,
-                        e = function(e) {
-                            "opacity" == e.propertyName && (t.$refs.panel.scrollTop = 0)
-                        };
-                    this.$refs.panel.addEventListener("transitionend", e), this.$refs.panel.addEventListener("webkitTransitionEnd", e)
-                },
-                created: function() {
                     var t = this;
                     this.$bus.on("panelToTop", function() {
                         document.getElementById("panel_top_target").scrollIntoView({
@@ -2082,181 +3442,1000 @@ webpackJsonp([1], {
                         document.getElementById("panel_bottom_target").scrollIntoView({
                             behavior: "smooth"
                         })
-                    }), this.$bus.on("openLoadingBar", function(e) {
-                        t.isShowLoadingBar = !0
-                    }), this.$bus.on("closeLoadingBar", function(e) {
-                        t.isShowLoadingBar = !1
-                    }), this.$bus.on("beforeRoute", function(e) {
-                        t.isShowLoading = !0, setTimeout(function() {
-                            e.next()
-                        }, 300)
-                    }), this.$bus.on("afterRoute", function(t) {}), this.$bus.on("dataedRoute", function(e) {
-                        t.isShowLoading = !1
-                    }), this.$bus.on("anchorScroll", function(e) {
-                        var n = t.$route.query;
-                        if (n && n.anchor) {
-                            var i = document.querySelector("#app [href='#" + e + "']");
-                            i && i.scrollIntoView({
-                                behavior: "auto"
-                            }), delete t.$route.query.anchor
-                        }
-                    })
-                },
-                methods: {
-                    panelScrollEvent: function(t) {
-                        this.$bus.emit("panelScrollEven", t)
-                    },
-                    transitionEvent: function(t) {}
-                },
-                data: function() {
-                    return {
-                        isShowLoading: !1,
-                        isShowLoadingBar: !1,
-                        include: "BlogWorksBody,BlogAuthorBody"
-                    }
+                    }), this.$bus.on("switchPanelAside", function() {
+                        t.asideIsShow = !t.asideIsShow
+                    }), this.$bus.on("fullLoadingOpen", function(e) {
+                        t.$nextTick(function() {
+                            t.$refs.loadingBody && t.$refs.loadingBody.openLoading(function() {
+                                e && e(), t.$refs.routerView.scrollTo(0, 0)
+                            })
+                        })
+                    }), this.$bus.on("fullLoadingClose", function() {
+                        t.$nextTick(function() {
+                            t.$refs.loadingBody && t.$refs.loadingBody.closeLoading()
+                        })
+                    }), this.$bus.on("barLoadingOpen", function() {
+                        t.$nextTick(function() {
+                            t.$refs.loadingBar && t.$refs.loadingBar.openLoadingBar()
+                        })
+                    }), this.$bus.on("barLoadingClose", function() {
+                        t.$nextTick(function() {
+                            t.$refs.loadingBar && t.$refs.loadingBar.closeLoadingBar()
+                        })
+                    }), this.routeMinHeight = this.$refs.routerView.clientHeight - 40
                 }
             },
-            te = {
+            qe = {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
                             id: "blog_panel"
                         }
-                    }, [n("blog-full-page"), t._v(" "), n("blog-head", {
-                        staticClass: "blog-head-oub-wrap"
-                    }), t._v(" "), n("div", {
-                        staticClass: "blog-head-oub-body"
-                    }, [n("blog-aside"), t._v(" "), n("div", {
-                        staticClass: "loading-bar"
-                    }, [n("div", {
-                        staticClass: "preloaderbar show active",
+                    }, [i("blog-full-page"), t._v(" "), i("blog-head-bar", {
+                        staticClass: "blog-head-bar"
+                    }), t._v(" "), i("div", {
+                        staticClass: "main-panel"
+                    }, [i("panel-aside", {
+                        staticClass: "panel-aside",
                         class: {
-                            preloaderbarShow: t.isShowLoadingBar
-                        }
-                    }, [n("span", {
-                        staticClass: "bar"
-                    })])]), t._v(" "), n("div", {
-                        ref: "panel",
-                        staticClass: "body-wrap none-base-scroll",
-                        class: {
-                            "stop-scroll": t.isShowLoading
+                            "blog-aside-show": t.asideIsShow, "blog-aside-hide": !t.asideIsShow
                         },
-                        on: {
-                            scroll: t.panelScrollEvent,
-                            transitionEvent: t.transitionEvent
+                        attrs: {
+                            id: "panel_aside"
                         }
-                    }, [n("div", {
+                    }), t._v(" "), i("div", {
+                        staticClass: "panel-aside-shape",
+                        class: t.asideIsShow ? "" : "panel-aside-shape-hide",
+                        on: {
+                            click: function(e) {
+                                t.asideIsShow = !1
+                            }
+                        }
+                    }, [t._v("sss")]), t._v(" "), i("loading-bar", {
+                        ref: "loadingBar",
+                        staticClass: "loading-bar-clz"
+                    }), t._v(" "), i("loading-body", {
+                        ref: "loadingBody",
+                        staticClass: "loading-body-clz"
+                    }), t._v(" "), i("div", {
+                        ref: "routerView",
+                        staticClass: "route-body none-base-scroll",
+                        on: {
+                            scroll: t.panelScrollEvent
+                        }
+                    }, [i("div", {
                         attrs: {
                             id: "panel_top_target"
                         }
-                    }), t._v(" "), n("div", {
-                        staticClass: "loading-screen-lump",
-                        class: {
-                            "loading-screen-lump-show": t.isShowLoading
+                    }), t._v(" "), i("router-view", {
+                        ref: "routeViewWrap",
+                        staticClass: "router-view-wrap",
+                        style: {
+                            "min-Height": this.routeMinHeight + "px"
                         }
-                    }, [t._m(0)]), t._v(" "), n("div", {
-                        staticClass: "route-view-screen",
-                        class: {
-                            "route-view-screen-hide": t.isShowLoading
-                        }
-                    }, [n("router-view", {
-                        staticClass: "router-view-warp"
-                    }), t._v(" "), n("blog-bottom", {
-                        staticClass: "router-bottom-wrap"
-                    })], 1), t._v(" "), n("div", {
+                    }), t._v(" "), i("blog-bottom"), t._v(" "), i("div", {
                         attrs: {
                             id: "panel_bottom_target"
                         }
-                    })])], 1)], 1)
+                    })], 1)], 1)], 1)
                 },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "loading-screen-wrap"
-                    }, [e("div", {
-                        staticClass: "loading-screen-in"
-                    }, [e("div", {
-                        staticClass: "k-ball-holder3"
-                    }, [e("div", {
-                        staticClass: "k-ball7a"
-                    }), this._v(" "), e("div", {
-                        staticClass: "k-ball7b"
-                    }), this._v(" "), e("div", {
-                        staticClass: "k-ball7c"
-                    }), this._v(" "), e("div", {
-                        staticClass: "k-ball7d"
-                    })])])])
-                }]
+                staticRenderFns: []
             };
-        var ee = {
-                created: function() {},
-                name: "BlogMain",
-                components: {
-                    BlogPanel: n("VU/8")(Kt, te, !1, function(t) {
-                        n("M7OF")
-                    }, null, null).exports
+        var He = i("VU/8")(Fe, qe, !1, function(t) {
+                i("+JuU")
+            }, null, null).exports,
+            Ve = {
+                props: {
+                    articleInfo: {
+                        type: Object
+                    }
                 },
                 data: function() {
                     return {
-                        imgStyle: {
-                            background: "url(" + v.bigBackImg + ") rgb(248, 248, 255)"
+                        articleName: g.blogName
+                    }
+                },
+                name: "ArticleTitle",
+                methods: {}
+            },
+            De = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "article_title"
                         }
+                    }, [i("div", {
+                        staticClass: "article-page-head-wrap"
+                    }, [i("div", {
+                        staticClass: "author-title"
+                    }, [i("span", [t._v(t._s(t.articleInfo.title))]), t._v(" "), i("span", {
+                        staticClass: "fangdabtn icon iconfont icontushu",
+                        on: {
+                            click: function(e) {
+                                return t.$emit("openFullScreenEven")
+                            }
+                        }
+                    })]), t._v(" "), i("div", {
+                        staticClass: "author-sign"
+                    }, [i("span", [i("span", {
+                        staticClass: "icon iconfont renyuanguanli"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleName))])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont ios-shijian"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.time))])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont see"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.viewCount))]), t._v(" "), i("span", [t._v("次浏览")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont talk"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.commentCount))]), t._v(" "), i("span", [t._v("条评论")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont iconpen"
+                    }), t._v(" "), i("span", [t._v(t._s(t.articleInfo.fontNum))]), t._v(" "), i("span", [t._v("字数")])]), t._v(" "), i("span", [i("span", {
+                        staticClass: "icon iconfont iconpurchase-tag"
+                    }), t._v(" "), i("span", t._l(t.articleInfo.articleLabels, function(e) {
+                        return i("span", {
+                            staticClass: "label-item"
+                        }, [i("span", {}, [t._v(t._s(e.title))])])
+                    }), 0)])])])])
+                },
+                staticRenderFns: []
+            };
+        var Ge = i("VU/8")(Ve, De, !1, function(t) {
+                i("XxYp")
+            }, null, null).exports,
+            ze = {
+                name: "ArticlePreLine",
+                methods: {
+                    openWeiBo: function() {
+                        J()
+                    },
+                    openWechat: function() {
+                        X()
                     }
                 }
             },
-            ne = {
+            We = {
                 render: function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "blog-main",
-                        style: this.imgStyle
-                    }, [e("blog-panel", {
-                        staticClass: "blog-panel-wrap"
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "article_pre_line"
+                        }
+                    }, [i("div", {
+                        staticClass: "post-body-head post-body-title"
+                    }, [i("span", {
+                        staticClass: "icon iconfont iconhome"
+                    }), t._v(" "), i("span", [t._v("首页")]), t._v(" "), i("span", {
+                        staticClass: "sep"
+                    }, [t._v("/")]), t._v(" "), i("span", [t._v("正文")]), t._v(" "), i("span", {
+                        staticClass: "right-area"
+                    }, [i("span", [t._v("分享到 :")]), t._v(" "), i("span", {
+                        staticClass: "icon iconfont iconweibo",
+                        on: {
+                            click: t.openWeiBo
+                        }
+                    }), t._v(" "), i("span", {
+                        staticClass: "icon iconfont wechat",
+                        on: {
+                            click: t.openWechat
+                        }
+                    })])])])
+                },
+                staticRenderFns: []
+            };
+        var Qe = i("VU/8")(ze, We, !1, function(t) {
+                i("avc0")
+            }, null, null).exports,
+            Je = {
+                props: ["articleObj"],
+                name: "ArticleDesc",
+                data: function() {
+                    return {
+                        isFucus: "",
+                        isDigg: ""
+                    }
+                },
+                methods: {
+                    openEdit: function() {
+                        window.open(this.articleObj.editUrl)
+                    },
+                    initPageList: function() {
+                        var t = this;
+                        this.$nextTick(function() {
+                            t.articleObj.pageId && at.loadBlogPostInfo(t.articleObj.pageId).then(function(e) {
+                                t.isDigg = e.digg, t.isFucus = e.fucus, t.$bus.emit("articleInited", t.$refs.articleBody)
+                            })
+                        })
+                    },
+                    diggAction: function() {
+                        at.voteBlogPost(this.articleObj.pageId, !1).then(function(t) {
+                            q.showInfoMsg(t.message)
+                        })
+                    },
+                    fucusAction: function() {
+                        at.blogFollow().then(function(t) {
+                            q.showInfoMsg(t)
+                        })
+                    },
+                    addToWz: function() {
+                        return Q(this.articleObj.pageId)
+                    }
+                },
+                mounted: function() {
+                    this.initPageList()
+                },
+                watch: {
+                    articleObj: function() {
+                        this.initPageList()
+                    }
+                },
+                beforeDestroy: function() {
+                    this.$bus.emit("articleDestroy", !0)
+                }
+            },
+            Xe = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "article_desc"
+                        }
+                    }, [i("div", {
+                        staticClass: "article-page-body-wrap"
+                    }, [i("div", {
+                        staticClass: "inner-body-wrap"
+                    }, [i("div", {
+                        directives: [{
+                            name: "highlight",
+                            rawName: "v-highlight"
+                        }],
+                        ref: "articleBody",
+                        domProps: {
+                            innerHTML: t._s(t.articleObj.body)
+                        }
+                    }), t._v(" "), i("div", {
+                        staticClass: "body-wrap-bottom"
+                    }, [i("span", {
+                        staticClass: "icon iconfont ios-shijian"
+                    }), t._v(" 最后修改时间：" + t._s(t.articleObj.time))])]), t._v(" "), i("div", {
+                        staticClass: "post-body-bottom"
+                    }, [i("span", {
+                        staticClass: "post-bottom-item",
+                        on: {
+                            click: function(e) {
+                                return t.diggAction()
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont zan"
+                    }), t._v(" "), i("span", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: !t.isDigg,
+                            expression: "!isDigg"
+                        }]
+                    }, [t._v("已推荐")]), t._v(" "), i("span", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.isDigg,
+                            expression: "isDigg"
+                        }]
+                    }, [t._v("点击推荐")])]), t._v(" "), i("span", {
+                        staticClass: "post-bottom-item",
+                        on: {
+                            click: function(e) {
+                                return t.fucusAction()
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont heart"
+                    }), t._v(" "), i("span", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: !t.isFucus,
+                            expression: "!isFucus"
+                        }]
+                    }, [t._v("已关注")]), t._v(" "), i("span", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: t.isFucus,
+                            expression: "isFucus"
+                        }]
+                    }, [t._v("点击关注")])]), t._v(" "), i("span", {
+                        staticClass: "post-bottom-item",
+                        on: {
+                            click: function(e) {
+                                return t.addToWz()
+                            }
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont star"
+                    }), t._v("收藏该文\n        ")])]), t._v(" "), i("div", {
+                        staticClass: "post-article-right"
+                    }, [i("div", {
+                        on: {
+                            click: t.openEdit
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont pen"
+                    }), t._v(" "), i("span", [t._v("编辑")])])])])])
+                },
+                staticRenderFns: []
+            };
+        var Ye = i("VU/8")(Je, Xe, !1, function(t) {
+                i("114q")
+            }, null, null).exports,
+            Ze = {
+                props: {
+                    articleId: {
+                        default: -1
+                    }
+                },
+                data: function() {
+                    return {
+                        commentId: "",
+                        commentBody: "",
+                        replayCommentId: "",
+                        replayCommenter: ""
+                    }
+                },
+                name: "ArticleComment",
+                methods: {
+                    pushCommentEvent: function() {
+                        var t = this;
+                        this.commentId ? at.updateComment(this.commentId, this.commentBody).then(function(e) {
+                            t.$emit("commentUpdateEvent"), q.showInfoMsg("评论更新成功"), t.cancelCommentEvent()
+                        }) : at.addComment(this.articleId, this.commentBody, this.replayCommentId).then(function(e) {
+                            t.$emit("commentCommitEvent"), q.showInfoMsg("评论提交成功"), t.cancelCommentEvent()
+                        })
+                    },
+                    cancelCommentEvent: function() {
+                        this.commentId = "", this.commentBody = "", this.replayCommentId = "", this.replayCommenter = ""
+                    },
+                    setReplayCommentId: function(t, e) {
+                        this.replayCommentId = t, this.replayCommenter = e, this.commentBody = "@" + e + "\n" + this.commentBody, this.$refs.refTextArea.focus()
+                    },
+                    setQuoteCommentId: function(t, e) {
+                        var i = this;
+                        this.replayCommentId = t, this.replayCommenter = e, at.getCommentBody(t).then(function(t) {
+                            var n = "@" + e + "\n";
+                            t.split("\n").forEach(function(t, e) {
+                                n = n + "> " + t + "\n"
+                            }), n += "\n", i.commentBody = n + i.commentBody, i.$refs.refTextArea.focus()
+                        })
+                    },
+                    setUpdateCommentId: function(t) {
+                        var e = this;
+                        this.commentId = t, at.getCommentBody(t).then(function(t) {
+                            e.commentBody = t + "\n"
+                        }), this.$refs.refTextArea.focus()
+                    },
+                    quickResponseEven: function() {
+                        this.commentBody = "滴，打卡上车  " + BlogUtils.getNowTime()
+                    },
+                    openFaceEven: function() {
+                        var t = this;
+                        this.$refs.faceBtn.isInit || (this.$refs.faceBtn.isInit = !0, Ht("comment_area_wrap", this.$refs.faceBtn, function(e) {
+                            t.commentBody = e
+                        }))
+                    },
+                    createWrap: function(t, e) {
+                        var i = q.textAreaUtils,
+                            n = i.getTextareaCursor(this.$refs.refTextArea);
+                        n.text = t + n.text + e, i.addTextareaCursor(this.$refs.refTextArea, n, n.text)
+                    },
+                    commentQuote: function() {
+                        this.createWrap("> ", "")
+                    },
+                    commentBold: function() {
+                        this.createWrap("**", "**")
+                    },
+                    commentLink: function() {
+                        this.createWrap("[](", ")")
+                    },
+                    commentCode: function() {
+                        this.createWrap("`", "`")
+                    },
+                    commentImg: function() {
+                        var t = this;
+                        q.cnblogUtils.openImageUploadWindow(function(e) {
+                            t.commentBody = t.commentBody + e
+                        })
+                    }
+                }
+            },
+            Ke = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "articles_comment"
+                        }
+                    }, [i("div", [i("div", {
+                        staticClass: "comment-top"
+                    }, [i("span", {
+                        staticClass: "comment-title"
+                    }, [t._v("发表评论")]), t._v(" "), i("span", {
+                        staticClass: "right-bar-wrap"
+                    }, [i("span", {
+                        staticClass: "icon iconfont pin",
+                        attrs: {
+                            title: "引用"
+                        },
+                        on: {
+                            click: function(e) {
+                                return t.commentQuote()
+                            }
+                        }
+                    }), t._v(" "), i("span", {
+                        staticClass: "icon iconfont bold",
+                        attrs: {
+                            title: "加粗"
+                        },
+                        on: {
+                            click: function(e) {
+                                return t.commentBold()
+                            }
+                        }
+                    }), t._v(" "), i("span", {
+                        staticClass: "icon iconfont link",
+                        attrs: {
+                            title: "链接"
+                        },
+                        on: {
+                            click: function(e) {
+                                return t.commentLink()
+                            }
+                        }
+                    }), t._v(" "), i("span", {
+                        staticClass: "icon iconfont code",
+                        attrs: {
+                            title: "代码块"
+                        },
+                        on: {
+                            click: function(e) {
+                                return t.commentCode()
+                            }
+                        }
+                    }), t._v(" "), i("span", {
+                        staticClass: "icon iconfont image-text",
+                        attrs: {
+                            title: "图片"
+                        },
+                        on: {
+                            click: function(e) {
+                                return t.commentImg()
+                            }
+                        }
+                    })])]), t._v(" "), i("div", {
+                        staticClass: "comment-textarea"
+                    }, [i("textarea", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: t.commentBody,
+                            expression: "commentBody"
+                        }],
+                        ref: "refTextArea",
+                        staticClass: "middle-base-scroll",
+                        attrs: {
+                            id: "comment_area_wrap"
+                        },
+                        domProps: {
+                            value: t.commentBody
+                        },
+                        on: {
+                            input: function(e) {
+                                e.target.composing || (t.commentBody = e.target.value)
+                            }
+                        }
+                    })]), t._v(" "), i("div", {
+                        staticClass: "comment-bottom"
+                    }, [i("div", {
+                        staticClass: "opt-bar"
+                    }, [i("span", {
+                        staticClass: "ext-wrap"
+                    }, [i("span", {
+                        ref: "faceBtn",
+                        on: {
+                            click: t.openFaceEven
+                        }
+                    }, [i("span", {
+                        staticClass: "icon iconfont face2"
+                    }), t._v(" 表情")])])]), t._v(" "), i("div", {
+                        staticClass: "comment-btn"
+                    }, ["" == t.commentId ? i("span", {
+                        on: {
+                            click: t.pushCommentEvent
+                        }
+                    }, [t._v("发表评论")]) : t._e(), t._v(" "), "" != t.commentId ? i("span", {
+                        on: {
+                            click: t.pushCommentEvent
+                        }
+                    }, [t._v("更新评论")]) : t._e(), t._v(" "), "" != t.commentId ? i("span", {
+                        staticClass: "cancel",
+                        on: {
+                            click: t.cancelCommentEvent
+                        }
+                    }, [t._v("取消修改")]) : t._e()])])])])
+                },
+                staticRenderFns: []
+            };
+        var ti = i("VU/8")(Ze, Ke, !1, function(t) {
+                i("HWat")
+            }, null, null).exports,
+            ei = {
+                name: "Pagination",
+                props: {
+                    pageSize: {
+                        default: 0
+                    },
+                    pageCur: {
+                        default: 0
+                    },
+                    maxPage: {
+                        default: 0
+                    }
+                },
+                data: function() {
+                    return {
+                        pageList: []
+                    }
+                },
+                watch: {
+                    pageSize: function() {
+                        this.initPageList()
+                    },
+                    pageCur: function() {
+                        this.initPageList()
+                    },
+                    maxPage: function() {
+                        this.initPageList()
+                    }
+                },
+                created: function() {
+                    this.initPageList()
+                },
+                methods: {
+                    initPageList: function() {
+                        this.pageList = this.computePageList(parseInt(this.pageSize), parseInt(this.pageCur), parseInt(this.maxPage))
+                    },
+                    computePageList: function(t, e, i) {
+                        if (t <= i) return St()(Array(t), function(t, e) {
+                            return e + 1
+                        });
+                        if (e <= i / 2 + 1) {
+                            var n = St()(Array(i), function(t, e) {
+                                return e + 1
+                            });
+                            return n.push("..."), n.push(t), n
+                        }
+                        if (t - e <= i / 2 + 1) {
+                            var s = St()(Array(i), function(e, n) {
+                                return t - i + n + 1
+                            });
+                            return s.unshift("..."), s.unshift(1), s
+                        }
+                        var a = St()(Array(i), function(t, n) {
+                            return e - i / 2 + n + 1
+                        });
+                        return a.unshift("..."), a.unshift(1), a.push("..."), a.push(t), a
+                    }
+                }
+            },
+            ii = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "pagination"
+                        }
+                    }, [i("div", {
+                        staticClass: "post-comment-num"
+                    }, [i("ul", {
+                        staticClass: "pagination"
+                    }, t._l(t.pageList, function(e) {
+                        return i("li", {
+                            on: {
+                                click: function(i) {
+                                    !isNaN(e) && e != t.pageCur && t.$emit("clickPage", e)
+                                }
+                            }
+                        }, [i("a", {
+                            class: e == t.pageCur ? "active" : ""
+                        }, [t._v(t._s(e))])])
+                    }), 0)])])
+                },
+                staticRenderFns: []
+            };
+        var ni = i("VU/8")(ei, ii, !1, function(t) {
+                i("lZGg")
+            }, null, null).exports,
+            si = {
+                name: "ArticleMessage",
+                components: {
+                    Pagination: ni
+                },
+                props: {
+                    articleId: {
+                        default: -1
+                    }
+                },
+                data: function() {
+                    return {
+                        pageNum: 1,
+                        messageList: [],
+                        messageCount: 0,
+                        messageCurrent: -1
+                    }
+                },
+                watch: {
+                    articleId: function() {
+                        this.initMyCommentList(this.articleId, -1)
+                    }
+                },
+                created: function() {
+                    var t = this;
+                    this.initMyCommentList(this.articleId, -1), this.$bus.on("commentCommitEvent", function() {
+                        t.initMyCommentList(t.articleId, -1)
+                    }), this.$bus.on("commentUpdateEvent", function() {
+                        t.initMyCommentList(t.articleId, -1)
+                    })
+                },
+                methods: {
+                    openCommenter: function(t) {
+                        window.open(t)
+                    },
+                    commentOpeEvent: function(t) {
+                        q.showInfoMsg(t.message), this.initMyCommentList(this.articleId, this.pageNum)
+                    },
+                    diggComment: function(t) {
+                        at.diggComment(this.articleId, t, !1).then(this.commentOpeEvent)
+                    },
+                    burryComment: function(t) {
+                        at.buryComment(this.articleId, t, !1).then(this.commentOpeEvent)
+                    },
+                    delComment: function(t) {
+                        at.deleteComment(t).then(this.commentOpeEvent)
+                    },
+                    updateComment: function(t) {
+                        this.$emit("noticeUpdateEvent", t)
+                    },
+                    replayComment: function(t, e) {
+                        this.$emit("noticeReplayEvent", t, e)
+                    },
+                    quoteComment: function(t, e) {
+                        this.$emit("noticeQuoteEvent", t, e)
+                    },
+                    clickPage: function(t) {
+                        this.initMyCommentList(this.articleId, t)
+                    },
+                    initMyCommentList: function(t, e) {
+                        var i = this;
+                        this.pageNum = e, this.$bus.emit("barLoadingOpen"), at.loadMyCommentList(t, e).then(function(t) {
+                            i.messageList.splice(0, i.messageList.length), t.list.each(function(t, e) {
+                                e.desc = Vt(e.desc), i.messageList.push(e)
+                            }), i.messageCount = parseInt(t.count), i.messageCurrent = parseInt(t.current), i.$bus.emit("barLoadingClose")
+                        })
+                    }
+                }
+            },
+            ai = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "article_message"
+                        }
+                    }, [i("div", {
+                        staticClass: "article-message-wrap"
+                    }, [i("div", {
+                        staticClass: "message-title"
+                    }, [t._v("\n      评论列表\n    ")]), t._v(" "), t.messageList && 0 != t.messageList.length ? t._e() : i("div", {
+                        staticClass: "message-body-nocomment"
+                    }, [t._v("暂无评论")]), t._v(" "), t.messageList && t.messageList.length > 0 ? i("div", {
+                        staticClass: "message-body-warp"
+                    }, t._l(t.messageList, function(e) {
+                        return i("div", {
+                            staticClass: "body-item"
+                        }, [i("div", {
+                            staticClass: "avatar-img"
+                        }, [i("img", {
+                            attrs: {
+                                src: e.avatarHdUrl,
+                                onerror: "this.src='" + e.avatarUrl + "';this.onerror=null;"
+                            },
+                            on: {
+                                click: function(i) {
+                                    return t.openCommenter(e.authorUrl)
+                                }
+                            }
+                        })]), t._v(" "), i("div", {
+                            staticClass: "message-desc"
+                        }, [i("div", {
+                            staticClass: "message-desc-bar",
+                            on: {
+                                click: function(i) {
+                                    return t.openCommenter(e.authorUrl)
+                                }
+                            }
+                        }, [i("span", {
+                            staticClass: "desc-level"
+                        }, [t._v(t._s(e.level))]), t._v(" "), i("span", {
+                            staticClass: "desc-author"
+                        }, [t._v(t._s(e.author))])]), t._v(" "), i("span", {
+                            staticClass: "desc-date"
+                        }, [t._v(t._s(e.date))]), t._v(" "), i("div", [i("div", {
+                            staticClass: "desc-content",
+                            domProps: {
+                                innerHTML: t._s(e.desc)
+                            }
+                        })])]), t._v(" "), i("div", {
+                            staticClass: "message-btn-wrap"
+                        }, [i("div", {
+                            staticClass: "message-btn btn1"
+                        }, [e.delBtn ? i("span", {
+                            on: {
+                                click: function(i) {
+                                    return t.delComment(e.commentId)
+                                }
+                            }
+                        }, [t._v("删除")]) : t._e(), t._v(" "), e.updateBtn ? i("span", {
+                            on: {
+                                click: function(i) {
+                                    return t.updateComment(e.commentId)
+                                }
+                            }
+                        }, [t._v("修改")]) : t._e(), t._v(" "), e.replayBtn ? i("span", {
+                            on: {
+                                click: function(i) {
+                                    return t.replayComment(e.commentId, e.author)
+                                }
+                            }
+                        }, [t._v("回复")]) : t._e(), t._v(" "), e.quoteBtn ? i("span", {
+                            on: {
+                                click: function(i) {
+                                    return t.quoteComment(e.commentId, e.author)
+                                }
+                            }
+                        }, [t._v("引用")]) : t._e()]), t._v(" "), i("div", {
+                            staticClass: "message-btn btn2"
+                        }, [i("span", {
+                            on: {
+                                click: function(i) {
+                                    return t.burryComment(e.commentId)
+                                }
+                            }
+                        }, [i("span", {
+                            staticClass: "icon iconfont zan nozan"
+                        }), t._v(t._s(e.burry))]), t._v(" "), i("span", {
+                            on: {
+                                click: function(i) {
+                                    return t.diggComment(e.commentId)
+                                }
+                            }
+                        }, [i("span", {
+                            staticClass: "icon iconfont zan"
+                        }), t._v(t._s(e.digg))])])])])
+                    }), 0) : t._e(), t._v(" "), t.messageList && t.messageList.length > 0 ? i("pagination", {
+                        attrs: {
+                            "page-size": t.messageCount,
+                            "page-cur": t.messageCurrent,
+                            "max-page": "10"
+                        },
+                        on: {
+                            clickPage: t.clickPage
+                        }
+                    }) : t._e()], 1)])
+                },
+                staticRenderFns: []
+            };
+        var oi = i("VU/8")(si, ai, !1, function(t) {
+                i("mEDE")
+            }, null, null).exports,
+            ri = {
+                props: {
+                    articleId: {
+                        default: -1
+                    }
+                },
+                data: function() {
+                    return {
+                        prePos: {}
+                    }
+                },
+                name: "ArticlePrePos",
+                methods: {
+                    initPrePos: function() {
+                        var t = this;
+                        at.loadPrevnext(this.articleId).then(function(e) {
+                            t.prePos = e
+                        })
+                    }
+                },
+                created: function() {
+                    this.initPrePos()
+                },
+                watch: {
+                    articleId: function() {
+                        this.initPrePos()
+                    }
+                }
+            },
+            ci = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "article_pre_pos"
+                        }
+                    }, [t.prePos.preId ? i("router-link", {
+                        staticClass: "post-turning-pre",
+                        attrs: {
+                            tag: "div",
+                            to: t.VUE_CTX + "/subject/p/" + t.prePos.preId + ".html"
+                        }
+                    }, [t._v("上一篇")]) : t._e(), t._v(" "), t.prePos.posId ? i("router-link", {
+                        staticClass: "post-turning-pos",
+                        attrs: {
+                            tag: "div",
+                            to: t.VUE_CTX + "/subject/p/" + t.prePos.posId + ".html"
+                        }
+                    }, [t._v("下一篇")]) : t._e()], 1)
+                },
+                staticRenderFns: []
+            };
+        var li = {
+                name: "ArticleBody",
+                components: {
+                    ArticlePrePos: i("VU/8")(ri, ci, !1, function(t) {
+                        i("qOYO")
+                    }, null, null).exports,
+                    ArticleMessage: oi,
+                    ArticleComment: ti,
+                    ArticleDesc: Ye,
+                    ArticleTitle: Ge,
+                    ArticlePreLine: Qe
+                },
+                data: function() {
+                    return {
+                        articleId: "",
+                        article: {},
+                        articleInfo: {
+                            title: "",
+                            time: "",
+                            viewCount: "",
+                            commentCount: "",
+                            fontNum: "",
+                            articleLabels: []
+                        }
+                    }
+                },
+                created: function() {
+                    this.initArticle()
+                },
+                methods: {
+                    openFullScreenEven: function() {
+                        this.$bus.emit("openFullScreenEven", {
+                            title: this.articleInfo.title,
+                            body: this.article.body
+                        })
+                    },
+                    noticeUpdateEvent: function(t) {
+                        this.$refs.articleComment.setUpdateCommentId(t)
+                    },
+                    noticeReplayEvent: function(t, e) {
+                        this.$refs.articleComment.setReplayCommentId(t, e)
+                    },
+                    noticeQuoteEvent: function(t, e) {
+                        this.$refs.articleComment.setQuoteCommentId(t, e)
+                    },
+                    initArticle: function() {
+                        var t = this;
+                        this.articleId = this.$route.params.articleId, T.a.all([at.loadArticle(this.articleId).then(function(e) {
+                            t.article = e, t.articleInfo.fontNum = e.fontNum, t.articleInfo.title = e.title, t.articleInfo.time = e.time, t.articleInfo.viewCount = e.readNum
+                        }), at.loadCommentCount(this.articleId).then(function(e) {
+                            t.articleInfo.commentCount = e
+                        }), at.loadCategoriesTags(this.articleId).then(function(e) {
+                            t.articleInfo.articleLabels = e.tags
+                        })]).then(function() {
+                            t.$nextTick(function() {
+                                t.$bus.emit("fullLoadingClose")
+                            })
+                        })
+                    }
+                },
+                watch: {
+                    $route: function() {
+                        this.articleId != this.$route.params.articleId && this.initArticle()
+                    }
+                }
+            },
+            ui = {
+                render: function() {
+                    var t = this,
+                        e = t.$createElement,
+                        i = t._self._c || e;
+                    return i("div", {
+                        attrs: {
+                            id: "article_body"
+                        }
+                    }, [i("article-title", {
+                        attrs: {
+                            "article-info": t.articleInfo
+                        },
+                        on: {
+                            openFullScreenEven: t.openFullScreenEven
+                        }
+                    }), t._v(" "), i("article-pre-line"), t._v(" "), i("article-desc", {
+                        staticClass: "article-body-item",
+                        attrs: {
+                            articleObj: t.article
+                        }
+                    }), t._v(" "), i("article-pre-pos", {
+                        staticClass: "article-body-margin",
+                        attrs: {
+                            "article-id": t.articleId
+                        }
+                    }), t._v(" "), i("article-comment", {
+                        ref: "articleComment",
+                        staticClass: "article-body-item",
+                        attrs: {
+                            "article-id": t.articleId
+                        }
+                    }), t._v(" "), i("article-message", {
+                        staticClass: "article-body-item",
+                        attrs: {
+                            "article-id": t.articleId
+                        },
+                        on: {
+                            noticeReplayEvent: t.noticeReplayEvent,
+                            noticeQuoteEvent: t.noticeQuoteEvent,
+                            noticeUpdateEvent: t.noticeUpdateEvent
+                        }
                     })], 1)
                 },
                 staticRenderFns: []
             };
-        var ie = n("VU/8")(ee, ne, !1, function(t) {
-                n("90eC")
+        var di = i("VU/8")(li, ui, !1, function(t) {
+                i("Dlrj")
             }, null, null).exports,
-            ae = {
+            mi = {
                 name: "BlogAuthorIng",
+                components: {
+                    Pagination: ni
+                },
                 created: function() {
                     var t = this;
-                    T.a.all([this.askIngList(), this.askInfo(), this.askImg()]).then(function() {
-                        setTimeout(function() {
-                            t.$nextTick(function() {
-                                setTimeout(function() {
-                                    t.$bus.emit("dataedRoute", !0)
-                                }, 150)
-                            })
-                        }, 150)
+                    T.a.all([this.askIngList(), this.askInfo()]).then(function() {
+                        t.$bus.emit("fullLoadingClose")
                     })
                 },
-                computed: {
-                    talkNum: function() {
-                        return 0 == this.ingObj.pageList.length ? this.ingObj.cnList.length : 30 * (parseInt(this.ingObj.pageList[this.ingObj.pageList.length - 1].id) - 1) + "+"
-                    }
-                },
                 methods: {
-                    askImg: function() {
-                        var t = this;
-                        return new T.a(function(e, n) {
-                            Tt.loadAuthorHeadImg().then(function(n) {
-                                t.headImg = n, e()
-                            })
-                        })
-                    },
                     askInfo: function() {
                         var t = this;
-                        return new T.a(function(e, n) {
-                            Tt.loadArticleNum().then(function(n) {
-                                t.info = n, e()
+                        return new T.a(function(e, i) {
+                            at.loadArticleNum().then(function(i) {
+                                t.info = i, e()
                             }).catch(function() {
                                 e()
                             })
@@ -2264,32 +4443,36 @@ webpackJsonp([1], {
                     },
                     askIngList: function(t) {
                         var e = this,
-                            n = this;
-                        return t && this.$bus.emit("openLoadingBar", {}), new T.a(function(i, a) {
-                            Tt.loadBlogTalk(e.current).then(function(a) {
-                                n.ingObj = a, t && e.$bus.emit("closeLoadingBar", {}), i()
+                            i = this;
+                        return t && this.$bus.emit("barLoadingOpen"), new T.a(function(n, s) {
+                            at.loadBlogTalk(e.current).then(function(s) {
+                                i.ingObj = s, i.ingObj.current = s.pageNum, t && e.$bus.emit("barLoadingClose"), n()
                             }).catch(function() {
-                                i()
+                                n()
                             })
                         })
                     },
                     ingTitle: function() {
-                        return v.ingTitle
+                        return g.ingTitle
                     },
                     ingName: function() {
-                        return v.blogName
+                        return g.blogName
+                    },
+                    clickPage: function(t) {
+                        this.current = t
                     }
                 },
                 data: function() {
                     return {
-                        headBackImg: v.headBackImg,
-                        headImg: "",
+                        ingMinHeight: "",
+                        headBackImg: g.headBackImg,
                         ingObj: {
                             cnList: [],
                             current: -1,
-                            pageList: []
+                            pageNum: 0,
+                            count: 0
                         },
-                        current: 1,
+                        current: -1,
                         info: {}
                     }
                 },
@@ -2299,102 +4482,96 @@ webpackJsonp([1], {
                     }
                 }
             },
-            oe = {
+            pi = {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
                             id: "blog_author_ing"
                         }
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "author-head-img-wrap"
-                    }, [n("img", {
+                    }, [i("img", {
                         staticClass: "author-head-img",
                         attrs: {
                             src: t.headBackImg
                         }
-                    }), t._v(" "), n("div", {
+                    }), t._v(" "), i("div", {
                         staticClass: "author-head-content"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "author-head-content-wrap"
-                    }, [n("div", [n("div", {
+                    }, [i("div", [i("div", {
                         staticClass: "head-author-name"
-                    }, [t._v(t._s(t.ingName()))]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.ingName()))]), t._v(" "), i("div", {
                         staticClass: "head-author-sign"
-                    }, [t._v(t._s(t.ingTitle()))]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.ingTitle()))]), t._v(" "), i("div", {
                         staticClass: "head-author-info"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "head-author-info-item"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "head-info-num"
-                    }, [t._v(t._s(t.info.commentNum))]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.info.commentNum))]), t._v(" "), i("div", {
                         staticClass: "head-info-title"
-                    }, [t._v("评论")])]), t._v(" "), n("div", {
+                    }, [t._v("评价")])]), t._v(" "), i("div", {
                         staticClass: "head-author-info-item"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "head-info-num"
-                    }, [t._v(t._s(t.info.pageNum))]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.info.pageNum))]), t._v(" "), i("div", {
                         staticClass: "head-info-title"
-                    }, [t._v("文章")])]), t._v(" "), n("div", {
+                    }, [t._v("文章")])]), t._v(" "), i("div", {
                         staticClass: "head-author-info-item"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "head-info-num"
-                    }, [t._v(t._s(t.talkNum))]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.ingObj.count))]), t._v(" "), i("div", {
                         staticClass: "head-info-title"
-                    }, [t._v("新鲜事")])])])]), t._v(" "), t._m(0)])])]), t._v(" "), t.ingObj.current > 0 ? n("div", {
-                        staticClass: "page-num"
-                    }, [n("ul", {
-                        staticClass: "pagination"
-                    }, t._l(t.ingObj.pageList, function(e) {
-                        return n("li", {
-                            on: {
-                                click: function(n) {
-                                    !isNaN(e.id) && (t.current = e.id)
-                                }
-                            }
-                        }, [n("a", {
-                            class: {
-                                active: e.text == t.ingObj.current
-                            }
-                        }, [t._v(t._s(e.text))])])
-                    }), 0)]) : t._e(), t._v(" "), n("div", {
+                    }, [t._v("新鲜事")])])])]), t._v(" "), t._m(0)])])]), t._v(" "), i("div", {
                         staticClass: "author-body-wrap"
                     }, t._l(t.ingObj.cnList, function(e) {
-                        return n("div", {
+                        return i("div", {
                             staticClass: "author-content-item"
-                        }, [n("div", {
+                        }, [i("div", {
                             staticClass: "author-content-img-wrap"
-                        }, [n("img", {
+                        }, [i("img", {
                             attrs: {
-                                src: t.headImg
+                                src: e.avatarHdUrl,
+                                onerror: "this.src='" + e.avatarUrl + "';this.onerror=null;"
                             }
-                        })]), t._v(" "), n("div", {
+                        })]), t._v(" "), i("div", {
                             staticClass: "author-content-body-wrap"
-                        }, [n("div", {
+                        }, [i("div", {
                             staticClass: "author-content-arrow-back"
-                        }), t._v(" "), n("div", {
+                        }), t._v(" "), i("div", {
                             staticClass: "boadr-top-wrap"
-                        }, [n("span", {
+                        }, [i("span", {
                             staticClass: "board-top-author"
-                        }, [t._v(t._s(e.author))]), t._v(" "), n("span", {
+                        }, [t._v(t._s(e.author))]), t._v(" "), i("span", {
                             staticClass: "board-top-time"
-                        }, [t._v(t._s(e.time))])]), t._v(" "), n("div", {
+                        }, [t._v(t._s(e.date))])]), t._v(" "), i("div", {
                             staticClass: "board-middle-wrap",
                             domProps: {
-                                innerHTML: t._s(e.content)
+                                innerHTML: t._s(e.desc)
                             }
-                        }, [t._v("\n          " + t._s(e.content) + "\n        ")]), t._v(" "), n("div", {
+                        }, [t._v("\n          " + t._s(e.desc) + "\n        ")]), t._v(" "), i("div", {
                             staticClass: "board-bottom-wrap"
-                        }, [n("span", {
+                        }, [i("span", {
                             staticClass: "heart-wrap"
-                        }, [n("span", {
+                        }, [i("span", {
                             staticClass: "icon iconfont heart"
-                        }), n("span", [t._v(t._s(e.count))])]), t._v(" "), n("span", [n("span", {
+                        }), i("span", [t._v(t._s(e.digg || "0"))])]), t._v(" "), i("span", [i("span", {
                             staticClass: "icon iconfont Icon-Fixedposition- position"
-                        }), n("span", [t._v(t._s(e.from))])])])])])
-                    }), 0)])
+                        }), i("span", [t._v(t._s(e.from || "博客园"))])])])])])
+                    }), 0), t._v(" "), t.ingObj.pageNum ? i("pagination", {
+                        attrs: {
+                            "page-size": t.ingObj.pageNum,
+                            "page-cur": t.ingObj.current,
+                            "max-page": "10"
+                        },
+                        on: {
+                            clickPage: t.clickPage
+                        }
+                    }) : t._e()], 1)
                 },
                 staticRenderFns: [function() {
                     var t = this.$createElement,
@@ -2418,94 +4595,107 @@ webpackJsonp([1], {
                     })])])])
                 }]
             };
-        var se = n("VU/8")(ae, oe, !1, function(t) {
-                n("4+Uy")
+        var hi = i("VU/8")(mi, pi, !1, function(t) {
+                i("Rra2")
             }, null, null).exports,
-            ce = {
+            fi = {
                 name: "BlogAuthorAside",
                 methods: {
                     qq: function() {
-                        return v.qq
+                        return g.qq
                     },
                     email: function() {
-                        return v.email
+                        return g.email
                     },
                     github: function() {
-                        return v.github
+                        return g.github
                     }
                 },
                 data: function() {
                     return {
-                        emailImg: _("/img/ing/email.png"),
-                        qqImg: _("/img/ing/qq.png"),
-                        githubImg: _("/img/ing/github.png"),
-                        aboutmeHtml: v.aboutmeHtml
+                        emailImg: W("/img/ing/email.png"),
+                        qqImg: W("/img/ing/qq.png"),
+                        githubImg: W("/img/ing/github.png"),
+                        aboutmeHtml: g.aboutmeHtml
                     }
                 }
             },
-            re = {
+            gi = {
                 render: function() {
                     var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
+                        i = t._self._c || e;
+                    return i("div", {
                         attrs: {
                             id: "blog_author_aside"
                         }
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "blog-author-aside-wrap"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "contact-title"
-                    }, [t._v("联系方式")]), t._v(" "), n("div", {
+                    }, [t._v("联系方式")]), t._v(" "), i("div", {
                         staticClass: "contact-item"
-                    }, [n("span", {
+                    }, [i("span", {
                         staticClass: "contact-png"
-                    }, [n("img", {
+                    }, [i("img", {
                         attrs: {
                             id: "author-email-img",
                             src: t.emailImg
                         }
-                    })]), t._v(" "), n("span", {
+                    })]), t._v(" "), i("span", {
                         staticClass: "contact-content"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "contact-content-top"
-                    }, [t._v("email")]), t._v(" "), n("div", {
+                    }, [t._v("email")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
-                    }, [t._v(t._s(t.email()))])])]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.email()))])])]), t._v(" "), i("div", {
                         staticClass: "contact-item"
-                    }, [n("span", {
+                    }, [i("span", {
                         staticClass: "contact-png"
-                    }, [n("img", {
+                    }, [i("img", {
                         attrs: {
                             id: "author-qq-img",
                             src: t.qqImg
                         }
-                    })]), t._v(" "), n("span", {
+                    })]), t._v(" "), i("span", {
                         staticClass: "contact-content"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "contact-content-top"
-                    }, [t._v("QQ")]), t._v(" "), n("div", {
+                    }, [t._v("QQ")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
-                    }, [t._v(t._s(t.qq()))])])]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.qq()))])])]), t._v(" "), i("div", {
                         staticClass: "contact-item"
-                    }, [n("span", {
+                    }, [i("span", {
                         staticClass: "contact-png"
-                    }, [n("img", {
+                    }, [i("img", {
                         attrs: {
                             id: "author-github-img",
                             src: t.githubImg
                         }
-                    })]), t._v(" "), n("span", {
+                    })]), t._v(" "), i("span", {
                         staticClass: "contact-content"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "contact-content-top"
-                    }, [t._v("github")]), t._v(" "), n("div", {
+                    }, [t._v("github")]), t._v(" "), i("div", {
                         staticClass: "contact-content-bottom"
-                    }, [t._v(t._s(t.github()))])])]), t._v(" "), n("div", {
+                    }, [t._v(t._s(t.github()))])])]), t._v(" "), 
+					
+					i("div", {
                         staticClass: "about-me-wrap"
-                    }, [n("div", {
+                    }, [i("div", {
                         staticClass: "about-me-head"
-                    }, [t._v("关于我")]), t._v(" "), n("div", {
+                    }, [t._v("777")]), t._v(" "), i("div", {
+                        staticClass: "about-me-body",
+                        domProps: {
+                            innerHTML: t._s(t.aboutmeHtml)
+                        }
+                    }, [t._v("\n        " + t._s(t.aboutmeHtml) + "\n      ")])]), 
+					
+					i("div", {
+                        staticClass: "about-me-wrap"
+                    }, [i("div", {
+                        staticClass: "about-me-head"
+                    }, [t._v("关于我")]), t._v(" "), i("div", {
                         staticClass: "about-me-body",
                         domProps: {
                             innerHTML: t._s(t.aboutmeHtml)
@@ -2514,16 +4704,16 @@ webpackJsonp([1], {
                 },
                 staticRenderFns: []
             };
-        var le = {
+        var vi = {
                 name: "BlogAuthorBody",
                 components: {
-                    BlogAuthorAside: n("VU/8")(ce, re, !1, function(t) {
-                        n("9YwF")
+                    BlogAuthorAside: i("VU/8")(fi, gi, !1, function(t) {
+                        i("8Wqy")
                     }, null, null).exports,
-                    BlogAuthorIng: se
+                    BlogAuthorIng: hi
                 }
             },
-            ue = {
+            _i = {
                 render: function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
@@ -2531,2040 +4721,511 @@ webpackJsonp([1], {
                 },
                 staticRenderFns: []
             };
-        var me = n("VU/8")(le, ue, !1, function(t) {
-                n("z12H")
-            }, "data-v-01673cd3", null).exports,
-            de = {
-                name: "BlogHotPage",
-                created: function() {
-                    var t = this;
-                    Tt.loadHotArticle().then(function(e) {
-                        t.hotArticles = e
-                    })
-                },
-                methods: {
-                    picIcon: function(t) {
-                        return _("/img/menuIcon/menuicon-" + t + ".png")
-                    }
-                },
-                data: function() {
-                    return {
-                        hotArticles: []
-                    }
-                }
-            },
-            pe = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_hot_page"
-                        }
-                    }, [n("div", {
-                        staticClass: "menu-body-item"
-                    }, [t._m(0), t._v(" "), t._l(t.hotArticles, function(e, i) {
-                        return n("div", {
-                            staticClass: "menu-body-item-content"
-                        }, [n("router-link", {
-                            staticClass: "item-icon icon-unify-style",
-                            style: {
-                                background: "url(" + t.picIcon(i) + ")"
-                            },
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId,
-                                tag: "div"
-                            }
-                        }), t._v(" "), n("div", {
-                            staticClass: "item-content"
-                        }, [n("router-link", {
-                            staticClass: "item-cont-wrap double-ellipsis",
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId,
-                                tag: "div"
-                            }
-                        }, [t._v("\n          " + t._s(e.name) + "\n        ")]), t._v(" "), n("div", {
-                            staticClass: "item-see"
-                        }, [n("span", {
-                            staticClass: "icon iconfont see"
-                        }), t._v(" "), n("span", [t._v(t._s(e.num))])])], 1)], 1)
-                    })], 2)])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "menu-body-item-title"
-                    }, [e("div", [this._v("热门文章")])])
-                }]
-            };
-        var fe = n("VU/8")(de, pe, !1, function(t) {
-                n("Wmd0")
-            }, null, null).exports,
-            he = {
-                name: "BlogInfoPage",
-                created: function() {
-                    var t = this;
-                    Tt.loadAuthorBlogInfo().then(function(e) {
-                        t.info = e
-                    })
-                },
-                data: function() {
-                    return {
-                        info: {}
-                    }
-                }
-            },
-            ge = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_info_page"
-                        }
-                    }, [n("div", {
-                        staticClass: "menu-body-item"
-                    }, [t._m(0), t._v(" "), n("div", {
-                        staticClass: "menu_blog_info_wrap_clz"
-                    }, [n("div", {
-                        staticClass: "menu-body-info"
-                    }, [n("div", {
-                        staticClass: "info-item"
-                    }, [t._m(1), t._v(" "), n("span", {
-                        staticClass: "info-item-right"
-                    }, [n("span", {
-                        staticClass: "info-item-bg"
-                    }, [n("span", [t._v(t._s(t.info.username))])])])]), t._v(" "), n("div", {
-                        staticClass: "info-item"
-                    }, [t._m(2), t._v(" "), n("span", {
-                        staticClass: "info-item-right"
-                    }, [n("span", {
-                        staticClass: "info-item-bg"
-                    }, [n("span", [t._v(t._s(t.info.age))])])])]), t._v(" "), n("div", {
-                        staticClass: "info-item"
-                    }, [t._m(3), t._v(" "), n("span", {
-                        staticClass: "info-item-right"
-                    }, [n("span", {
-                        staticClass: "info-item-bg"
-                    }, [n("span", [t._v(t._s(t.info.follow))])])])]), t._v(" "), n("div", {
-                        staticClass: "info-item"
-                    }, [t._m(4), t._v(" "), n("span", {
-                        staticClass: "info-item-right"
-                    }, [n("span", {
-                        staticClass: "info-item-bg"
-                    }, [n("span", [t._v(t._s(t.info.focus))])])])])])])])])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "menu-body-item-title"
-                    }, [e("div", [this._v("博客信息")])])
-                }, function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "info-item-left"
-                    }, [e("span", {
-                        staticClass: "icon iconfont iconaward"
-                    }), this._v(" "), e("span", [this._v("昵称")])])
-                }, function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "info-item-left"
-                    }, [e("span", {
-                        staticClass: "icon iconfont ios-shijian"
-                    }), this._v(" "), e("span", [this._v("博龄")])])
-                }, function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "info-item-left"
-                    }, [e("span", {
-                        staticClass: "icon iconfont equalizer"
-                    }), this._v(" "), e("span", [this._v("粉丝")])])
-                }, function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "info-item-left"
-                    }, [e("span", {
-                        staticClass: "icon iconfont refresh"
-                    }), this._v(" "), e("span", [this._v("关注")])])
-                }]
-            };
-        var ve = n("VU/8")(he, ge, !1, function(t) {
-                n("pVUV")
-            }, null, null).exports,
-            _e = {
-                name: "BlogCloudPage",
-                created: function() {
-                    var t = this;
-                    Tt.loadCloudLabel().then(function(e) {
-                        t.labels = e
-                    })
-                },
-                data: function() {
-                    return {
-                        labels: []
-                    }
-                }
-            },
-            be = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_cloud_page"
-                        }
-                    }, [n("div", {
-                        staticClass: "menu-body-item"
-                    }, [t._m(0), t._v(" "), n("div", {
-                        staticClass: "cloud-content cloud_label_content_clz"
-                    }, t._l(t.labels, function(e) {
-                        return n("span", [n("router-link", {
-                            attrs: {
-                                to: t.VUE_CTX + "/works/category/tag/" + e.id + "/1"
-                            }
-                        }, [n("span", {
-                            staticClass: "info-item-bg"
-                        }, [n("span", [t._v(t._s(e.name))])])])], 1)
-                    }), 0)])])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "menu-body-item-title"
-                    }, [e("div", [this._v("标签云")])])
-                }]
-            };
-        var we = n("VU/8")(_e, be, !1, function(t) {
-                n("ILeb")
-            }, null, null).exports,
-            Ce = n("pFYg"),
-            ye = n.n(Ce);
-        n("nukP");
-        ! function(t, e, n) {
-            Array.prototype.indexOf || (Array.prototype.indexOf = function(t) {
-                var e = this.length >>> 0,
-                    n = Number(arguments[1]) || 0;
-                for ((n = n < 0 ? Math.ceil(n) : Math.floor(n)) < 0 && (n += e); n < e; n++)
-                    if (n in this && this[n] === t) return n;
-                return -1
-            });
-            var i = "emoji",
-                a = {
-                    showTab: !0,
-                    animation: "fade",
-                    icons: []
-                };
-
-            function o(e, n) {
-                switch (this.$content = t(e), this.options = n, this.index = emoji_index, n.animation) {
-                    case "none":
-                        this.showFunc = "show", this.hideFunc = "hide", this.toggleFunc = "toggle";
-                        break;
-                    case "slide":
-                        this.showFunc = "slideDown", this.hideFunc = "slideUp", this.toggleFunc = "slideToggle";
-                        break;
-                    case "fade":
-                    default:
-                        this.showFunc = "fadeIn", this.hideFunc = "fadeOut", this.toggleFunc = "fadeToggle"
-                }
-                this._init()
-            }
-            e.emoji_index = 0, o.prototype = {
-                _init: function() {
-                    var i, a, o, s = this,
-                        c = this.options.button,
-                        r = this.options.inpCall,
-                        l = s.index;
-                    c || (i = '<input type="image" class="emoji_btn" id="emoji_btn_' + l + '" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZBAMAAAA2x5hQAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAkUExURUxpcfTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAPTGAOfx6yUAAAALdFJOUwAzbVQOoYrzwdwkAoU+0gAAAM1JREFUGNN9kK0PQWEUxl8fM24iCYopwi0muuVuzGyKwATFZpJIU01RUG/RBMnHxfz+Oef9uNM84d1+23nO+zxHKVG2WWupRJkdcAwtpCK0lpbqWE01pB0QayonREMoIp7AawQrWSgGGb4pn6dSeSh68FAVXqHqy3wKrkJiDGDTg3dnp//w+WnwlwIOJauF+C7sXRVfdha4O4oIJfTbtdSxs2uqhs585A0ko8iLTMEcDE1n65A+29pYAlr72nz9dKu7GuNTcsL2fDQzB/wCPVJ69nZGb3gAAAAASUVORK5CYII="/>', a = this.$content.offset().top + this.$content.outerHeight() + 10, o = this.$content.offset().left + 2, t(i).appendTo(t("body")), t("#emoji_btn_" + l).css({
-                        top: a + "px",
-                        left: o + "px"
-                    }), c = "#emoji_btn_" + l);
-                    var u = this.options.showTab,
-                        m = this.options.icons,
-                        d = m.length;
-                    if (0 === d) return alert("Missing icons config!"), !1;
-                    for (var p, f, h, g, v, _, b, w, C, y, I, x = '<div class="emoji_container " id="emoji_container_' + l + '">', A = '<div class="emoji_content none-base-scroll">', k = '<div class="emoji_tab" style="' + (1 !== d || u ? "" : "display:none;") + '"><div class="emoji_tab_prev"></div><div class="emoji_tab_list"><ul>', T = 0; T < d; T++)
-                        if (f = m[T].name || "group" + (T + 1), h = m[T].path, g = m[T].maxNum, v = m[T].excludeNums, _ = m[T].file || ".jpg", b = m[T].placeholder || "#em" + (T + 1) + "_{alias}#", w = m[T].alias, C = m[T].title, y = 0, h && g) {
-                            p = '<div id="emoji' + T + '" class="emoji_icons" style="' + (0 === T ? "" : "display:none;") + '"><ul>';
-                            for (var L = 1; L <= g; L++)
-                                if (!(v && v.indexOf(L) >= 0)) {
-                                    if (w) {
-                                        if ("object" !== (void 0 === w ? "undefined" : ye()(w))) {
-                                            alert("Error config about alias!");
-                                            break
-                                        }
-                                        I = b.replace(new RegExp("{alias}", "gi"), w[L].toString())
-                                    } else I = b.replace(new RegExp("{alias}", "gi"), L.toString());
-                                    p += '<li><a data-emoji_code="' + I + '" data-index="' + y + '" title="' + (C && C[L] ? C[L] : "") + '"><img src="' + h + L + _ + '"/></a></li>', y++
-                                } A += p += "</ul></div>", k += '<li data-emoji_tab="emoji' + T + '" class="' + (0 === T ? "selected" : "") + '" title="' + f + '">' + f + "</li>"
-                        } else alert("The " + T + " index of icon groups has error config!");
-                    x += A += "</div>", x += k += '</ul></div><div class="emoji_tab_next"></div></div>', t(x += '<div class="emoji_preview"><img/></div>').appendTo(c);
-                    var B = "544px",
-                        N = t(e).width();
-                    if (N < 544) switch (this.options.position) {
-                        case "topLeft":
-                        case "bottomLeft":
-                            B = N - 2 * t(c).offset().right + "px";
-                            break;
-                        default:
-                            B = N - 2 * t(c).offset().left + "px"
-                    }
-                    switch (t("#emoji_container_" + l).css("width", B), t("#emoji_container_" + l + " .emoji_tab_list").css("width", parseInt(B) - 44 + "px"), this.options.position) {
-                        case "topLeft":
-                            t(c).offset().top - t("#emoji_container_" + l).outerHeight() - 5, t(c).offset().left - t("#emoji_container_" + l).outerWidth() + t(c).outerHeight();
-                            break;
-                        case "topRight":
-                            t(c).offset().top - t("#emoji_container_" + l).outerHeight() - 5, t(c).offset().left;
-                            break;
-                        case "bottomLeft":
-                            t(c).offset().top + t(c).outerHeight() + 5, t(c).offset().left - t("#emoji_container_" + l).outerWidth() + t(c).outerHeight();
-                            break;
-                        default:
-                            t(c).offset().top + t(c).outerHeight() + 5, t(c).offset().left
-                    }
-                    var P = d % 8 == 0 ? parseInt(d / 8) : parseInt(d / 8) + 1,
-                        j = 1;
-                    t(n).on({
-                        click: function(e) {
-                            var n, i, a, o = e.target,
-                                u = s.$content[0];
-                            o === t(c)[0] ? (t("#emoji_container_" + l)[s.toggleFunc](), s.$content.focus()) : t(o).parents("#emoji_container_" + l).length > 0 ? (n = t(o).data("emoji_code") || t(o).parent().data("emoji_code"), i = t(o).data("emoji_tab"), n ? ("DIV" === u.nodeName ? (a = '<img class="emoji_icon" src="' + t("#emoji_container_" + l + ' a[data-emoji_code="' + n + '"] img').attr("src") + '"/>', s._insertAtCursor(r, u, a, !1)) : s._insertAtCursor(r, u, n), s.hide()) : i ? t(o).hasClass("selected") || (t("#emoji_container_" + l + " .emoji_icons").hide(), t("#emoji_container_" + l + " #" + i).show(), t(o).addClass("selected").siblings().removeClass("selected")) : t(o).hasClass("emoji_tab_prev") ? j > 1 && (t("#emoji_container_" + l + " .emoji_tab_list ul").css("margin-left", "-503" * (j - 2) + "px"), j--) : t(o).hasClass("emoji_tab_next") && j < P && (t("#emoji_container_" + l + " .emoji_tab_list ul").css("margin-left", "-503" * j + "px"), j++), s.$content.focus()) : t("#emoji_container_" + l + ":visible").length > 0 && (s.hide(), s.$content.focus())
-                        }
-                    }), t("#emoji_container_" + l + " .emoji_icons a").mouseenter(function() {
-                        var e = t(this).data("index");
-                        parseInt(e / 5) % 2 == 0 ? t("#emoji_container_" + l + " .emoji_preview").css({
-                            left: "auto",
-                            right: 0
-                        }) : t("#emoji_container_" + l + " .emoji_preview").css({
-                            left: 0,
-                            right: "auto"
-                        });
-                        var n = t(this).find("img").attr("src");
-                        t("#emoji_container_" + l + " .emoji_preview img").attr("src", n).parent().show()
-                    }), t("#emoji_container_" + l + " .emoji_icons a").mouseleave(function() {
-                        t("#emoji_container_" + l + " .emoji_preview img").removeAttr("src").parent().hide()
-                    })
-                },
-                _insertAtCursor: function(t, i, a, o) {
-                    var s, c;
-                    if ("DIV" === i.nodeName) {
-                        if (i.focus(), e.getSelection) {
-                            if ((s = e.getSelection()).getRangeAt && s.rangeCount) {
-                                (c = s.getRangeAt(0)).deleteContents();
-                                var r = n.createElement("div");
-                                r.innerHTML = a;
-                                for (var l, u, m = n.createDocumentFragment(); l = r.firstChild;) u = m.appendChild(l);
-                                var d = m.firstChild;
-                                c.insertNode(m), u && ((c = c.cloneRange()).setStartAfter(u), o ? c.setStartBefore(d) : c.collapse(!0), s.removeAllRanges(), s.addRange(c))
-                            }
-                        } else if ((s = n.selection) && "Control" !== s.type) {
-                            var p = s.createRange();
-                            p.collapse(!0), s.createRange().pasteHTML(a), o && ((c = s.createRange()).setEndPoint("StartToStart", p), c.select())
-                        }
-                    } else if (n.selection) i.focus(), (s = n.selection.createRange()).text = a, s.select();
-                    else if (i.selectionStart || 0 === i.selectionStart) {
-                        var f = i.selectionStart,
-                            h = i.selectionEnd,
-                            g = i.scrollTop;
-                        i.value = i.value.substring(0, f) + a + i.value.substring(h, i.value.length), g > 0 && (i.scrollTop = g), i.focus(), i.selectionStart = f + a.length, i.selectionEnd = f + a.length
-                    } else i.value += a, i.focus();
-                    t && t(i.value)
-                },
-                show: function() {
-                    t("#emoji_container_" + this.index)[this.showFunc]()
-                },
-                hide: function() {
-                    t("#emoji_container_" + this.index)[this.hideFunc]()
-                },
-                toggle: function() {
-                    t("#emoji_container_" + this.index)[this.toggleFunc]()
-                }
-            }, t.fn[i] = function(e) {
-                return emoji_index++, this.each(function() {
-                    var n = t(this),
-                        s = n.data("plugin_" + i + emoji_index),
-                        c = t.extend({}, a, n.data(), "object" === (void 0 === e ? "undefined" : ye()(e)) && e);
-                    s || n.data("plugin_" + i + emoji_index, s = new o(this, c)), "string" == typeof e && s[e]()
-                })
-            }, t.fn[i].Constructor = o
-        }(B.a, window, document),
-        function(t, e, n) {
-            var i = "emojiParse",
-                a = {
-                    icons: []
-                };
-
-            function o(e, n) {
-                this.$content = t(e), this.options = n, this._init()
-            }
-            o.prototype = {
-                _init: function() {
-                    var t, e, n, i, a, o, s = this.options.icons,
-                        c = s.length,
-                        r = {};
-                    if (c > 0)
-                        for (var l = 0; l < c; l++)
-                            if (t = s[l].path, e = s[l].file || ".jpg", n = s[l].placeholder, i = s[l].alias, t)
-                                if (i) {
-                                    for (var u in i) i.hasOwnProperty(u) && (r[i[u]] = u);
-                                    a = n.replace(new RegExp("{alias}", "gi"), "([\\s\\S]+?)");
-                                    try {
-                                        o = new RegExp(a, "gm")
-                                    } catch (t) {
-                                        return this.$content.html()
-                                    }
-                                    this.$content.html(this.$content.html().replace(o, function(n, i) {
-                                        var a = r[i];
-                                        return a ? '<img class="emoji_icon" src="' + t + a + e + '"/>' : n
-                                    }))
-                                } else a = n.replace(new RegExp("{alias}", "gi"), "(\\d+?)"), this.$content.html(this.$content.html().replace(new RegExp(a, "gm"), '<img class="emoji_icon" src="' + t + "$1" + e + '"/>'));
-                    else alert("Path not config!")
-                }
-            }, t.fn[i] = function(e) {
-                return this.each(function() {
-                    var n = t(this),
-                        s = n.data("plugin_" + i),
-                        c = t.extend({}, a, n.data(), "object" === (void 0 === e ? "undefined" : ye()(e)) && e);
-                    s || n.data("plugin_" + i, s = new o(this, c)), "string" == typeof e && s[e]()
-                })
-            }, t.fn[i].Constructor = o
-        }(B.a, window, document);
-        var Ie = B.a,
-            xe = function(t, e) {
-                return {
-                    showTab: !0,
-                    animation: "fade",
-                    button: t,
-                    inpCall: e,
-                    icons: [{
-                        name: "头条",
-                        path: _("/img/face/tieba/"),
-                        maxNum: 114,
-                        file: ".png",
-                        placeholder: "#tieba_{alias}#"
-                    }, {
-                        name: "QQ",
-                        path: _("/img/face/qq/"),
-                        maxNum: 149,
-                        //excludeNums: [41, 45, 54],
-                        file: ".gif",
-                        placeholder: "#qq_{alias}#"
-                    }, {
-                        name: "小黄人",
-                        path: _("/img/face/emoji/"),
-                        maxNum: 79,
-                        file: ".png",
-                        placeholder: "#emoji_{alias}#"
-                    }]
-                }
-            },
-            Ae = function(t, e, n) {
-                Ie("#" + t).emoji(xe(e, n))
-            },
-            ke = function(t) {
-                var e = Ie("<span>" + t + "</span>");
-                e.emojiParse(xe());
-                var n = e.html();
-                return e.remove(), n
-            },
-            Te = {
-                name: "BlogCommentPage",
-                created: function() {
-                    var t = this;
-                    Tt.loadLastComment().then(function(e) {
-                        e.forEach(function(t) {
-                            t.body = ke(t.body)
-                        }), t.comments = e
-                    })
-                },
-                methods: {
-                    picIcon: function(t) {
-                        return _("/img/menuIcon/menuicon-" + t + ".png")
-                    }
-                },
-                data: function() {
-                    return {
-                        comments: []
-                    }
-                }
-            },
-            Le = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_comment_page"
-                        }
-                    }, [n("div", {
-                        staticClass: "menu-body-item"
-                    }, [t._m(0), t._v(" "), n("div", t._l(t.comments, function(e, i) {
-                        return n("div", {
-                            staticClass: "menu-body-item-content"
-                        }, [n("router-link", {
-                            staticClass: "item-icon icon-unify-style",
-                            style: {
-                                background: "url(" + e.avatar + ")"
-                            },
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId + "?anchor=" + e.anchor,
-                                tag: "div"
-                            }
-                        }), t._v(" "), n("div", {
-                            staticClass: "item-content"
-                        }, [n("router-link", {
-                            staticClass: "item-cont-wrap sing-ellipsis",
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId + "?anchor=" + e.anchor,
-                                tag: "div"
-                            }
-                        }, [t._v("\n            " + t._s(e.title) + "\n          ")]), t._v(" "), n("router-link", {
-                            staticClass: "item-cont-wrap double-ellipsis item-cont-body",
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId + "?anchor=" + e.anchor,
-                                tag: "div"
-                            }
-                        }, [n("span", {
-                            staticClass: "item-body-wrap",
-                            domProps: {
-                                innerHTML: t._s(e.body)
-                            }
-                        }, [t._v("\n                " + t._s(e.body) + "\n            ")])]), t._v(" "), n("router-link", {
-                            staticClass: "item-cont-wrap double-ellipsis item-cont-right",
-                            attrs: {
-                                to: t.VUE_CTX + "/works/article/" + e.pageId + "?anchor=" + e.anchor,
-                                tag: "div"
-                            }
-                        }, [t._v("\n            " + t._s(e.owner) + "\n          ")])], 1)], 1)
-                    }), 0)])])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        staticClass: "menu-body-item-title"
-                    }, [e("div", [this._v("最新评论")])])
-                }]
-            };
-        var Be = n("VU/8")(Te, Le, !1, function(t) {
-                n("Zq8w")
-            }, null, null).exports,
-            Ne = {
-                name: "BlogNavicatPage",
-                data: function() {
-                    return {
-                        isOpenFullScreen: !1
-                    }
-                },
-                beforeRouterEnter: function() {
-                    B()("#toc_page").empty()
-                },
-                created: function() {
-                    var t = this;
-                    this.$bus.on("articleDestroy", function(t) {
-                        B()("#toc_page").empty()
-                    }), this.$bus.on("articleInited", function(e) {
-                        if (B()(e).attr("data-toc", "#toc_page"), 0 != B()("#app div[data-toc]").length) {
-                            B()("#toc_page").empty(), new Jt.a({
-                                dom: "#app div[data-toc]",
-                                offsetBody: document.querySelector("#app .body-wrap")
-                            }).reset();
-                            var n = B()("#toc_page");
-                            n.css("max-width", "100%"), n.css("top", "0"), n.css("padding", "0"), n.css("margin", "0"), B()("#toc_page .toc-fixed").css("box-shadow", "0"), $.registerAnchorFunc(n);
-                            var i = B()("<span class='icon iconfont top topBtn topBtnDown'></span>");
-                            i.click(function() {
-                                i.hasClass("topBtnDown") ? t.$bus.emit("panelToBottom", {}) : t.$bus.emit("panelToTop", {})
-                            }), B()("#toc_page .toc-brand").append(i), t.$bus.on("panelScrollEven", function(t) {
-                                var e = B()(".blog-navicat-page");
-                                t.target.scrollTop > 60 ? (i.removeClass("topBtnDown"), e.css("position", "fixed"), e.css("top", "50px")) : (i.addClass("topBtnDown"), e.css("position", ""), e.css("top", ""))
-                            })
-                        }
-                    })
-                }
-            },
-            Pe = {
-                render: function() {
-                    this.$createElement;
-                    this._self._c;
-                    return this._m(0)
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", {
-                        attrs: {
-                            id: "blog_navicat_page"
-                        }
-                    }, [e("div", {
-                        staticClass: "blog-navicat-page"
-                    }, [e("div", {
-                        attrs: {
-                            id: "toc_page"
-                        }
-                    })])])
-                }]
-            };
-        var je = {
-                name: "BlogFollowers",
-                methods: {
-                    openBlogByAcc: function(t) {
-                        window.open(v.blogUrlPre + t)
-                    }
-                },
-                created: function() {
-                    var t = this;
-                    Tt.loadFollowers().then(function(e) {
-                        t.followInfo = e
-                    })
-                },
-                data: function() {
-                    return {
-                        followInfo: {
-                            followList: [],
-                            pageInfo: {
-                                pageList: [],
-                                current: -1
-                            }
-                        },
-                        current: 1
-                    }
-                },
-                watch: {
-                    current: function() {
-                        var t = this;
-                        this.$bus.emit("openLoadingBar", {}), Tt.loadFollowers(this.current).then(function(e) {
-                            t.followInfo = e, t.$bus.emit("closeLoadingBar", {})
-                        })
-                    }
-                }
-            },
-            Ee = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_followers"
-                        }
-                    }, [n("div", {
-                        staticClass: "followTitle"
-                    }, [t._v("最新粉丝")]), t._v(" "), n("div", {
-                        staticClass: "followAreaWrap"
-                    }, t._l(t.followInfo.followList, function(e) {
-                        return n("span", {
-                            staticClass: "followArea"
-                        }, [n("div", {
-                            staticClass: "followAreaItem"
-                        }, [n("div", {
-                            staticClass: "follow-avatar",
-                            attrs: {
-                                title: e.username
-                            },
-                            on: {
-                                click: function(n) {
-                                    return t.openBlogByAcc(e.account)
-                                }
-                            }
-                        }, [n("img", {
-                            attrs: {
-                                src: e.avatar
-                            }
-                        })]), t._v(" "), n("div", {
-                            staticClass: "follow-username",
-                            attrs: {
-                                title: e.username
-                            },
-                            on: {
-                                click: function(n) {
-                                    return t.openBlogByAcc(e.account)
-                                }
-                            }
-                        }, [n("span", [t._v(t._s(e.username))])])])])
-                    }), 0), t._v(" "), n("div", {
-                        staticClass: "pageArea"
-                    }, [t.followInfo.pageInfo.pageList.length > 0 ? n("div", {
-                        staticClass: "page-num"
-                    }, [n("ul", {
-                        staticClass: "pagination"
-                    }, t._l(t.followInfo.pageInfo.pageList, function(e) {
-                        return n("li", {
-                            on: {
-                                click: function(n) {
-                                    !isNaN(e) && (t.current = e)
-                                }
-                            }
-                        }, [n("a", {
-                            class: {
-                                active: e == t.followInfo.pageInfo.current
-                            }
-                        }, [t._v(t._s(e))])])
-                    }), 0)]) : t._e()])])
-                },
-                staticRenderFns: []
-            };
-        var Se = {
-                name: "BlogWorksAside",
-                components: {
-                    BlogNavicatPage: n("VU/8")(Ne, Pe, !1, function(t) {
-                        n("2fYz")
-                    }, null, null).exports,
-                    BlogCommentPage: Be,
-                    BlogCloudPage: we,
-                    BlogInfoPage: ve,
-                    BlogHotPage: fe,
-                    BlogFollowers: n("VU/8")(je, Ee, !1, function(t) {
-                        n("YJZa")
-                    }, null, null).exports
-                },
-                data: function() {
-                    return {
-                        clickItem: "hot",
-                        isNavicat: !1
-                    }
-                },
-                created: function() {
-                    var t = this;
-                    this.$bus.on("articleInited", function(e) {
-                        t.clickItem = "navicat", t.isNavicat = !0
-                    }), this.$bus.on("articleDestroy", function(e) {
-                        t.clickItem = "hot", t.isNavicat = !1
-                    })
-                }
-            },
-            $e = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_body_aside"
-                        }
-                    }, [n("div", {
-                        staticClass: "menu-head"
-                    }, [n("span", {
-                        staticClass: "article-menu-item",
-                        class: {
-                            "menu-itm-bottom-bar": "hot" == t.clickItem
-                        },
-                        on: {
-                            click: function(e) {
-                                t.clickItem = "hot"
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont fire"
-                    })]), t._v(" "), n("span", {
-                        staticClass: "article-menu-item",
-                        class: {
-                            "menu-itm-bottom-bar": "comment" == t.clickItem
-                        },
-                        on: {
-                            click: function(e) {
-                                t.clickItem = "comment"
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont talk"
-                    })]), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: t.isNavicat,
-                            expression: "isNavicat"
-                        }],
-                        staticClass: "article-menu-item",
-                        class: {
-                            "menu-itm-bottom-bar": "navicat" == t.clickItem
-                        },
-                        on: {
-                            click: function(e) {
-                                t.clickItem = "navicat"
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont menu"
-                    })]), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: !t.isNavicat,
-                            expression: "!isNavicat"
-                        }],
-                        staticClass: "article-menu-item",
-                        class: {
-                            "menu-itm-bottom-bar": "follower" == t.clickItem
-                        },
-                        on: {
-                            click: function(e) {
-                                t.clickItem = "follower"
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont groupctrl"
-                    })])]), t._v(" "), n("blog-hot-page", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "hot" == t.clickItem,
-                            expression: "clickItem=='hot'"
-                        }]
-                    }), t._v(" "), n("blog-comment-page", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "comment" == t.clickItem,
-                            expression: "clickItem=='comment'"
-                        }]
-                    }), t._v(" "), n("blog-navicat-page", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "navicat" == t.clickItem,
-                            expression: "clickItem=='navicat'"
-                        }]
-                    }), t._v(" "), n("blog-info-page", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "navicat" != t.clickItem && "follower" != t.clickItem,
-                            expression: "clickItem!='navicat'&&clickItem!='follower'"
-                        }]
-                    }), t._v(" "), n("blog-cloud-page", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "navicat" != t.clickItem && "follower" != t.clickItem,
-                            expression: "clickItem!='navicat'&&clickItem!='follower'"
-                        }]
-                    }), t._v(" "), n("blog-followers", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "follower" == t.clickItem,
-                            expression: "clickItem=='follower'"
-                        }]
-                    })], 1)
-                },
-                staticRenderFns: []
-            };
-        var Ue = {
-                name: "BlogWorksBody",
-                components: {
-                    BlogWorksAside: n("VU/8")(Se, $e, !1, function(t) {
-                        n("O4cg")
-                    }, null, null).exports
-                }
-            },
-            Me = {
-                render: function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("div", [e("router-view"), this._v(" "), e("BlogWorksAside")], 1)
-                },
-                staticRenderFns: []
-            };
-        var Fe = n("VU/8")(Ue, Me, !1, function(t) {
-                n("YTIq")
-            }, "data-v-5bb60401", null).exports,
-            Re = P()(Array(v.pageItemImgs - 1), function(t, e) {
-                return e
-            }).sort(function() {
-                return Math.random() >= .5 ? 1 : -1
-            }).map(function(t) {
-                return _("/img/pageItem/page-item-" + (1 + t) + ".jpg")
-            }),
-            Oe = {
-                name: "BlogCategory",
-                created: function() {
-                    var t = this.$route.params;
-                    this.initBlogCategory(t.categoryId, t.page, t.categoryType)
-                },
-                beforeRouteEnter: function(t, e, n) {
-                    n()
-                },
-                beforeRouteUpdate: function(t, e, n) {
-                    var i = t.params;
-                    this.initBlogCategory(i.categoryId, i.page, i.categoryType), n()
-                },
-                beforeRouteLeave: function(t, e, n) {
-                    n()
-                },
-                methods: {
-                    articleName: function() {
-                        return v.blogName
-                    },
-                    categoryTitle: function() {
-                        return v.blogName + ""
-                    },
-                    categorySign: function() {
-                        return v.blogSign
-                    },
-                    getRandomImg: function() {
-                        var t = Re.shift();
-                        return Re.push(t), t
-                    },
-                    getImg: function(t) {
-                        return Re[t]
-                    },
-                    initBlogCategory: function(t, e, n) {
-                        var i = this,
-                            a = this;
-                        this.categoryId = t, this.page = e, this.categoryType = n, T.a.all([new T.a(function(t, e) {
-                            "all" == a.categoryType ? Tt.loadAllArticle(a.page).then(function(e) {
-                                a.articleList = e.list, a.pageList = e.pageList, t()
-                            }) : "category" == a.categoryType ? Tt.loadCategoryArticle(a.categoryId, a.page).then(function(e) {
-                                a.categoryName = e.categoryName, a.articleList = e.list, a.pageList = e.pageList, t()
-                            }) : "archives" == a.categoryType && Tt.loadArchivesArticle(a.categoryId.replace("-", "/"), a.page).then(function(e) {
-                                a.categoryName = e.categoryName, a.articleList = e.list, a.pageList = e.pageList, t()
-                            })
-                        })]).then(function() {
-                            setTimeout(function() {
-                                i.$nextTick(function() {
-                                    setTimeout(function() {
-                                        i.$bus.emit("dataedRoute", !0)
-                                    }, 150)
-                                })
-                            }, 150)
-                        })
-                    }
-                },
-                data: function() {
-                    return {
-                        categoryId: "",
-                        categoryType: "",
-                        page: "",
-                        pageList: [],
-                        articleList: [],
-                        categoryName: ""
-                    }
-                }
-            },
-            Ve = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        staticClass: "main-center-frame",
-                        attrs: {
-                            id: "blog_category"
-                        }
-                    }, [n("div", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "all" == t.categoryType,
-                            expression: "categoryType=='all'"
-                        }],
-                        staticClass: "page-head"
-                    }, [n("div", {
-                        staticClass: "author-name"
-                    }, [t._v(t._s(t.categoryTitle()))]), t._v(" "), n("div", {
-                        staticClass: "author-sign"
-                    }, [t._v(t._s(t.categorySign()))])]), t._v(" "), n("div", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "all" != t.categoryType,
-                            expression: "categoryType!='all'"
-                        }],
-                        staticClass: "page-head-article"
-                    }, [n("div", [t._v(t._s(t.categoryName) + " 下的文章")])]), t._v(" "), n("div", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "all" != t.categoryType,
-                            expression: "categoryType!='all'"
-                        }],
-                        staticClass: "post-body-head post-body-title"
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconhome"
-                    }), t._v(" "), n("span", [t._v("首页")]), t._v(" "), n("span", {
-                        staticClass: "sep"
-                    }, [t._v("/")]), t._v(" "), n("span", [t._v(t._s(t.categoryName.replace("随笔分类 - ", "")))])]), t._v(" "), n("div", {
-                        staticClass: "page-list-body"
-                    }, [t._l(t.articleList, function(e, i) {
-                        return n("div", {
-                            staticClass: "page-item"
-                        }, [n("router-link", {
-                            attrs: {
-                                tag: "div",
-                                to: t.VUE_CTX + "/works/article/" + e.pageId
-                            }
-                        }, [n("div", {
-                            staticClass: "item-left"
-                        }, [e.img ? t._e() : n("img", {
-                            attrs: {
-                                src: t.getRandomImg(i)
-                            }
-                        }), t._v(" "), e.img ? n("img", {
-                            attrs: {
-                                src: e.img
-                            }
-                        }) : t._e()]), t._v(" "), n("div", {
-                            staticClass: "item-right"
-                        }, [n("div", {
-                            staticClass: "item-title sing-ellipsis"
-                        }, [t._v("\n            " + t._s(e.title) + "\n          ")]), t._v(" "), n("div", {
-                            staticClass: "item-content three-ellipsis"
-                        }, [t._v("\n            " + t._s(e.content) + "\n          ")]), t._v(" "), n("div", {
-                            staticClass: "item-sign"
-                        }, [n("span", {
-                            staticClass: "item-sign-author"
-                        }, [n("span", {
-                            staticClass: "icon iconfont renyuanguanli"
-                        }), t._v(" "), n("span", [t._v(t._s(t.articleName()))])]), t._v(" "), n("span", {
-                            staticClass: "item-sign-time"
-                        }, [n("span", {
-                            staticClass: "icon iconfont ios-shijian"
-                        }), t._v(" "), n("span", [t._v(t._s(e.time))])]), t._v(" "), n("span", {
-                            staticClass: "item-sign-talk"
-                        }, [n("span", {
-                            staticClass: "icon iconfont talk"
-                        }), t._v(" "), n("span", [t._v(t._s(e.commentNum) + " 条评论")])])])])])], 1)
-                    }), t._v(" "), n("div", {
-                        staticClass: "page-num"
-                    }, [n("ul", {
-                        staticClass: "pagination"
-                    }, t._l(t.pageList, function(e) {
-                        return n("li", [n("router-link", {
-                            class: {
-                                active: e.current
-                            },
-                            attrs: {
-                                tag: "a",
-                                to: t.VUE_CTX + "/works/category/" + t.categoryType + "/" + t.categoryId + "/" + e.num
-                            }
-                        }, [t._v("\n            " + t._s(e.text) + "\n          ")])], 1)
-                    }), 0)])], 2)])
-                },
-                staticRenderFns: []
-            };
-        var qe = n("VU/8")(Oe, Ve, !1, function(t) {
-                n("o22r")
-            }, null, null).exports,
-            De = function(t, e) {
-                t.focus(), t.setSelectionRange && t.setSelectionRange(e.start, e.end)
-            },
-            He = function(t) {
-                var e = {
-                    text: "",
-                    start: 0,
-                    end: 0
-                };
-                return t.setSelectionRange && (t.focus(), e.start = t.selectionStart, e.end = t.selectionEnd, e.text = e.start !== e.end ? t.value.substring(e.start, e.end) : ""), e
-            },
-            We = function(t, e, n) {
-                var i = void 0,
-                    a = void 0,
-                    o = void 0,
-                    s = void 0,
-                    c = void 0;
-                De(t, e), t.setSelectionRange && (a = (i = t.value).substring(0, e.start) + n + i.substring(e.end), o = s = e.start + n.length, c = t.scrollTop, t.value = a, t.scrollTop !== c && (t.scrollTop = c), t.setSelectionRange(o, s))
-            },
-            ze = {
-                name: "BlogArticleCommPos",
-                props: {
-                    pageId: {
-                        type: String
-                    }
-                },
-                mounted: function() {},
-                created: function() {
-                    var t = this;
-                    Tt.loadUserName().then(function(e) {
-                        t.username = e.username
-                    }), this.$bus.on("commentReply", function(e) {
-                        var n = e.commentId,
-                            i = e.commenterName;
-                        t.parentCommentId = n, t.commitArea = "@" + i + "\n" + t.commitArea, t.$refs.reftextarea.focus()
-                    }), this.$bus.on("commentChange", function(e) {
-                        var n = e.commentId,
-                            i = e.index;
-                        Tt.loadCommentBody(n).then(function(e) {
-                            t.isAddComment = !1, t.chageCommentId = n, t.chageIndex = i, t.commitArea = e, t.$refs.reftextarea.focus()
-                        })
-                    })
-                },
-                methods: {
-                    openFaceEven: function() {
-                        var t = this;
-                        this.$refs.faceBtn.isInit || (this.$refs.faceBtn.isInit = !0, Ae("comment_area_wrap", this.$refs.faceBtn, function(e) {
-                            t.commitArea = e
-                        }))
-                    },
-                    createWrap: function(t, e) {
-                        var n = He(this.$refs.reftextarea);
-                        n.text = t + n.text + e, We(this.$refs.reftextarea, n, n.text)
-                    },
-                    quote: function() {
-                        this.createWrap("> ", "")
-                    },
-                    block: function() {
-                        this.createWrap("**", "**")
-                    },
-                    links: function() {
-                        this.createWrap("[](", ")")
-                    },
-                    insetCode: function() {
-                        this.createWrap("`", "`")
-                    },
-                    OpenImageUploadWindow: function() {
-                        var t = this;
-                        $.OpenImageUploadWindow(function(e) {
-                            t.commitArea = t.commitArea + e
-                        })
-                    },
-                    cancelChangeComment: function() {
-                        this.isAddComment = !0, this.chageCommentId = "", this.$refs.reftextarea.focus()
-                    },
-                    commitComment: function() {
-                        var t = this;
-                        this.commitArea ? this.isAddComment ? Tt.addComment(this.pageId, this.parentCommentId, this.commitArea).then(function(e) {
-                            e.avatar = _("/img/body/defAvatar.jpg"), t.$bus.emit("commitAdd", {
-                                data: e
-                            }), t.commitArea = "", t.parentCommentId = 0, $.showInfoMsg("评论提交成功")
-                        }) : Tt.updateComment(this.chageCommentId, this.commitArea).then(function(e) {
-                            e.isSuccess ? ($.showInfoMsg("评论修改成功"), t.$bus.emit("commitUpdate", {
-                                chageIndex: t.chageIndex,
-                                data: e
-                            }), t.chageIndex = "", t.chageCommentId = "", t.isAddComment = !0, t.commitArea = "") : $.showInfoMsg("评论修改失败")
-                        }) : $.showInfoMsg("评论不可为空")
-                    }
-                },
-                data: function() {
-                    return {
-                        isAddComment: !0,
-                        commitArea: "",
-                        parentCommentId: "",
-                        chageCommentId: "",
-                        chageIndex: "",
-                        username: ""
-                    }
-                }
-            },
-            Ge = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_article_comm_pos"
-                        }
-                    }, [n("div", {
-                        staticClass: "post-comment-area"
-                    }, [n("div", {
-                        staticClass: "area-title-wrap"
-                    }, [n("span", {
-                        staticClass: "area-title"
-                    }, [t._v("发表评论")]), t._v(" "), t.username ? n("span", {
-                        staticClass: "commenter-area-name"
-                    }, [t._v(t._s(t.username))]) : t._e(), t._v(" "), n("span", {
-                        staticClass: "right-bar-wrap"
-                    }, [n("span", {
-                        staticClass: "icon iconfont pin",
-                        attrs: {
-                            title: "引用"
-                        },
-                        on: {
-                            click: function(e) {
-                                return t.quote()
-                            }
-                        }
-                    }), t._v(" "), n("span", {
-                        staticClass: "icon iconfont bold",
-                        attrs: {
-                            title: "加粗"
-                        },
-                        on: {
-                            click: function(e) {
-                                return t.block()
-                            }
-                        }
-                    }), t._v(" "), n("span", {
-                        staticClass: "icon iconfont link",
-                        attrs: {
-                            title: "链接"
-                        },
-                        on: {
-                            click: function(e) {
-                                return t.links()
-                            }
-                        }
-                    }), t._v(" "), n("span", {
-                        staticClass: "icon iconfont code",
-                        attrs: {
-                            title: "代码块"
-                        },
-                        on: {
-                            click: function(e) {
-                                return t.insetCode()
-                            }
-                        }
-                    }), t._v(" "), n("span", {
-                        staticClass: "icon iconfont image-text",
-                        attrs: {
-                            title: "图片"
-                        },
-                        on: {
-                            click: function(e) {
-                                return t.OpenImageUploadWindow()
-                            }
-                        }
-                    })])]), t._v(" "), n("div", {
-                        staticClass: "area-input-wrap"
-                    }, [n("textarea", {
-                        directives: [{
-                            name: "model",
-                            rawName: "v-model",
-                            value: t.commitArea,
-                            expression: "commitArea"
-                        }],
-                        ref: "reftextarea",
-                        staticClass: "middle-base-scroll",
-                        attrs: {
-                            id: "comment_area_wrap"
-                        },
-                        domProps: {
-                            value: t.commitArea
-                        },
-                        on: {
-                            input: function(e) {
-                                e.target.composing || (t.commitArea = e.target.value)
-                            }
-                        }
-                    })]), t._v(" "), n("div", {
-                        staticClass: "area-bar-wrap"
-                    }, [n("span", {
-                        staticClass: "ext-wrap"
-                    }, [n("span", {
-                        ref: "faceBtn",
-                        on: {
-                            click: t.openFaceEven
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont face2"
-                    }), t._v("表情")]), t._v(" "), t._m(0)]), t._v(" "), n("div", {
-                        staticClass: "area-btn-wrap"
-                    }, [n("span", {
-                        staticClass: "comment-content-post",
-                        on: {
-                            click: t.commitComment
-                        }
-                    }, [n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: t.isAddComment,
-                            expression: "isAddComment"
-                        }]
-                    }, [t._v("发表评论")]), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: !t.isAddComment,
-                            expression: "!isAddComment"
-                        }]
-                    }, [t._v("修改评论")])]), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: !t.isAddComment,
-                            expression: "!isAddComment"
-                        }],
-                        staticClass: "comment-content-cancel",
-                        on: {
-                            click: t.cancelChangeComment
-                        }
-                    }, [t._v("取消修改")])])])])])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", [e("span", {
-                        staticClass: "icon iconfont iconpen"
-                    })])
-                }]
-            };
-        var Xe = n("VU/8")(ze, Ge, !1, function(t) {
-                n("BRL4")
-            }, null, null).exports,
-            Qe = {
-                props: {
-                    pageId: {
-                        type: String
-                    }
-                },
-                name: "BlogArticleCommList",
-                created: function() {
-                    var t = this;
-                    Tt.loadUserName().then(function(e) {
-                        t.isChangeComment = e == v.blogName
-                    }), this.$bus.on("commitAdd", function(e) {
-                        e.data;
-                        t.initCommentList()
-                    }), this.$bus.on("commitUpdate", function(e) {
-                        e.chageIndex, e.data;
-                        t.initCommentList()
-                    })
-                },
-                methods: {
-                    openCommenter: function(t) {
-                        window.open(t)
-                    },
-                    sendScrollEven: function(t) {
-                        var e = this;
-                        this.$nextTick(function() {
-                            setTimeout(function() {
-                                e.$nextTick(function() {
-                                    e.$bus.emit("anchorScroll", t)
-                                })
-                            }, 150)
-                        })
-                    },
-                    initCommentList: function() {
-                        var t = this,
-                            e = this.$route.query.anchor;
-                        this.$bus.emit("openLoadingBar", {}), e ? Tt.loadArticleCommentInfoByAnchor(this.pageId, e).then(function(n) {
-                            n.list.forEach(function(t) {
-                                t.commentBody = t.commentBody.replace(new RegExp("_src", "g"), "src"), t.commentBody = ke(t.commentBody)
-                            }), t.commentInfo = n, t.$bus.emit("closeLoadingBar", {}), t.sendScrollEven(e)
-                        }) : Tt.loadArticelCommentInfo(this.pageId, this.pageCur).then(function(e) {
-                            e.list.forEach(function(t) {
-                                t.commentBody = t.commentBody.replace(new RegExp("_src", "g"), "src"), t.commentBody = ke(t.commentBody)
-                            }), t.commentInfo = e, t.$bus.emit("closeLoadingBar", {})
-                        })
-                    },
-                    commentChange: function(t, e) {
-                        isNaN(t) ? $.showInfoMsg("该条评论暂时无法修改!") : this.$bus.emit("commentChange", {
-                            commentId: t,
-                            index: e
-                        })
-                    },
-                    commentDelete: function(t, e) {
-                        $.showInfoMsg("暂未支持删除")
-                    },
-                    commentSupport: function(t, e) {
-                        var n = this;
-                        t || $.showInfoMsg("暂时无法提交支持"), Tt.commentDigg(t).then(function(t) {
-                            t.isSuccess ? ($.showInfoMsg(t.message), n.initCommentList()) : $.showErrMsg(t.message)
-                        })
-                    },
-                    commentBury: function(t) {
-                        var e = this;
-                        t || $.showInfoMsg("暂时无法提交反对"), Tt.commentBury(t).then(function(t) {
-                            t.isSuccess ? ($.showInfoMsg(t.message), e.initCommentList()) : $.showErrMsg(t.message)
-                        })
-                    },
-                    commentReply: function(t, e) {
-                        this.$bus.emit("commentReply", {
-                            commentId: t,
-                            commenterName: e
-                        })
-                    }
-                },
-                data: function() {
-                    return {
-                        pageCur: -1,
-                        commentInfo: {
-                            list: [],
-                            size: 0,
-                            current: 1
-                        },
-                        isChangeComment: !0
-                    }
-                },
-                computed: {
-                    sizeList: function() {
-                        return $.computePageList(this.commentInfo.size, this.commentInfo.current, 10)
-                    }
-                },
-                mounted: function() {
-                    this.initCommentList()
-                },
-                watch: {
-                    pageId: function(t) {
-                        this.initCommentList()
-                    },
-                    pageCur: function() {
-                        this.initCommentList()
-                    }
-                }
-            },
-            Je = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_article_comm_list"
-                        }
-                    }, [0 == t.commentInfo.size ? n("div", {
-                        staticClass: "area-title-no-wrap"
-                    }, [t._v("\n    暂无评论\n  ")]) : t._e(), t._v(" "), t.commentInfo.size > 0 ? n("div", {
-                        staticClass: "area-title-wrap"
-                    }, [t._v("\n    评论列表\n  ")]) : t._e(), t._v(" "), t.commentInfo.size > 1 ? n("div", {
-                        staticClass: "post-comment-num"
-                    }, [n("ul", {
-                        staticClass: "pagination"
-                    }, t._l(t.sizeList, function(e) {
-                        return n("li", {
-                            on: {
-                                click: function(n) {
-                                    !isNaN(e) && (t.pageCur = e)
-                                }
-                            }
-                        }, [n("a", {
-                            class: {
-                                active: t.commentInfo.current == e
-                            }
-                        }, [t._v(t._s(e))])])
-                    }), 0)]) : t._e(), t._v(" "), n("div", {
-                        staticClass: "post-comment-list"
-                    }, t._l(t.commentInfo.list, function(e, i) {
-                        return n("div", {
-                            staticClass: "post-body-comment-wrap"
-                        }, [n("img", {
-                            staticClass: "commenter-head",
-                            attrs: {
-                                src: e.avatar
-                            },
-                            on: {
-                                click: function(n) {
-                                    return t.openCommenter(e.commenterUrl)
-                                }
-                            }
-                        }), t._v(" "), n("div", {
-                            staticClass: "commenter-body"
-                        }, [n("div", {
-                            staticClass: "comment-top-bar"
-                        }, [n("div", {
-                            staticClass: "comment-top-bar-left"
-                        }, [n("div", {
-                            staticClass: "commenter-counter",
-                            domProps: {
-                                innerHTML: t._s(e.layerAnchor)
-                            }
-                        }, [t._v("\n              " + t._s(e.layerAnchor) + "\n            ")]), t._v(" "), n("div", {
-                            staticClass: "commenter-name"
-                        }, [t._v("\n              " + t._s(e.commenter) + "\n            ")])]), t._v(" "), n("div", {
-                            staticClass: "comment-top-bar-right"
-                        }, [e.isReply ? n("span", {
-                            staticClass: "post-body-comment-button comment-reply",
-                            on: {
-                                click: function(n) {
-                                    return t.commentReply(e.commentId, e.commenter)
-                                }
-                            }
-                        }, [t._v("回复")]) : t._e(), t._v(" "), e.isUpdate ? n("span", {
-                            staticClass: "post-body-comment-button comment-update",
-                            on: {
-                                click: function(n) {
-                                    return t.commentChange(e.commentId, i)
-                                }
-                            }
-                        }, [t._v("修改")]) : t._e(), t._v(" "), e.isDel ? n("span", {
-                            staticClass: "post-body-comment-button comment-delete",
-                            on: {
-                                click: function(n) {
-                                    return t.commentDelete(e.commentId, i)
-                                }
-                            }
-                        }, [t._v("删除")]) : t._e()])]), t._v(" "), n("div", {
-                            staticClass: "commenter-time",
-                            attrs: {
-                                id: "bottom_article_time"
-                            }
-                        }, [t._v(t._s(e.time))]), t._v(" "), n("div", {
-                            directives: [{
-                                name: "highlight",
-                                rawName: "v-highlight"
-                            }],
-                            staticClass: "commenter-body-content",
-                            domProps: {
-                                innerHTML: t._s(e.commentBody)
-                            }
-                        }, [t._v(t._s(e.commentBody))]), t._v(" "), n("div", {
-                            staticClass: "comment-bottom-bar"
-                        }, [n("div", {
-                            staticClass: "comment-bottom-bar-right"
-                        }, [n("span", {
-                            staticClass: "post-body-comment-button comment-digg",
-                            on: {
-                                click: function(n) {
-                                    return t.commentSupport(e.commentId, e.index)
-                                }
-                            }
-                        }, [n("span", {
-                            staticClass: "icon iconfont zan"
-                        }), t._v(" "), n("span", {
-                            staticClass: "oppose-num"
-                        }, [t._v(t._s(e.support))])]), t._v(" "), n("span", {
-                            staticClass: "post-body-comment-button comment-bury",
-                            on: {
-                                click: function(n) {
-                                    return t.commentBury(e.commentId, e.index)
-                                }
-                            }
-                        }, [n("span", {
-                            staticClass: "icon iconfont zan nozan"
-                        }), t._v(" "), n("span", {
-                            staticClass: "oppose-num"
-                        }, [t._v(t._s(e.oppose))])])])])])])
-                    }), 0)])
-                },
-                staticRenderFns: []
-            };
-        var Ye = {
-                components: {
-                    BlogArticleCommList: n("VU/8")(Qe, Je, !1, function(t) {
-                        n("Bs7H")
-                    }, null, null).exports,
-                    BlogArticleCommPos: Xe
-                },
-                created: function() {
-                    var t = this.$route.params,
-                        e = this.$route.query;
-                    this.initBlogArticle(t.pageId, e.anchor), window.ttt = this
-                },
-                beforeRouteUpdate: function(t, e, n) {
-                    var i = t.params,
-                        a = t.query;
-                    this.initBlogArticle(i.pageId, a.anchor), n()
-                },
-                methods: {
-                    articleName: function() {
-                        return v.blogName
-                    },
-                    openFullScreenEven: function() {
-                        this.$bus.emit("openFullScreenEven", {
-                            title: this.article.title,
-                            body: this.article.body
-                        })
-                    },
-                    addToWz: function() {
-                        return Tt.addToWz(this.pageId)
-                    },
-                    shareToTsina: function() {
-                        return Tt.shareToTsina()
-                    },
-                    shareOnWechat: function() {
-                        return Tt.shareOnWechat()
-                    },
-                    diggAction: function() {
-                        Tt.blogpost(this.pageId).then(function(t) {
-                            $.showInfoMsg(t.message)
-                        })
-                    },
-                    fucusAction: function() {
-                        Tt.blogFollow().then(function(t) {
-                            $.showInfoMsg(t)
-                        })
-                    },
-                    initBlogArticle: function(t, e) {
-                        var n = this,
-                            i = this;
-                        this.pageId = t, T.a.all([new T.a(function(t, e) {
-                            Tt.loadArticle(n.pageId).then(function(e) {
-                                i.article = e, t()
-                            }).catch(function() {
-                                t()
-                            })
-                        }), new T.a(function(t, e) {
-                            Tt.loadBlogPostInfo(n.pageId).then(function(e) {
-                                i.isDigg = e.digg, i.isFucus = e.fucus, t()
-                            }).catch(function() {
-                                t()
-                            })
-                        }), new T.a(function(t, e) {
-                            Tt.loadCommentCount(n.pageId).then(function(e) {
-                                i.commentCount = e, t()
-                            }).catch(function() {
-                                t()
-                            })
-                        }), new T.a(function(t, e) {
-                            Tt.loadViewCount(n.pageId).then(function(e) {
-                                i.viewCount = e, t()
-                            }).catch(function() {
-                                t()
-                            })
-                        }), new T.a(function(t, e) {
-                            Tt.loadCategoriesTags(n.pageId).then(function(e) {
-                                i.labelList = e, t()
-                            })
-                        }), new T.a(function(t, e) {
-                            Tt.loadPrevnext(n.pageId).then(function(e) {
-                                i.prePageId = e.prePageId, i.posPageId = e.posPageId, t()
-                            })
-                        })]).then(function() {
-                            setTimeout(function() {
-                                n.$nextTick(function() {
-                                    setTimeout(function() {
-                                        n.$bus.emit("articleInited", n.$refs.articleBody), n.$bus.emit("dataedRoute", !0)
-                                    }, 150)
-                                })
-                            }, 150)
-                        })
-                    }
-                },
-                beforeDestroy: function() {
-                    this.$bus.emit("articleDestroy", !0)
-                },
-                name: "BlogArticle",
-                data: function() {
-                    return {
-                        isFucus: "",
-                        isDigg: "",
-                        pageId: "",
-                        article: {
-                            title: "",
-                            body: "",
-                            fontNum: 0,
-                            time: ""
-                        },
-                        viewCount: 0,
-                        commentCount: 0,
-                        prePageId: "",
-                        posPageId: "",
-                        labelList: []
-                    }
-                }
-            },
-            Ze = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        attrs: {
-                            id: "blog_article"
-                        }
-                    }, [n("div", {
-                        staticClass: "page-head"
-                    }, [n("div", {
-                        staticClass: "author-name"
-                    }, [n("span", [t._v("\n          " + t._s(t.article.title) + "\n      ")]), t._v(" "), n("span", {
-                        staticClass: "icon iconfont eye",
-                        on: {
-                            click: t.openFullScreenEven
-                        }
-                    }), t._v(" "), n("span", {
-                        staticClass: "eye-explain"
-                    })]), t._v(" "), n("div", {
-                        staticClass: "author-sign"
-                    }, [n("span", [n("span", {
-                        staticClass: "icon iconfont renyuanguanli"
-                    }), t._v(" "), n("span", [t._v(t._s(t.articleName()))])]), t._v(" "), n("span", [n("span", {
-                        staticClass: "icon iconfont ios-shijian"
-                    }), t._v(" "), n("span", [t._v(t._s(t.article.time))])]), t._v(" "), n("span", [n("span", {
-                        staticClass: "icon iconfont see"
-                    }), t._v(" "), n("span", [t._v(t._s(t.viewCount))]), n("span", [t._v("次浏览")])]), t._v(" "), n("span", [n("span", {
-                        staticClass: "icon iconfont talk"
-                    }), t._v(" "), n("span", [t._v(t._s(t.commentCount))]), n("span", [t._v("条评论")])]), t._v(" "), n("span", [n("span", {
-                        staticClass: "icon iconfont iconpen"
-                    }), t._v(" "), n("span", [t._v(t._s(t.article.fontNum))]), t._v(" "), n("span", [t._v("字数")])]), t._v(" "), n("span", [n("span", {
-                        staticClass: "icon iconfont iconleimupinleifenleileibie"
-                    }), t._v(" "), n("span", t._l(t.labelList, function(e) {
-                        return n("span", {
-                            staticClass: "label-item"
-                        }, [n("router-link", {
-                            attrs: {
-                                to: t.VUE_CTX + "/works/category/tag/" + e.id + "/1",
-                                tag: "span"
-                            }
-                        }, [t._v(" " + t._s(e.text))])], 1)
-                    }), 0)])])]), t._v(" "), n("div", {
-                        staticClass: "post-body"
-                    }, [n("div", {
-                        staticClass: "post-body-head post-body-title"
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconhome"
-                    }), n("span", [t._v("首页")]), t._v(" "), n("span", {
-                        staticClass: "sep"
-                    }, [t._v("/")]), t._v(" "), n("span", [t._v("正文")]), t._v(" "), n("span", {
-                        staticClass: "right-area"
-                    }, [n("span", [t._v("分享到 :")]), t._v(" "), n("span", {
-                        staticClass: "icon iconfont weibo",
-                        on: {
-                            click: function(e) {
-                                return t.shareToTsina()
-                            }
-                        }
-                    }), t._v(" "), n("span", {
-                        staticClass: "icon iconfont wechat",
-                        on: {
-                            click: function(e) {
-                                return t.shareOnWechat()
-                            }
-                        }
-                    })])]), t._v(" "), n("div", {
-                        staticClass: "post-body-content post-body-item"
-                    }, [n("div", {
-                        directives: [{
-                            name: "highlight",
-                            rawName: "v-highlight"
-                        }],
-                        ref: "articleBody",
-                        staticClass: "post-body-content-wrap",
-                        domProps: {
-                            innerHTML: t._s(t.article.body)
-                        }
-                    }, [t._v("\n        " + t._s(t.article.body) + "\n      ")]), t._v(" "), n("div", {
-                        staticClass: "post-body-content-info"
-                    }, [n("div", {
-                        staticClass: "last-time"
-                    }, [n("span", {
-                        staticClass: "icon iconfont ios-shijian"
-                    }), t._v("\n          最后修改："), n("span", [t._v(t._s(t.article.time))])]), t._v(" "), n("div", {
-                        staticClass: "post-body-bottom"
-                    }, [n("span", {
-                        staticClass: "post-bottom-item",
-                        on: {
-                            click: function(e) {
-                                return t.diggAction()
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont zan"
-                    }), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: !t.isDigg,
-                            expression: "!isDigg"
-                        }]
-                    }, [t._v("已推荐")]), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: t.isDigg,
-                            expression: "isDigg"
-                        }]
-                    }, [t._v("点击推荐")])]), t._v(" "), n("span", {
-                        staticClass: "post-bottom-item",
-                        on: {
-                            click: function(e) {
-                                return t.fucusAction()
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont heart"
-                    }), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: !t.isFucus,
-                            expression: "!isFucus"
-                        }]
-                    }, [t._v("已关注")]), t._v(" "), n("span", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: t.isFucus,
-                            expression: "isFucus"
-                        }]
-                    }, [t._v("点击关注")])]), t._v(" "), n("span", {
-                        staticClass: "post-bottom-item",
-                        on: {
-                            click: function(e) {
-                                return t.addToWz()
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont star"
-                    }), t._v("收藏该文\n          ")])]), t._v(" "), n("div", {
-                        staticClass: "post-body-bottom"
-                    }, [n("span", {
-                        staticClass: "post-bottom-item",
-                        on: {
-                            click: function(e) {
-                                return t.shareToTsina()
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont weibo"
-                    }), t._v("微博\n          ")]), t._v(" "), n("span", {
-                        staticClass: "post-bottom-item",
-                        on: {
-                            click: function(e) {
-                                return t.shareOnWechat()
-                            }
-                        }
-                    }, [n("span", {
-                        staticClass: "icon iconfont wechat"
-                    }), t._v("微信\n          ")]), t._v(" "), t._m(0)])])]), t._v(" "), n("div", {
-                        staticClass: "post-turning post-body-item"
-                    }, [n("router-link", {
-                        staticClass: "post-turning-pre",
-                        attrs: {
-                            if: t.prePageId,
-                            to: t.VUE_CTX + "/works/article/" + t.prePageId,
-                            tag: "span"
-                        }
-                    }, [t._v("上一篇\n      ")]), t._v(" "), n("router-link", {
-                        staticClass: "post-turning-pos",
-                        attrs: {
-                            if: t.posPageId,
-                            to: t.VUE_CTX + "/works/article/" + t.posPageId,
-                            tag: "span"
-                        }
-                    }, [t._v("下一篇\n      ")])], 1), t._v(" "), n("div", {
-                        staticClass: "post-body-comment post-body-item"
-                    }, [n("blog-article-comm-pos", {
-                        attrs: {
-                            pageId: t.pageId
-                        }
-                    })], 1), t._v(" "), n("div", {
-                        staticClass: "post-body-comment post-body-item"
-                    }, [n("blog-article-comm-list", {
-                        attrs: {
-                            pageId: t.pageId
-                        }
-                    })], 1)])])
-                },
-                staticRenderFns: [function() {
-                    var t = this.$createElement,
-                        e = this._self._c || t;
-                    return e("span", {
-                        staticClass: "post-bottom-item"
-                    }, [e("span", {
-                        staticClass: "icon iconfont details_admire_icon"
-                    }), this._v("赞赏\n          ")])
-                }]
-            };
-        var Ke = n("VU/8")(Ye, Ze, !1, function(t) {
-                n("ux2G")
-            }, null, null).exports,
-            tn = {
-                name: "BlogTag",
-                created: function() {
-                    var t = this.$route.params;
-                    this.initBlogCategory(t.categoryId, t.page)
-                },
-                data: function() {
-                    return {
-                        categoryId: "",
-                        categoryType: "",
-                        page: "",
-                        pageList: [],
-                        articleList: [],
-                        categoryName: ""
-                    }
-                },
-                beforeRouteUpdate: function(t, e, n) {
-                    var i = t.params;
-                    this.initBlogCategory(i.categoryId, i.page), n()
-                },
-                methods: {
-                    initBlogCategory: function(t, e) {
-                        var n = this,
-                            i = this;
-                        this.categoryId = t, this.page = e, T.a.all([new T.a(function(t, e) {
-                            Tt.loadTagArticle(i.categoryId, i.page).then(function(e) {
-                                n.pageList = e.pageList, n.articleList = e.list, n.categoryName = e.categoryName, t()
-                            })
-                        })]).then(function() {
-                            setTimeout(function() {
-                                n.$nextTick(function() {
-                                    setTimeout(function() {
-                                        n.$bus.emit("dataedRoute", !0)
-                                    }, 150)
-                                })
-                            }, 150)
-                        })
-                    }
-                }
-            },
-            en = {
-                render: function() {
-                    var t = this,
-                        e = t.$createElement,
-                        n = t._self._c || e;
-                    return n("div", {
-                        staticClass: "main-center-frame",
-                        attrs: {
-                            id: "blog_tag"
-                        }
-                    }, [n("div", {
-                        staticClass: "page-head-article"
-                    }, [n("div", [t._v(t._s(t.categoryName) + " 下的文章")])]), t._v(" "), n("div", {
-                        directives: [{
-                            name: "show",
-                            rawName: "v-show",
-                            value: "all" != t.categoryType,
-                            expression: "categoryType!='all'"
-                        }],
-                        staticClass: "post-body-head post-body-title"
-                    }, [n("span", {
-                        staticClass: "icon iconfont iconhome"
-                    }), t._v(" "), n("span", [t._v("首页")]), t._v(" "), n("span", {
-                        staticClass: "sep"
-                    }, [t._v("/")]), t._v(" "), n("span", [t._v(t._s(t.categoryName.replace("随笔分类 - ", "")))])]), t._v(" "), n("div", {
-                        staticClass: "page-list-body"
-                    }, [t._l(t.articleList, function(e) {
-                        return n("div", {
-                            staticClass: "page-item"
-                        }, [n("router-link", {
-                            attrs: {
-                                tag: "div",
-                                to: t.VUE_CTX + "/works/article/" + e.pageId
-                            }
-                        }, [n("div", {
-                            staticClass: "page-item-title"
-                        }, [t._v(t._s(e.title))]), t._v(" "), n("div", {
-                            staticClass: "page-item-desc"
-                        }, [t._v("\n          " + t._s(e.author) + " " + t._s(e.time) + " 阅读:" + t._s(e.readNum) + " 评论:" + t._s(e.commentNum) + "\n        ")])])], 1)
-                    }), t._v(" "), n("div", {
-                        staticClass: "page-num"
-                    }, [n("ul", {
-                        staticClass: "pagination"
-                    }, t._l(t.pageList, function(e) {
-                        return n("li", [n("router-link", {
-                            class: {
-                                active: e.current
-                            },
-                            attrs: {
-                                tag: "a",
-                                to: t.VUE_CTX + "/works/category/" + t.categoryType + "/" + t.categoryId + "/" + e.num
-                            }
-                        }, [t._v("\n            " + t._s(e.text) + "\n          ")])], 1)
-                    }), 0)])], 2)])
-                },
-                staticRenderFns: []
-            };
-        var nn = n("VU/8")(tn, en, !1, function(t) {
-                n("cdHZ")
-            }, null, null).exports,
-            an = void 0;
-        window.location.hash && !window.location.hash.startsWith("#/cnblog") && (an = (an = (an = window.location.hash).replace("#", "")).replace("/", ""));
-        var on = function(t) {
-            var e = function(t) {
-                var e = void 0;
-                return (e = new RegExp("^/" + v.blogAcc + "/p/(.+)?.html")).test(t) ? "/works/article/" + t.match(e)[1] : (e = new RegExp("^/" + v.blogAcc + "/category/(.+)?.html")).test(t) ? "/works/category/category/" + t.match(e)[1] + "/1" : void 0
-            }(window.location.pathname);
-            return {
-                path: "/cnblog" + (e = e || "/works/category/all/1/1"),
-                query: {
-                    anchor: an
-                }
-            }
+        var bi = i("VU/8")(vi, _i, !1, function(t) {
+            i("7T4U")
+        }, "data-v-6bfc9182", null).exports;
+        n.a.use(C.a);
+        var Ci = C.a.prototype.push;
+        C.a.prototype.push = function(t) {
+            return Ci.call(this, t).catch(function(t) {
+                return t
+            })
         };
-        i.a.use(s.a);
-        var sn = new s.a({
+        var yi = new C.a({
                 routes: [{
                     path: "/",
                     redirect: function(t) {
-                        return on(t)
+                        return y(t)
                     }
                 }, {
-                    path: "/cnblog",
-                    name: "BlogMain",
-                    component: ie,
+                    path: "/c",
+                    name: "BlogPanel",
+                    component: He,
                     children: [{
-                        path: "author",
-                        component: me
-                    }, {
-                        path: "works",
-                        component: Fe,
+                        path: "subject/",
+                        name: "SubjectBody",
+                        component: Ae,
+                        redirect: "/",
                         children: [{
-                            path: "category/tag/:categoryId/:page",
-                            component: nn,
-                            props: !0
+                            path: "category/:categoryId.html",
+                            component: Rt
                         }, {
-                            path: "category/:categoryType/:categoryId/:page",
-                            component: qe,
-                            props: !0
+                            path: "archive/:archiveYear/:archiveMonth.html",
+                            component: Rt
                         }, {
-                            path: "article/:pageId",
-                            component: Ke,
-                            props: !0
+                            path: "tag/:tagId/",
+                            component: Rt
+                        }, {
+                            path: "p/:articleId.html",
+                            component: di
                         }]
+                    }, {
+                        path: "author/",
+                        name: "AuthorBody",
+                        component: bi
                     }]
                 }, {
                     path: "*",
                     redirect: "/"
                 }]
             }),
-            cn = (n("7xIN"), n("991W"), n("fC7K")),
-            rn = function() {
-                function t() {
-                    B()("#page_begin_html").remove()
-                }
-                0 != B()("#shade_animal_wrap").length && (B()("#shade_animal_wrap")[0].addEventListener("transitionend", t), B()("#shade_animal_wrap")[0].addEventListener("webkitTransitionEnd", t), B()("#shade_animal_wrap").css("opacity", "0"))
-            },
-            ln = n("V8mf"),
-            un = n.n(ln);
-        n("9pPZ");
-        i.a.use(cn.a), i.a.prototype.VUE_CTX = "/cnblog", i.a.config.productionTip = !1, i.a.directive("highlight", function(t) {
-            t.querySelectorAll("pre").forEach(function(t) {
-                $.initPreCodeCopyBtn(t)
-            }), t.querySelectorAll("pre code").forEach(function(t, e) {
-                setTimeout(function() {
-                    t.highInit || (t.highInit = !0, un.a.highlightBlock(t))
-                }, 250 * e)
-            })
+            wi = i("fC7K"),
+            ji = (i("7xIN"), i("991W"), i("9pPZ"), i("70Rd")),
+            xi = window.__BLOG_CONFIG__ || {};
+        xi.language = xi.language || ["xml", "css", "dos", "java", "javascript", "json", "php", "python", "scala", "shell", "sql", "yaml"], xi.language.forEach(function(t, e, n) {
+            ji.registerLanguage(t, i("xsMF")("./" + t))
         });
-        new i.a({
-            el: "#app",
-            router: sn,
-            components: {
-                App: o
-            },
-            template: "<App/>",
-            beforeCreate: function() {
-                var t = this;
-                $.initBaiduCount(), sn.beforeEach(function(e, n, i) {
-                    $.pushBaiduCount(e.fullPath), t.$bus.emit("beforeRoute", {
-                        to: e,
-                        from: n,
-                        next: i
-                    })
-                }), sn.afterEach(function(e, n) {
-                    t.$bus.emit("afterRoute", {
-                        to: e,
-                        from: n
-                    })
+        var Ii = ji,
+            ki = function() {
+                function t() {
+                    M()("#page_begin_html").remove()
+                }
+                0 != M()("#shade_animal_wrap").length && (M()("#shade_animal_wrap")[0].addEventListener("transitionend", t), M()("#shade_animal_wrap")[0].addEventListener("webkitTransitionEnd", t), M()("#shade_animal_wrap").css("opacity", "0"))
+            };
+        (window.currentBlogApp = window.currentBlogApp || "cjunn", window.currentBlogId = window.currentBlogId || "571504", new T.a(function(t, e) {
+            window.currentBlogApp && window.currentBlogId && g.autoInfoReset ? (g.blogAcc = window.currentBlogApp, g.blogId = window.currentBlogId, g.blogIndexPath = "https://www.cnblogs.com/" + g.blogAcc, g.myGithub = "https://github.com/" + g.blogAcc, g.sendPage = "https://msg.cnblogs.com/send/" + g.blogAcc, g.subPage = "https://www.cnblogs.com/" + g.blogAcc + "/rss", at.loadAuthorBlogInfo().then(function(e) {
+                g.blogName = e.username, g.blogUserGuid = e.guid, at.loadDefaultCategoryList(0).then(function(e) {
+                    e.list.length > 0 && (g.blogPostId = e.list[0].pageId), t()
                 })
-            },
-            mounted: function() {
-                rn()
-            }
+            })) : t()
+        })).then(function() {
+            n.a.config.productionTip = !1, n.a.use(wi.a), n.a.prototype.VUE_CTX = "/c", n.a.directive("highlight", function(t) {
+                t.querySelectorAll("pre").forEach(function(t) {
+                    q.initPreCodeCopyBtn(t)
+                }), t.querySelectorAll("pre code").forEach(function(t, e) {
+                    setTimeout(function() {
+                        t.highInit || (t.highInit = !0, Ii.highlightBlock(t))
+                    }, 250 * e)
+                })
+            }), new n.a({
+                el: "#app",
+                router: yi,
+                components: {
+                    App: b
+                },
+                template: "<App/>",
+                beforeCreate: function() {
+                    Z(), yi.beforeEach(function(t, e, i) {
+                        K(t.fullPath), i()
+                    })
+                },
+                mounted: function() {
+                    setTimeout(function() {
+                        ki()
+                    }, 1e3)
+                }
+            })
         })
     },
-    O4cg: function(t, e) {},
-    QeqI: function(t, e) {},
-    UJDJ: function(t, e) {},
-    Wmd0: function(t, e) {},
-    YJZa: function(t, e) {},
-    YTIq: function(t, e) {},
-    Zq8w: function(t, e) {},
-    blGy: function(t, e) {},
-    cbI5: function(t, e) {},
-    cdHZ: function(t, e) {},
-    eLY3: function(t, e) {},
-    "iAH+": function(t, e) {},
-    mL6P: function(t, e) {},
-    nukP: function(t, e) {},
-    o22r: function(t, e) {},
-    p416: function(t, e) {},
-    pVUV: function(t, e) {},
-    sZhR: function(t, e) {},
-    ux2G: function(t, e) {},
-    z12H: function(t, e) {}
+    NJOw: function(t, e) {},
+    NgtY: function(t, e) {},
+    NknJ: function(t, e) {},
+    Rra2: function(t, e) {},
+    Xsqw: function(t, e) {},
+    XxYp: function(t, e) {},
+    avc0: function(t, e) {},
+    bQOS: function(t, e) {},
+    d6nk: function(t, e) {},
+    "f++C": function(t, e) {},
+    f4Rk: function(t, e) {},
+    gp1v: function(t, e) {},
+    hISp: function(t, e) {},
+    jC4j: function(t, e) {},
+    kCXk: function(t, e) {},
+    lZGg: function(t, e) {},
+    mEDE: function(t, e) {},
+    nVrZ: function(t, e) {},
+    qOYO: function(t, e) {},
+    r5eF: function(t, e) {},
+    uGug: function(t, e) {},
+    "vL+f": function(t, e) {},
+    x2cN: function(t, e) {},
+    xsMF: function(t, e, i) {
+        var n = {
+            "./1c": "5DVZ",
+            "./1c.js": "5DVZ",
+            "./abnf": "gm55",
+            "./abnf.js": "gm55",
+            "./accesslog": "g/PX",
+            "./accesslog.js": "g/PX",
+            "./actionscript": "PQOI",
+            "./actionscript.js": "PQOI",
+            "./ada": "77OS",
+            "./ada.js": "77OS",
+            "./angelscript": "eXRR",
+            "./angelscript.js": "eXRR",
+            "./apache": "OKxe",
+            "./apache.js": "OKxe",
+            "./applescript": "O7n7",
+            "./applescript.js": "O7n7",
+            "./arcade": "GrP8",
+            "./arcade.js": "GrP8",
+            "./arduino": "8G2c",
+            "./arduino.js": "8G2c",
+            "./armasm": "auBH",
+            "./armasm.js": "auBH",
+            "./asciidoc": "ZZOF",
+            "./asciidoc.js": "ZZOF",
+            "./aspectj": "44nV",
+            "./aspectj.js": "44nV",
+            "./autohotkey": "6wge",
+            "./autohotkey.js": "6wge",
+            "./autoit": "bm+n",
+            "./autoit.js": "bm+n",
+            "./avrasm": "wP5M",
+            "./avrasm.js": "wP5M",
+            "./awk": "PR7Y",
+            "./awk.js": "PR7Y",
+            "./axapta": "9vpV",
+            "./axapta.js": "9vpV",
+            "./bash": "G7c8",
+            "./bash.js": "G7c8",
+            "./basic": "TRGG",
+            "./basic.js": "TRGG",
+            "./bnf": "TvZZ",
+            "./bnf.js": "TvZZ",
+            "./brainfuck": "ASgC",
+            "./brainfuck.js": "ASgC",
+            "./cal": "Z2f5",
+            "./cal.js": "Z2f5",
+            "./capnproto": "pE4o",
+            "./capnproto.js": "pE4o",
+            "./ceylon": "+l7V",
+            "./ceylon.js": "+l7V",
+            "./clean": "0E8E",
+            "./clean.js": "0E8E",
+            "./clojure": "UojA",
+            "./clojure-repl": "RvVK",
+            "./clojure-repl.js": "RvVK",
+            "./clojure.js": "UojA",
+            "./cmake": "kCt0",
+            "./cmake.js": "kCt0",
+            "./coffeescript": "snu3",
+            "./coffeescript.js": "snu3",
+            "./coq": "qI1x",
+            "./coq.js": "qI1x",
+            "./cos": "crpJ",
+            "./cos.js": "crpJ",
+            "./cpp": "fay8",
+            "./cpp.js": "fay8",
+            "./crmsh": "K38Y",
+            "./crmsh.js": "K38Y",
+            "./crystal": "KU+8",
+            "./crystal.js": "KU+8",
+            "./cs": "0K/Z",
+            "./cs.js": "0K/Z",
+            "./csp": "r7X7",
+            "./csp.js": "r7X7",
+            "./css": "izbv",
+            "./css.js": "izbv",
+            "./d": "QCrA",
+            "./d.js": "QCrA",
+            "./dart": "QuI2",
+            "./dart.js": "QuI2",
+            "./delphi": "qCVX",
+            "./delphi.js": "qCVX",
+            "./diff": "e4zn",
+            "./diff.js": "e4zn",
+            "./django": "LpqG",
+            "./django.js": "LpqG",
+            "./dns": "fBWl",
+            "./dns.js": "fBWl",
+            "./dockerfile": "Tujv",
+            "./dockerfile.js": "Tujv",
+            "./dos": "esjm",
+            "./dos.js": "esjm",
+            "./dsconfig": "NIQr",
+            "./dsconfig.js": "NIQr",
+            "./dts": "fEDx",
+            "./dts.js": "fEDx",
+            "./dust": "07pr",
+            "./dust.js": "07pr",
+            "./ebnf": "hhAb",
+            "./ebnf.js": "hhAb",
+            "./elixir": "K9cb",
+            "./elixir.js": "K9cb",
+            "./elm": "mhmE",
+            "./elm.js": "mhmE",
+            "./erb": "u/h7",
+            "./erb.js": "u/h7",
+            "./erlang": "J19a",
+            "./erlang-repl": "M23o",
+            "./erlang-repl.js": "M23o",
+            "./erlang.js": "J19a",
+            "./excel": "raBh",
+            "./excel.js": "raBh",
+            "./fix": "SARB",
+            "./fix.js": "SARB",
+            "./flix": "ODnv",
+            "./flix.js": "ODnv",
+            "./fortran": "dCCZ",
+            "./fortran.js": "dCCZ",
+            "./fsharp": "BT7B",
+            "./fsharp.js": "BT7B",
+            "./gams": "chIN",
+            "./gams.js": "chIN",
+            "./gauss": "bTy0",
+            "./gauss.js": "bTy0",
+            "./gcode": "YqM6",
+            "./gcode.js": "YqM6",
+            "./gherkin": "/z4Q",
+            "./gherkin.js": "/z4Q",
+            "./glsl": "w3qN",
+            "./glsl.js": "w3qN",
+            "./gml": "BrZm",
+            "./gml.js": "BrZm",
+            "./go": "VPck",
+            "./go.js": "VPck",
+            "./golo": "nH1e",
+            "./golo.js": "nH1e",
+            "./gradle": "U3gN",
+            "./gradle.js": "U3gN",
+            "./groovy": "Eqxm",
+            "./groovy.js": "Eqxm",
+            "./haml": "Haef",
+            "./haml.js": "Haef",
+            "./handlebars": "hO34",
+            "./handlebars.js": "hO34",
+            "./haskell": "t7sf",
+            "./haskell.js": "t7sf",
+            "./haxe": "/bA4",
+            "./haxe.js": "/bA4",
+            "./hsp": "e6BT",
+            "./hsp.js": "e6BT",
+            "./htmlbars": "y6Iq",
+            "./htmlbars.js": "y6Iq",
+            "./http": "OV/z",
+            "./http.js": "OV/z",
+            "./hy": "LizY",
+            "./hy.js": "LizY",
+            "./inform7": "NJ2a",
+            "./inform7.js": "NJ2a",
+            "./ini": "nxF3",
+            "./ini.js": "nxF3",
+            "./irpf90": "6rQ7",
+            "./irpf90.js": "6rQ7",
+            "./isbl": "+uNF",
+            "./isbl.js": "+uNF",
+            "./java": "Zpgj",
+            "./java.js": "Zpgj",
+            "./javascript": "IZDm",
+            "./javascript.js": "IZDm",
+            "./jboss-cli": "R3OU",
+            "./jboss-cli.js": "R3OU",
+            "./json": "GdJY",
+            "./json.js": "GdJY",
+            "./julia": "Nquh",
+            "./julia-repl": "iiz1",
+            "./julia-repl.js": "iiz1",
+            "./julia.js": "Nquh",
+            "./kotlin": "svcA",
+            "./kotlin.js": "svcA",
+            "./lasso": "JaQV",
+            "./lasso.js": "JaQV",
+            "./ldif": "3mNA",
+            "./ldif.js": "3mNA",
+            "./leaf": "fRdT",
+            "./leaf.js": "fRdT",
+            "./less": "np6C",
+            "./less.js": "np6C",
+            "./lisp": "uJqZ",
+            "./lisp.js": "uJqZ",
+            "./livecodeserver": "B5T9",
+            "./livecodeserver.js": "B5T9",
+            "./livescript": "Om1B",
+            "./livescript.js": "Om1B",
+            "./llvm": "87or",
+            "./llvm.js": "87or",
+            "./lsl": "ZoSU",
+            "./lsl.js": "ZoSU",
+            "./lua": "CPZP",
+            "./lua.js": "CPZP",
+            "./makefile": "Zixh",
+            "./makefile.js": "Zixh",
+            "./markdown": "V3HO",
+            "./markdown.js": "V3HO",
+            "./mathematica": "jgNW",
+            "./mathematica.js": "jgNW",
+            "./matlab": "N5Ah",
+            "./matlab.js": "N5Ah",
+            "./maxima": "RMpv",
+            "./maxima.js": "RMpv",
+            "./mel": "v0yf",
+            "./mel.js": "v0yf",
+            "./mercury": "rozb",
+            "./mercury.js": "rozb",
+            "./mipsasm": "HKJJ",
+            "./mipsasm.js": "HKJJ",
+            "./mizar": "xqV0",
+            "./mizar.js": "xqV0",
+            "./mojolicious": "Bzi4",
+            "./mojolicious.js": "Bzi4",
+            "./monkey": "niTU",
+            "./monkey.js": "niTU",
+            "./moonscript": "DdA3",
+            "./moonscript.js": "DdA3",
+            "./n1ql": "K1Eo",
+            "./n1ql.js": "K1Eo",
+            "./nginx": "1f1o",
+            "./nginx.js": "1f1o",
+            "./nimrod": "4tX0",
+            "./nimrod.js": "4tX0",
+            "./nix": "EzJw",
+            "./nix.js": "EzJw",
+            "./nsis": "vXGt",
+            "./nsis.js": "vXGt",
+            "./objectivec": "e4rp",
+            "./objectivec.js": "e4rp",
+            "./ocaml": "Df6A",
+            "./ocaml.js": "Df6A",
+            "./openscad": "JVUv",
+            "./openscad.js": "JVUv",
+            "./oxygene": "MMBe",
+            "./oxygene.js": "MMBe",
+            "./parser3": "/tm5",
+            "./parser3.js": "/tm5",
+            "./perl": "KpL9",
+            "./perl.js": "KpL9",
+            "./pf": "hGb6",
+            "./pf.js": "hGb6",
+            "./pgsql": "U+10",
+            "./pgsql.js": "U+10",
+            "./php": "yYL9",
+            "./php.js": "yYL9",
+            "./plaintext": "2RAr",
+            "./plaintext.js": "2RAr",
+            "./pony": "XrYK",
+            "./pony.js": "XrYK",
+            "./powershell": "Jn5X",
+            "./powershell.js": "Jn5X",
+            "./processing": "Bt6J",
+            "./processing.js": "Bt6J",
+            "./profile": "WehY",
+            "./profile.js": "WehY",
+            "./prolog": "wb3N",
+            "./prolog.js": "wb3N",
+            "./properties": "bC/6",
+            "./properties.js": "bC/6",
+            "./protobuf": "ueSh",
+            "./protobuf.js": "ueSh",
+            "./puppet": "Oozf",
+            "./puppet.js": "Oozf",
+            "./purebasic": "e7Lb",
+            "./purebasic.js": "e7Lb",
+            "./python": "k+sj",
+            "./python.js": "k+sj",
+            "./q": "+7iQ",
+            "./q.js": "+7iQ",
+            "./qml": "WlFU",
+            "./qml.js": "WlFU",
+            "./r": "jDga",
+            "./r.js": "jDga",
+            "./reasonml": "gm6I",
+            "./reasonml.js": "gm6I",
+            "./rib": "w/Pt",
+            "./rib.js": "w/Pt",
+            "./roboconf": "DFrI",
+            "./roboconf.js": "DFrI",
+            "./routeros": "1OB1",
+            "./routeros.js": "1OB1",
+            "./rsl": "6p9M",
+            "./rsl.js": "6p9M",
+            "./ruby": "hOxQ",
+            "./ruby.js": "hOxQ",
+            "./ruleslanguage": "9esf",
+            "./ruleslanguage.js": "9esf",
+            "./rust": "U785",
+            "./rust.js": "U785",
+            "./sas": "hi6T",
+            "./sas.js": "hi6T",
+            "./scala": "mIt0",
+            "./scala.js": "mIt0",
+            "./scheme": "05Eh",
+            "./scheme.js": "05Eh",
+            "./scilab": "x/M3",
+            "./scilab.js": "x/M3",
+            "./scss": "bV+X",
+            "./scss.js": "bV+X",
+            "./shell": "R1FX",
+            "./shell.js": "R1FX",
+            "./smali": "eGL1",
+            "./smali.js": "eGL1",
+            "./smalltalk": "ACIH",
+            "./smalltalk.js": "ACIH",
+            "./sml": "OaQc",
+            "./sml.js": "OaQc",
+            "./sqf": "2J/o",
+            "./sqf.js": "2J/o",
+            "./sql": "8IMK",
+            "./sql.js": "8IMK",
+            "./stan": "kJJ1",
+            "./stan.js": "kJJ1",
+            "./stata": "xSKe",
+            "./stata.js": "xSKe",
+            "./step21": "dwJk",
+            "./step21.js": "dwJk",
+            "./stylus": "l7j4",
+            "./stylus.js": "l7j4",
+            "./subunit": "Gavd",
+            "./subunit.js": "Gavd",
+            "./swift": "MYCy",
+            "./swift.js": "MYCy",
+            "./taggerscript": "YPh3",
+            "./taggerscript.js": "YPh3",
+            "./tap": "yhXU",
+            "./tap.js": "yhXU",
+            "./tcl": "3SWf",
+            "./tcl.js": "3SWf",
+            "./tex": "fy9Y",
+            "./tex.js": "fy9Y",
+            "./thrift": "L7t3",
+            "./thrift.js": "L7t3",
+            "./tp": "mbR8",
+            "./tp.js": "mbR8",
+            "./twig": "tbRH",
+            "./twig.js": "tbRH",
+            "./typescript": "oZUP",
+            "./typescript.js": "oZUP",
+            "./vala": "R/gX",
+            "./vala.js": "R/gX",
+            "./vbnet": "Oaqm",
+            "./vbnet.js": "Oaqm",
+            "./vbscript": "PHl2",
+            "./vbscript-html": "jKOq",
+            "./vbscript-html.js": "jKOq",
+            "./vbscript.js": "PHl2",
+            "./verilog": "fx0s",
+            "./verilog.js": "fx0s",
+            "./vhdl": "BxDa",
+            "./vhdl.js": "BxDa",
+            "./vim": "T0Vu",
+            "./vim.js": "T0Vu",
+            "./x86asm": "vgHL",
+            "./x86asm.js": "vgHL",
+            "./xl": "fclr",
+            "./xl.js": "fclr",
+            "./xml": "6STP",
+            "./xml.js": "6STP",
+            "./xquery": "Laq/",
+            "./xquery.js": "Laq/",
+            "./yaml": "iOcu",
+            "./yaml.js": "iOcu",
+            "./zephir": "qksN",
+            "./zephir.js": "qksN"
+        };
+
+        function s(t) {
+            return i(a(t))
+        }
+
+        function a(t) {
+            var e = n[t];
+            if (!(e + 1)) throw new Error("Cannot find module '" + t + "'.");
+            return e
+        }
+        s.keys = function() {
+            return Object.keys(n)
+        }, s.resolve = a, t.exports = s, s.id = "xsMF"
+    },
+    "y/El": function(t, e) {}
 }, ["NHnr"]);
